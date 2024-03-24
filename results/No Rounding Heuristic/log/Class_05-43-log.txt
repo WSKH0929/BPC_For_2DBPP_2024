@@ -1,0 +1,105 @@
+====================================== 2024-03-21 03:17:49 Class_05-43 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 222057
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 222057 , time cost: 0.012 s
+LB0: 24 , time cost: 0.174 s
+220653.0 , 222057
+UB0: 24 , time cost: 2.875 s
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:69,w:75},{x:87,y:0,h:81,w:13},{x:76,y:0,h:89,w:11},{x:0,y:69,h:31,w:46},{x:46,y:69,h:23,w:2},{x:48,y:69,h:29,w:28},{x:94,y:81,h:19,w:6},{x:88,y:81,h:19,w:6},{x:46,y:98,h:2,w:13},],
+----------------------- Bin-2 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:75,w:88},{x:94,y:0,h:13,w:6},{x:88,y:0,h:54,w:6},{x:96,y:13,h:78,w:4},{x:94,y:13,h:30,w:2},{x:91,y:54,h:38,w:5},{x:0,y:75,h:2,w:91},{x:0,y:77,h:23,w:74},{x:81,y:77,h:15,w:10},{x:74,y:77,h:16,w:7},{x:85,y:92,h:7,w:15},],
+----------------------- Bin-3 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:84,w:53},{x:53,y:0,h:93,w:47},{x:0,y:84,h:15,w:40},{x:40,y:84,h:14,w:9},{x:52,y:93,h:7,w:48},],
+----------------------- Bin-4 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:51,w:65},{x:65,y:0,h:87,w:35},{x:0,y:51,h:49,w:26},{x:26,y:51,h:41,w:28},{x:54,y:51,h:24,w:7},{x:62,y:87,h:13,w:38},],
+----------------------- Bin-5 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:89,w:83},{x:97,y:0,h:88,w:3},{x:83,y:0,h:93,w:14},{x:0,y:89,h:7,w:83},{x:0,y:96,h:4,w:58},],
+----------------------- Bin-6 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:95,w:55},{x:55,y:0,h:59,w:45},{x:55,y:59,h:36,w:44},{x:0,y:95,h:5,w:94},],
+----------------------- Bin-7 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:61,w:94},{x:0,y:61,h:33,w:47},{x:49,y:61,h:35,w:51},{x:0,y:96,h:3,w:77},],
+----------------------- Bin-8 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:95,w:52},{x:52,y:0,h:97,w:48},{x:0,y:97,h:3,w:93},],
+----------------------- Bin-9 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:100,w:71},{x:71,y:0,h:78,w:22},{x:71,y:78,h:22,w:28},],
+----------------------- Bin-10 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:93,w:67},{x:69,y:0,h:22,w:31},{x:70,y:22,h:50,w:30},{x:0,y:93,h:7,w:59},],
+----------------------- Bin-11 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:90,w:55},{x:59,y:0,h:80,w:41},{x:0,y:90,h:10,w:70},],
+----------------------- Bin-12 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:58,w:89},{x:0,y:58,h:27,w:74},{x:0,y:85,h:14,w:97},],
+----------------------- Bin-13 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:99,w:51},{x:51,y:0,h:21,w:49},{x:52,y:21,h:56,w:48},{x:52,y:77,h:19,w:48},],
+----------------------- Bin-14 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:79,w:72},{x:79,y:0,h:88,w:21},{x:0,y:79,h:21,w:63},],
+----------------------- Bin-15 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:62,w:68},{x:68,y:0,h:64,w:32},{x:0,y:62,h:26,w:54},{x:65,y:64,h:32,w:35},{x:8,y:88,h:8,w:57},],
+----------------------- Bin-16 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:86,w:54},{x:58,y:0,h:63,w:42},{x:56,y:63,h:35,w:44},{x:0,y:86,h:14,w:50},],
+----------------------- Bin-17 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:57,w:87},{x:0,y:57,h:37,w:78},],
+----------------------- Bin-18 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:78,w:96},{x:0,y:78,h:20,w:93},],
+----------------------- Bin-19 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:90,w:53},{x:53,y:0,h:80,w:47},{x:0,y:90,h:10,w:66},],
+----------------------- Bin-20 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:71,w:94},{x:0,y:71,h:29,w:75},],
+----------------------- Bin-21 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:51,w:54},{x:56,y:0,h:46,w:44},{x:61,y:46,h:52,w:39},{x:0,y:51,h:48,w:50},],
+----------------------- Bin-22 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:50,w:56},{x:56,y:0,h:50,w:14},{x:80,y:0,h:75,w:20},{x:0,y:50,h:49,w:80},],
+----------------------- Bin-23 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:50,w:99},{x:0,y:50,h:50,w:88},],
+----------------------- Bin-24 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:24,w:57},{x:63,y:0,h:69,w:37},{x:0,y:24,h:31,w:60},{x:0,y:69,h:23,w:94},{x:0,y:92,h:8,w:78},],
+BpcSolution{className='Class_05', isOpt=true, id=43, inS=222057, outS=240000, LB_BM_3=23, LB_CCM_1=23, LB_CCM_2=24, LB0=24, LB_NoSr=24, LB=24, UB0=24, UB=24, rootColCnt=0, totalColCnt=0, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=0, generatedNodeCnt=0, rmpCnt=0, roundingCnt=0, pricingCnt=0, heuPricingCnt=0, masterCnt=0, slaveCnt=0, findBendersCutCnt=0, rate=0.9252375, gap=0.0, totalTime=3.07, preprocessingTime=0.012, lb0Time=0.174, ub0Time=2.875, rmpTime=0.0, roundingTime=0.0, pricingTime=0.0, heuPricingTime=0.0, masterTime=0.0, slaveTime=0.0, findBendersCutTime=0.0, totalLbLabelCnt=0, maxLbLabelCnt=0, minLbLabelCnt=9223372036854775807, totalHeuLabelCnt=0, maxHeuLabelCnt=0, minHeuLabelCnt=9223372036854775807}

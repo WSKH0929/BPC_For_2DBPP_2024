@@ -1,0 +1,499 @@
+====================================== 2024-03-22 09:23:52 Class_03-3 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 40 , H = 40 , S = 1600 , totalItemS = 7055
+Before preprocessing: W = 40 , H = 40 , S = 1600 , totalItemS = 7055 , time cost: 0.008 s
+LB0: 5 , time cost: 0.038 s
+UB0: 6 , time cost: 10.002 s
+----------------------- Start column generation for bpcNode: BpcNode{isRoot=true, deep=0} -----------------------
+fat: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+
+Epoch: 1 , col: 25 , allScIpCol: 25 , allCol: 25 , lb: 5 , ub: 6 , deep: 0 , cons num: 30 , sr num: 0 , maxWasteInRootNode: 1578 , maxWasteInOtherNode: 1578 , cur time: 10.116 s
+	 Solve rmp: 6.0 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: true
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.003 s
+	 1,2,3,
+	 Label-setting LB: -1.0 , 0.002 s
+	 ==================== Heu DI Model Pricing ====================
+	 1,2,3,4,5,5,4,3,3,3,3,2,2,
+	 Label-setting LB: -0.4 , 0.002 s
+	 1,2,3,4,5,5,4,4,4,5,4,1,
+	 Label-setting UB: -0.2 , 0.004 s
+	 Pricing time: 0.01 s
+Add Col: 1@9@11@ , -0.4
+Add Col: 5@6@7@ , -0.20000000000000007
+Add Col: 1@11@ , -0.2
+Add Col: 1@9@ , -0.2
+Total Add Col: 4
+
+Epoch: 2 , col: 29 , allScIpCol: 29 , allCol: 29 , lb: 5 , ub: 6 , deep: 0 , cons num: 30 , sr num: 0 , maxWasteInRootNode: 1578 , maxWasteInOtherNode: 1578 , cur time: 10.137 s
+	 Solve rmp: 6.0 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: true
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.001 s
+	 1,2,3,1,
+	 Label-setting LB: -2.0 , 0.001 s
+	 ==================== Heu DI Model Pricing ====================
+	 1,2,4,6,11,17,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.75 , 0.001 s
+	 1,2,4,6,10,16,21,28,31,28,30,26,16,8,1,
+	 Label-setting UB: -0.125 , 0.008 s
+	 Pricing time: 0.01 s
+Add Col: 6@11@12@13@15@ , -0.375
+Add Col: 6@7@12@13@15@ , -0.375
+Add Col: 10@11@12@13@15@ , -0.25
+Add Col: 9@11@13@14@15@ , -0.25
+Add Col: 9@11@12@13@15@ , -0.25
+Add Col: 9@10@11@13@15@ , -0.25
+Add Col: 9@10@11@12@15@ , -0.25
+Add Col: 9@10@11@13@14@ , -0.25
+Add Col: 7@11@12@13@15@ , -0.25
+Add Col: 7@8@12@13@15@ , -0.25
+Add Col: 7@10@11@13@15@ , -0.25
+Add Col: 7@9@11@12@15@ , -0.25
+Add Col: 5@6@13@15@ , -0.25
+Add Col: 5@6@12@13@ , -0.25
+Add Col: 4@6@12@13@ , -0.25
+Add Col: 5@6@10@13@ , -0.25
+Add Col: 4@6@10@13@ , -0.25
+Add Col: 6@12@13@15@ , -0.125
+Add Col: 5@12@13@15@ , -0.125
+Add Col: 4@12@13@15@ , -0.125
+Add Col: 6@11@13@15@ , -0.125
+Add Col: 4@11@13@15@ , -0.125
+Add Col: 6@10@13@15@ , -0.125
+Add Col: 4@10@12@13@ , -0.125
+Add Col: 6@9@13@15@ , -0.125
+Add Col: 4@9@13@15@ , -0.125
+Add Col: 6@9@11@15@ , -0.125
+Add Col: 4@9@12@13@ , -0.125
+Add Col: 6@8@13@15@ , -0.125
+Add Col: 4@8@13@15@ , -0.125
+Add Col: 6@7@13@15@ , -0.125
+Add Col: 3@13@14@15@ , -0.125
+Total Add Col: 32
+
+Epoch: 3 , col: 61 , allScIpCol: 61 , allCol: 61 , lb: 5 , ub: 6 , deep: 0 , cons num: 30 , sr num: 0 , maxWasteInRootNode: 1578 , maxWasteInOtherNode: 1578 , cur time: 10.15 s
+	 Solve rmp: 5.666666666666665 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.001 s
+	 1,2,4,5,3,1,
+	 Label-setting LB: -1.3333333333333335 , 0.0 s
+	 ==================== Heu DI Model Pricing ====================
+	 1,2,4,8,16,7,7,6,7,7,7,6,4,4,4,4,4,2,
+	 Label-setting LB: -0.4444444444444443 , 0.001 s
+	 1,2,4,8,16,18,17,21,31,31,35,43,26,20,14,8,2,
+	 Label-setting UB: -0.11111111111111094 , 0.006 s
+	 Pricing time: 0.008 s
+Add Col: 7@8@9@15@17@ , -0.2222222222222221
+Add Col: 7@9@10@16@17@ , -0.1111111111111111
+Add Col: 4@8@10@16@17@ , -0.1111111111111111
+Add Col: 8@9@10@15@17@ , -0.11111111111111105
+Add Col: 8@9@10@15@16@ , -0.111111111111111
+Add Col: 7@9@10@13@17@ , -0.1111111111111111
+Add Col: 4@8@10@13@17@ , -0.1111111111111111
+Add Col: 8@9@10@13@17@ , -0.11111111111111105
+Add Col: 8@9@10@13@16@ , -0.111111111111111
+Add Col: 7@9@10@14@17@ , -0.1111111111111111
+Add Col: 7@8@9@17@ , -0.111111111111111
+Add Col: 7@8@9@16@ , -0.11111111111111094
+Add Col: 7@8@9@15@ , -0.11111111111111094
+Add Col: 1@9@16@17@ , -0.1111111111111111
+Add Col: 1@8@16@17@ , -0.1111111111111111
+Total Add Col: 15
+
+Epoch: 4 , col: 76 , allScIpCol: 76 , allCol: 76 , lb: 5 , ub: 6 , deep: 0 , cons num: 30 , sr num: 0 , maxWasteInRootNode: 1578 , maxWasteInOtherNode: 1578 , cur time: 10.159 s
+	 Solve rmp: 5.666666666666665 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.001 s
+	 1,2,4,5,2,1,
+	 Label-setting LB: -1.3333333333333335 , 0.0 s
+	 ==================== Heu DI Model Pricing ====================
+	 1,2,4,6,8,9,10,12,14,13,6,8,11,11,9,6,5,4,
+	 Label-setting LB: -0.3333333333333333 , 0.001 s
+	 1,2,4,6,8,9,10,13,15,16,24,34,14,14,11,5,3,1,
+	 Label-setting UB: -0.1111111111111111 , 0.003 s
+	 Pricing time: 0.005 s
+Add Col: 5@6@7@15@17@ , -0.22222222222222227
+Add Col: 6@7@11@16@17@ , -0.1111111111111111
+Add Col: 6@7@10@16@17@ , -0.11111111111111127
+Add Col: 6@7@10@15@17@ , -0.11111111111111127
+Add Col: 7@9@10@11@17@ , -0.11111111111111127
+Add Col: 5@6@7@17@ , -0.11111111111111116
+Total Add Col: 6
+
+Epoch: 5 , col: 82 , allScIpCol: 82 , allCol: 82 , lb: 5 , ub: 6 , deep: 0 , cons num: 30 , sr num: 0 , maxWasteInRootNode: 1578 , maxWasteInOtherNode: 1578 , cur time: 10.167 s
+	 Solve rmp: 5.333333333333333 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Solve rmp: 5.299999999999999 , time cost: 0.001 s
+	 Rounding time: 0.009 s
+	 Solve rmp: 5.299999999999999 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 5.2666666666666675 , time cost: 0.0 s
+	 Rounding time: 0.003 s
+	 Solve rmp: 5.2666666666666675 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.003 s
+	 1,2,3,4,6,4,5,5,5,2,2,1,1,1,
+	 Label-setting LB: -0.7333333333333334 , 0.001 s
+	 ==================== Heu DI Model Pricing ====================
+	 1,2,4,7,11,14,22,25,33,50,48,22,16,16,20,18,14,7,3,
+	 Label-setting LB: -0.24 , 0.001 s
+	 1,2,4,7,11,14,22,25,33,49,65,74,80,69,77,51,26,6,1,
+	 Label-setting UB: -0.039999999999999925 , 0.006 s
+	 Pricing time: 0.009 s
+Add Col: 5@6@7@15@16@18@ , -0.11999999999999994
+Add Col: 3@12@13@15@16@18@ , -0.08000000000000007
+Add Col: 5@6@7@15@16@ , -0.0799999999999999
+Add Col: 7@8@9@15@16@18@ , -0.03999999999999998
+Add Col: 3@10@13@15@18@ , -0.040000000000000036
+Add Col: 7@9@10@13@16@ , -0.03999999999999998
+Add Col: 2@10@15@16@ , -0.039999999999999925
+Add Col: 2@6@12@18@ , -0.03999999999999998
+Add Col: 2@5@12@18@ , -0.03999999999999998
+Total Add Col: 9
+
+Epoch: 6 , col: 93 , allScIpCol: 93 , allCol: 93 , lb: 5 , ub: 6 , deep: 0 , cons num: 30 , sr num: 0 , maxWasteInRootNode: 1578 , maxWasteInOtherNode: 1578 , cur time: 10.192 s
+	 Solve rmp: 5.2142857142857135 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.003 s
+	 1,2,3,4,7,11,18,24,40,10,11,11,8,4,4,2,2,
+	 Label-setting LB: -0.2857142857142858 , 0.001 s
+	 ==================== Heu DI Model Pricing ====================
+	 1,2,4,6,10,15,18,25,39,7,5,5,5,4,3,2,1,1,
+	 Label-setting LB: -0.24137931034482754 , 0.0 s
+	 1,2,4,6,10,15,18,25,34,47,59,53,52,44,52,33,14,4,
+	 Label-setting UB: -0.034482758620689585 , 0.003 s
+	 Pricing time: 0.006 s
+Add Col: 3@6@12@13@ , -0.10344827586206892
+Add Col: 3@5@12@13@ , -0.10344827586206892
+Add Col: 9@10@12@13@15@16@17@ , -0.06896551724137939
+Add Col: 2@5@12@17@ , -0.06896551724137931
+Add Col: 3@4@8@17@ , -0.06896551724137928
+Add Col: 2@6@10@ , -0.06896551724137934
+Add Col: 7@9@10@13@15@ , -0.034482758620689585
+Add Col: 3@9@10@17@ , -0.03448275862068961
+Add Col: 3@8@10@17@ , -0.03448275862068961
+Add Col: 3@6@13@15@ , -0.03448275862068964
+Total Add Col: 10
+
+Epoch: 7 , col: 103 , allScIpCol: 103 , allCol: 103 , lb: 5 , ub: 6 , deep: 0 , cons num: 30 , sr num: 0 , maxWasteInRootNode: 1578 , maxWasteInOtherNode: 1578 , cur time: 10.203 s
+	 Solve rmp: 5.153846153846153 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Solve rmp: 5.1499999999999995 , time cost: 0.0 s
+	 Rounding time: 0.006 s
+	 Solve rmp: 5.1499999999999995 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Solve rmp: 5.142857142857142 , time cost: 0.0 s
+	 Rounding time: 0.006 s
+	 Solve rmp: 5.142857142857142 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.006 s
+	 1,2,4,6,7,12,3,3,3,1,1,1,1,1,1,
+	 Label-setting LB: -0.357142857142857 , 0.0 s
+	 ==================== Heu DI Model Pricing ====================
+	 1,2,3,6,6,9,11,15,4,4,3,3,3,3,3,2,1,
+	 Label-setting LB: -0.2727272727272727 , 0.0 s
+	 1,2,3,5,5,8,10,12,19,24,29,30,47,38,28,16,5,
+	 Label-setting UB: -0.09090909090909083 , 0.002 s
+	 Pricing time: 0.004 s
+Add Col: 1@8@15@16@ , -0.09090909090909083
+Total Add Col: 1
+
+Epoch: 8 , col: 106 , allScIpCol: 106 , allCol: 106 , lb: 5 , ub: 6 , deep: 0 , cons num: 30 , sr num: 0 , maxWasteInRootNode: 1578 , maxWasteInOtherNode: 1578 , cur time: 10.225 s
+	 Solve rmp: 5.142857142857142 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.008 s
+	 1,2,4,6,7,12,4,4,3,3,1,1,1,1,
+	 Label-setting LB: -0.357142857142857 , 0.0 s
+	 ==================== Heu DI Model Pricing ====================
+	 1,2,3,6,12,12,14,20,8,8,7,4,3,4,4,3,2,
+	 Label-setting LB: -0.2727272727272728 , 0.001 s
+	 1,2,3,5,10,10,12,18,28,40,45,48,40,55,30,16,6,
+	 Label-setting UB: null , 0.003 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,4,6,7,12,4,4,3,3,1,1,1,1,
+	 Label-setting LB: -0.357142857142857 , 0.0 s
+	 1,2,4,6,7,12,17,17,15,17,16,21,18,5,6,2,
+	 Label-setting UB: -0.07142857142857129 , 0.001 s
+	 Pricing time: 0.006 s
+Add Col: 4@10@12@13@16@ , -0.1428571428571428
+Add Col: 4@6@12@13@16@ , -0.1428571428571428
+Add Col: 4@5@12@13@16@ , -0.1428571428571428
+Add Col: 4@9@10@12@16@ , -0.1428571428571429
+Add Col: 0@16@ , -0.1428571428571428
+Add Col: 7@11@12@13@16@ , -0.07142857142857129
+Add Col: 7@10@11@13@16@ , -0.07142857142857129
+Total Add Col: 7
+
+Epoch: 9 , col: 113 , allScIpCol: 113 , allCol: 113 , lb: 5 , ub: 6 , deep: 0 , cons num: 30 , sr num: 0 , maxWasteInRootNode: 1578 , maxWasteInOtherNode: 1578 , cur time: 10.24 s
+	 Solve rmp: 5.119047619047618 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.005 s
+	 1,2,3,4,5,6,6,5,4,4,5,4,3,2,2,2,
+	 Label-setting LB: -0.2857142857142857 , 0.0 s
+	 ==================== Heu DI Model Pricing ====================
+	 1,2,3,3,6,12,13,14,19,24,25,28,23,20,18,4,3,2,
+	 Label-setting LB: -0.20689655172413796 , 0.001 s
+	 1,2,3,3,6,12,13,16,26,37,44,52,51,36,31,25,4,1,
+	 Label-setting UB: -0.034482758620689655 , 0.003 s
+	 Pricing time: 0.004 s
+Add Col: 7@9@10@11@15@ , -0.034482758620689655
+Total Add Col: 1
+
+Epoch: 10 , col: 114 , allScIpCol: 114 , allCol: 114 , lb: 5 , ub: 6 , deep: 0 , cons num: 30 , sr num: 0 , maxWasteInRootNode: 1578 , maxWasteInOtherNode: 1578 , cur time: 10.249 s
+	 Solve rmp: 5.117647058823529 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.006 s
+	 1,2,2,3,4,5,5,7,11,8,2,2,2,2,2,2,2,
+	 Label-setting LB: -0.23529411764705838 , 0.0 s
+	 ==================== Heu DI Model Pricing ====================
+	 1,2,3,5,9,16,24,20,15,16,11,9,5,4,4,4,4,3,
+	 Label-setting LB: -0.2 , 0.001 s
+	 1,2,3,5,9,15,19,17,30,38,48,43,53,30,20,12,8,2,
+	 Label-setting UB: null , 0.002 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,2,3,4,5,5,7,11,8,2,2,2,2,2,2,2,
+	 Label-setting LB: -0.23529411764705838 , 0.001 s
+	 1,2,2,3,4,5,5,7,11,13,19,20,19,16,18,11,4,
+	 Label-setting UB: -0.058823529411764414 , 0.002 s
+	 Pricing time: 0.005 s
+Add Col: 7@10@12@13@16@ , -0.058823529411764414
+Add Col: 5@7@12@13@15@ , -0.05882352941176455
+Add Col: 7@10@12@13@15@ , -0.05882352941176444
+Add Col: 7@9@10@12@15@ , -0.05882352941176458
+Add Col: 7@9@10@12@16@ , -0.05882352941176455
+Total Add Col: 5
+
+Epoch: 11 , col: 119 , allScIpCol: 119 , allCol: 119 , lb: 5 , ub: 6 , deep: 0 , cons num: 30 , sr num: 0 , maxWasteInRootNode: 1578 , maxWasteInOtherNode: 1578 , cur time: 10.26 s
+	 Solve rmp: 5.113636363636362 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.005 s
+	 1,2,3,4,5,8,8,8,11,4,3,3,3,3,2,2,
+	 Label-setting LB: -0.29545454545454497 , 0.001 s
+	 ==================== Heu DI Model Pricing ====================
+	 1,2,3,6,6,12,24,25,25,31,31,22,19,15,11,8,6,3,
+	 Label-setting LB: -0.2285714285714286 , 0.001 s
+	 1,2,3,6,6,12,22,26,27,41,49,58,49,51,25,13,7,1,
+	 Label-setting UB: -0.028571428571428595 , 0.003 s
+	 Pricing time: 0.005 s
+Add Col: 6@7@10@13@15@ , -0.028571428571428595
+Total Add Col: 1
+
+Epoch: 12 , col: 120 , allScIpCol: 120 , allCol: 120 , lb: 5 , ub: 6 , deep: 0 , cons num: 30 , sr num: 0 , maxWasteInRootNode: 1578 , maxWasteInOtherNode: 1578 , cur time: 10.27 s
+	 Solve rmp: 5.113636363636363 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.005 s
+	 1,2,3,4,5,8,8,8,11,4,3,3,3,3,2,2,
+	 Label-setting LB: -0.2954545454545454 , 0.001 s
+	 ==================== Heu DI Model Pricing ====================
+	 1,2,3,5,9,16,16,22,16,15,10,8,6,6,6,5,4,3,
+	 Label-setting LB: -0.16666666666666666 , 0.001 s
+	 1,2,3,5,9,15,15,17,29,34,42,36,26,22,16,15,7,2,
+	 Label-setting UB: null , 0.002 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,4,5,8,8,8,11,4,3,3,3,3,2,2,
+	 Label-setting LB: -0.2954545454545454 , 0.0 s
+	 1,2,3,4,5,8,8,9,13,16,23,33,36,38,33,29,5,
+	 Label-setting UB: -0.022727272727272707 , 0.002 s
+	 Pricing time: 0.006 s
+Add Col: 7@10@13@14@15@16@ , -0.022727272727272707
+Add Col: 7@9@10@11@16@ , -0.022727272727272707
+Add Col: 1@9@15@16@ , -0.022727272727272707
+Total Add Col: 3
+
+Epoch: 13 , col: 123 , allScIpCol: 123 , allCol: 123 , lb: 5 , ub: 6 , deep: 0 , cons num: 30 , sr num: 0 , maxWasteInRootNode: 1578 , maxWasteInOtherNode: 1578 , cur time: 10.281 s
+	 Solve rmp: 5.11111111111111 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.005 s
+	 1,2,3,5,6,11,12,14,2,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.33333333333333304 , 0.001 s
+	 ==================== Heu DI Model Pricing ====================
+	 1,2,3,5,9,16,17,24,17,15,10,8,5,5,4,3,3,2,
+	 Label-setting LB: -0.16666666666666655 , 0.001 s
+	 1,2,3,5,9,15,16,18,31,38,49,42,30,25,14,12,6,2,
+	 Label-setting UB: null , 0.002 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,5,6,11,12,14,2,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.33333333333333304 , 0.0 s
+	 1,2,3,5,6,11,12,13,20,26,30,28,22,22,17,12,7,
+	 Label-setting UB: null , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 0 , pPie.size: 0
+	 W:40 , H:40 , itemList.size: 17 , xList.size: 15 , yList.size: 11
+	 Master obj: 1.1111111111111112 , 0.138 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 0.164 s
+Add Col: 5@7@11@13@15@ , -0.11111111111111116
+Total Add Col: 1
+
+Epoch: 14 , col: 124 , allScIpCol: 124 , allCol: 124 , lb: 5 , ub: 6 , deep: 0 , cons num: 30 , sr num: 0 , maxWasteInRootNode: 1578 , maxWasteInOtherNode: 1578 , cur time: 10.451 s
+	 Solve rmp: 5.105263157894737 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Rounding time: 0.008 s
+	 1,2,3,4,5,6,6,8,11,3,3,3,4,4,3,3,3,
+	 Label-setting LB: -0.26315789473684215 , 0.0 s
+	 ==================== Heu DI Model Pricing ====================
+	 1,2,3,5,9,16,17,24,17,16,15,14,11,11,8,7,6,4,
+	 Label-setting LB: -0.16666666666666657 , 0.0 s
+	 1,2,3,5,9,15,16,18,31,39,54,52,42,35,20,17,8,2,
+	 Label-setting UB: null , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,4,5,6,6,8,11,3,3,3,4,4,3,3,3,
+	 Label-setting LB: -0.26315789473684215 , 0.0 s
+	 1,2,3,4,5,6,6,8,12,16,19,23,32,30,22,14,4,
+	 Label-setting UB: null , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 0 , pPie.size: 0
+	 W:40 , H:40 , itemList.size: 17 , xList.size: 15 , yList.size: 11
+	 Master obj: 1.0526315789473686 , 0.239 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 0.249 s
+Add Col: 7@10@12@13@15@16@ , -0.052631578947368585
+Total Add Col: 1
+
+Epoch: 15 , col: 125 , allScIpCol: 125 , allCol: 125 , lb: 5 , ub: 6 , deep: 0 , cons num: 30 , sr num: 0 , maxWasteInRootNode: 1578 , maxWasteInOtherNode: 1578 , cur time: 10.708 s
+	 Solve rmp: 5.090909090909091 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.006 s
+	 1,2,3,4,6,8,9,8,14,3,4,3,3,3,4,3,2,
+	 Label-setting LB: -0.2272727272727273 , 0.0 s
+	 ==================== Heu DI Model Pricing ====================
+	 1,2,3,4,7,13,24,23,24,28,27,23,20,14,13,8,8,3,
+	 Label-setting LB: -0.19444444444444475 , 0.0 s
+	 1,2,3,4,7,13,23,23,25,40,46,53,47,29,21,9,4,1,
+	 Label-setting UB: null , 0.002 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,4,6,8,9,8,14,3,4,3,3,3,4,3,2,
+	 Label-setting LB: -0.2272727272727273 , 0.0 s
+	 1,2,3,4,6,8,9,8,14,17,20,21,21,17,13,7,2,
+	 Label-setting UB: null , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 0 , pPie.size: 0
+	 W:40 , H:40 , itemList.size: 17 , xList.size: 15 , yList.size: 11
+	 Master obj: 1.0454545454545454 , 0.267 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.275 s
+Add Col: 5@7@12@13@16@ , -0.045454545454545414
+Total Add Col: 1
+
+Epoch: 16 , col: 126 , allScIpCol: 126 , allCol: 126 , lb: 5 , ub: 6 , deep: 0 , cons num: 30 , sr num: 0 , maxWasteInRootNode: 1578 , maxWasteInOtherNode: 1578 , cur time: 10.989 s
+	 Solve rmp: 5.083333333333334 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Rounding time: 0.006 s
+	 1,2,3,4,6,8,13,16,18,13,11,14,11,13,13,9,6,
+	 Label-setting LB: -0.16666666666666646 , 0.001 s
+	 ==================== Heu DI Model Pricing ====================
+	 1,2,3,5,9,16,17,24,17,16,12,10,7,7,6,5,4,3,
+	 Label-setting LB: -0.16666666666666655 , 0.0 s
+	 1,2,3,5,9,15,16,18,30,38,48,42,32,25,17,13,5,2,
+	 Label-setting UB: null , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,4,6,8,13,16,18,13,11,14,11,13,13,9,6,
+	 Label-setting LB: -0.16666666666666646 , 0.001 s
+	 1,2,3,4,6,8,13,15,18,27,25,26,21,29,19,9,5,
+	 Label-setting UB: null , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 0 , pPie.size: 0
+	 W:40 , H:40 , itemList.size: 17 , xList.size: 15 , yList.size: 11
+	 Master obj: 1.0 , 0.163 s
+	 Pricing time: 0.17 s
+Termination By empty negative reduced cost column
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:31,w:33},{x:34,y:0,h:35,w:6},{x:0,y:31,h:1,w:23},{x:23,y:31,h:2,w:11},],
+----------------------- Bin-2 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:28,w:29},{x:29,y:0,h:14,w:11},{x:34,y:14,h:23,w:6},{x:30,y:14,h:20,w:4},{x:0,y:28,h:10,w:21},],
+----------------------- Bin-3 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:28,w:21},{x:25,y:0,h:29,w:15},{x:0,y:29,h:11,w:32},],
+----------------------- Bin-4 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:13,w:28},{x:30,y:0,h:30,w:10},{x:12,y:13,h:17,w:18},{x:0,y:30,h:10,w:33},],
+----------------------- Bin-5 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:35,w:20},{x:24,y:0,h:25,w:16},{x:22,y:25,h:13,w:18},],
+----------------------- Bin-6 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:22,w:17},],
+BpcSolution{className='Class_03', isOpt=true, id=3, inS=7055, outS=9600, LB_BM_3=5, LB_CCM_1=5, LB_CCM_2=5, LB0=5, LB_NoSr=6, LB=6, UB0=6, UB=6, rootColCnt=126, totalColCnt=126, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=1, generatedNodeCnt=1, rmpCnt=24, roundingCnt=20, pricingCnt=16, heuPricingCnt=23, masterCnt=21, slaveCnt=3, findBendersCutCnt=0, rate=0.7348958333333333, gap=0.0, totalTime=11.166, preprocessingTime=0.008, lb0Time=0.038, ub0Time=10.002, rmpTime=0.002, roundingTime=0.096, pricingTime=0.936, heuPricingTime=0.060000000000000026, masterTime=0.8320000000000001, slaveTime=0.002, findBendersCutTime=0.0, totalLbLabelCnt=4069, maxLbLabelCnt=333, minLbLabelCnt=6, totalHeuLabelCnt=6710, maxHeuLabelCnt=617, minHeuLabelCnt=42}

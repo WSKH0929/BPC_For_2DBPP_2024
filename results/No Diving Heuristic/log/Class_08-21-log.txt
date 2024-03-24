@@ -1,0 +1,76 @@
+====================================== 2024-03-22 04:23:54 Class_08-21 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 145807
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 145807 , time cost: 0.01 s
+LB0: 17 , time cost: 0.205 s
+UB0: 17 , time cost: 0.005 s
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:86,w:93},{x:0,y:86,h:8,w:100},{x:0,y:94,h:5,w:91},{x:0,y:99,h:1,w:99},],
+----------------------- Bin-2 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:88,w:77},{x:77,y:0,h:88,w:19},{x:0,y:88,h:12,w:71},],
+----------------------- Bin-3 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:88,w:73},{x:83,y:0,h:85,w:17},{x:0,y:88,h:11,w:98},{x:0,y:99,h:1,w:81},],
+----------------------- Bin-4 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:60,w:90},{x:0,y:60,h:40,w:88},],
+----------------------- Bin-5 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:57,w:80},{x:0,y:57,h:41,w:80},{x:0,y:98,h:2,w:78},],
+----------------------- Bin-6 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:80,w:56},{x:71,y:0,h:76,w:29},{x:0,y:80,h:20,w:91},],
+----------------------- Bin-7 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:48,w:95},{x:0,y:48,h:47,w:95},{x:0,y:95,h:4,w:76},],
+----------------------- Bin-8 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:45,w:98},{x:0,y:45,h:47,w:92},{x:0,y:92,h:8,w:69},],
+----------------------- Bin-9 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:44,w:98},{x:0,y:44,h:45,w:92},{x:0,y:89,h:11,w:96},],
+----------------------- Bin-10 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:44,w:87},{x:0,y:44,h:49,w:78},{x:0,y:93,h:2,w:77},{x:0,y:95,h:2,w:76},],
+----------------------- Bin-11 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:46,w:82},{x:0,y:46,h:47,w:77},],
+----------------------- Bin-12 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:49,w:71},{x:74,y:0,h:25,w:26},{x:0,y:49,h:39,w:79},{x:0,y:88,h:9,w:81},],
+----------------------- Bin-13 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:31,w:97},{x:0,y:31,h:36,w:79},{x:0,y:67,h:29,w:90},],
+----------------------- Bin-14 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:42,w:66},{x:68,y:0,h:68,w:32},{x:0,y:42,h:29,w:68},{x:0,y:71,h:29,w:87},],
+----------------------- Bin-15 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:28,w:78},{x:0,y:28,h:31,w:69},{x:0,y:59,h:40,w:48},{x:58,y:59,h:36,w:42},],
+----------------------- Bin-16 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:19,w:93},{x:0,y:19,h:19,w:91},{x:0,y:38,h:19,w:86},{x:0,y:57,h:19,w:83},{x:0,y:76,h:16,w:97},],
+----------------------- Bin-17 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:20,w:70},{x:0,y:20,h:18,w:77},{x:0,y:38,h:15,w:89},{x:0,y:53,h:15,w:79},{x:0,y:68,h:15,w:75},{x:0,y:83,h:13,w:73},],
+BpcSolution{className='Class_08', isOpt=true, id=21, inS=145807, outS=170000, LB_BM_3=14, LB_CCM_1=17, LB_CCM_2=17, LB0=17, LB_NoSr=17, LB=17, UB0=17, UB=17, rootColCnt=0, totalColCnt=0, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=0, generatedNodeCnt=0, rmpCnt=0, roundingCnt=0, pricingCnt=0, heuPricingCnt=0, masterCnt=0, slaveCnt=0, findBendersCutCnt=0, rate=0.8576882352941176, gap=0.0, totalTime=0.227, preprocessingTime=0.01, lb0Time=0.205, ub0Time=0.005, rmpTime=0.0, roundingTime=0.0, pricingTime=0.0, heuPricingTime=0.0, masterTime=0.0, slaveTime=0.0, findBendersCutTime=0.0, totalLbLabelCnt=0, maxLbLabelCnt=0, minLbLabelCnt=9223372036854775807, totalHeuLabelCnt=0, maxHeuLabelCnt=0, minHeuLabelCnt=9223372036854775807}

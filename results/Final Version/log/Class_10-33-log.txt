@@ -1,0 +1,52 @@
+====================================== 2024-03-20 02:04:14 Class_10-33 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 101043
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 101043 , time cost: 0.014 s
+LB0: 11 , time cost: 0.189 s
+UB0: 11 , time cost: 0.007 s
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:98,w:81},{x:81,y:0,h:98,w:7},{x:88,y:0,h:24,w:12},{x:89,y:24,h:68,w:11},{x:88,y:24,h:41,w:1},{x:88,y:65,h:21,w:1},{x:88,y:86,h:8,w:1},{x:91,y:92,h:5,w:9},{x:0,y:98,h:1,w:96},{x:0,y:99,h:1,w:25},{x:25,y:99,h:1,w:13},],
+----------------------- Bin-2 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:90,w:88},{x:90,y:0,h:84,w:10},{x:88,y:0,h:39,w:2},{x:92,y:84,h:13,w:8},{x:0,y:90,h:10,w:15},{x:15,y:90,h:8,w:73},],
+----------------------- Bin-3 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:78,w:99},{x:0,y:78,h:22,w:9},{x:9,y:78,h:14,w:86},{x:9,y:92,h:6,w:31},{x:66,y:92,h:5,w:34},{x:49,y:92,h:5,w:17},{x:62,y:97,h:3,w:38},],
+----------------------- Bin-4 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:74,w:87},{x:94,y:0,h:82,w:6},{x:87,y:0,h:35,w:7},{x:87,y:35,h:11,w:7},{x:90,y:46,h:31,w:4},{x:0,y:74,h:17,w:48},{x:48,y:74,h:17,w:23},{x:71,y:74,h:16,w:16},{x:91,y:82,h:11,w:9},{x:81,y:90,h:4,w:10},{x:0,y:91,h:9,w:29},{x:29,y:91,h:9,w:23},{x:52,y:91,h:4,w:27},{x:52,y:95,h:5,w:32},],
+----------------------- Bin-5 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:69,w:88},{x:89,y:0,h:42,w:11},{x:91,y:42,h:37,w:9},{x:0,y:69,h:31,w:47},{x:47,y:69,h:29,w:33},],
+----------------------- Bin-6 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:67,w:74},{x:75,y:0,h:49,w:25},{x:77,y:49,h:44,w:23},{x:0,y:67,h:33,w:18},{x:18,y:67,h:32,w:33},{x:51,y:67,h:28,w:22},{x:51,y:95,h:4,w:39},],
+----------------------- Bin-7 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:60,w:59},{x:61,y:0,h:100,w:39},{x:0,y:60,h:39,w:49},],
+----------------------- Bin-8 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:40,w:98},{x:0,y:40,h:21,w:93},{x:0,y:61,h:38,w:47},{x:47,y:61,h:38,w:28},{x:76,y:61,h:37,w:24},],
+----------------------- Bin-9 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:85,w:45},{x:54,y:0,h:67,w:46},{x:67,y:67,h:28,w:33},{x:46,y:67,h:25,w:21},{x:0,y:85,h:13,w:24},{x:24,y:92,h:4,w:31},],
+----------------------- Bin-10 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:78,w:15},{x:60,y:0,h:48,w:40},{x:45,y:0,h:48,w:15},{x:15,y:0,h:30,w:30},{x:15,y:30,h:28,w:30},{x:62,y:48,h:43,w:38},{x:47,y:48,h:49,w:15},{x:15,y:58,h:20,w:32},{x:0,y:78,h:20,w:36},],
+----------------------- Bin-11 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:46,w:35},{x:66,y:0,h:45,w:34},{x:35,y:0,h:50,w:14},{x:49,y:0,h:36,w:14},{x:67,y:45,h:24,w:33},{x:49,y:45,h:27,w:18},{x:0,y:46,h:16,w:32},],
+BpcSolution{className='Class_10', isOpt=true, id=33, inS=101043, outS=110000, LB_BM_3=9, LB_CCM_1=11, LB_CCM_2=11, LB0=11, LB_NoSr=11, LB=11, UB0=11, UB=11, rootColCnt=0, totalColCnt=0, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=0, generatedNodeCnt=0, rmpCnt=0, roundingCnt=0, pricingCnt=0, heuPricingCnt=0, masterCnt=0, slaveCnt=0, findBendersCutCnt=0, rate=0.9185727272727273, gap=0.0, totalTime=0.219, preprocessingTime=0.014, lb0Time=0.189, ub0Time=0.007, rmpTime=0.0, roundingTime=0.0, pricingTime=0.0, heuPricingTime=0.0, masterTime=0.0, slaveTime=0.0, findBendersCutTime=0.0, totalLbLabelCnt=0, maxLbLabelCnt=0, minLbLabelCnt=9223372036854775807, totalHeuLabelCnt=0, maxHeuLabelCnt=0, minHeuLabelCnt=9223372036854775807}

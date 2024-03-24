@@ -1,0 +1,20 @@
+====================================== 2024-03-20 09:49:55 Class_04-41 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 28723
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 28723 , time cost: 0.016 s
+LB0: 3 , time cost: 0.103 s
+UB0: 3 , time cost: 0.006 s
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:33,w:33},{x:33,y:0,h:33,w:4},{x:67,y:0,h:32,w:33},{x:37,y:0,h:32,w:30},{x:37,y:32,h:1,w:23},{x:60,y:32,h:28,w:7},{x:67,y:32,h:28,w:6},{x:73,y:32,h:28,w:3},{x:76,y:32,h:27,w:24},{x:48,y:33,h:27,w:12},{x:0,y:33,h:29,w:34},{x:34,y:33,h:29,w:14},{x:76,y:59,h:20,w:24},{x:51,y:60,h:19,w:25},{x:49,y:60,h:7,w:2},{x:48,y:60,h:3,w:1},{x:31,y:62,h:1,w:17},{x:0,y:62,h:26,w:31},{x:31,y:63,h:25,w:9},{x:40,y:63,h:32,w:9},{x:66,y:79,h:21,w:34},{x:57,y:79,h:21,w:9},{x:53,y:79,h:21,w:4},{x:49,y:79,h:14,w:4},{x:0,y:88,h:12,w:31},{x:31,y:88,h:12,w:9},{x:40,y:95,h:3,w:9},{x:40,y:98,h:2,w:5},],
+----------------------- Bin-2 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:25,w:29},{x:29,y:0,h:25,w:8},{x:69,y:0,h:23,w:31},{x:47,y:0,h:23,w:22},{x:38,y:0,h:23,w:9},{x:37,y:23,h:2,w:23},{x:80,y:23,h:35,w:20},{x:60,y:23,h:15,w:20},{x:28,y:25,h:13,w:32},{x:11,y:25,h:13,w:17},{x:0,y:25,h:14,w:11},{x:11,y:38,h:1,w:15},{x:48,y:38,h:21,w:32},{x:26,y:38,h:21,w:22},{x:0,y:39,h:24,w:26},{x:83,y:58,h:30,w:17},{x:26,y:59,h:24,w:22},{x:62,y:59,h:29,w:21},{x:50,y:59,h:29,w:12},{x:0,y:63,h:34,w:13},{x:13,y:63,h:34,w:13},{x:26,y:83,h:16,w:24},{x:71,y:88,h:12,w:29},{x:50,y:88,h:11,w:19},{x:0,y:97,h:3,w:24},],
+----------------------- Bin-3 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:19,w:32},{x:32,y:0,h:19,w:31},{x:63,y:0,h:19,w:13},{x:76,y:0,h:19,w:12},{x:88,y:0,h:10,w:12},{x:95,y:10,h:34,w:5},{x:91,y:10,h:34,w:4},{x:0,y:19,h:23,w:17},{x:17,y:19,h:23,w:4},{x:66,y:19,h:14,w:25},{x:43,y:19,h:14,w:23},{x:21,y:19,h:15,w:22},{x:81,y:33,h:11,w:10},{x:77,y:33,h:11,w:4},{x:43,y:33,h:8,w:34},{x:21,y:34,h:8,w:6},{x:32,y:34,h:7,w:11},{x:27,y:34,h:24,w:5},{x:63,y:41,h:3,w:14},{x:32,y:41,h:9,w:31},{x:0,y:42,h:14,w:21},{x:21,y:42,h:22,w:6},{x:63,y:44,h:6,w:19},{x:82,y:44,h:14,w:18},{x:32,y:50,h:8,w:33},{x:65,y:50,h:14,w:13},{x:78,y:50,h:13,w:4},{x:0,y:56,h:9,w:21},{x:27,y:58,h:6,w:13},{x:40,y:58,h:7,w:25},{x:91,y:58,h:18,w:9},{x:82,y:58,h:10,w:9},{x:21,y:64,h:15,w:8},{x:29,y:64,h:13,w:6},{x:72,y:64,h:7,w:10},{x:65,y:64,h:10,w:7},{x:0,y:65,h:6,w:6},{x:35,y:65,h:12,w:24},{x:59,y:74,h:5,w:32},{x:29,y:77,h:4,w:29},{x:0,y:79,h:4,w:28},{x:65,y:79,h:9,w:35},{x:30,y:81,h:9,w:35},{x:65,y:88,h:5,w:35},{x:0,y:90,h:8,w:31},{x:31,y:90,h:4,w:32},{x:65,y:93,h:4,w:35},],
+BpcSolution{className='Class_04', isOpt=true, id=41, inS=28723, outS=30000, LB_BM_3=2, LB_CCM_1=3, LB_CCM_2=3, LB0=3, LB_NoSr=3, LB=3, UB0=3, UB=3, rootColCnt=0, totalColCnt=0, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=0, generatedNodeCnt=0, rmpCnt=0, roundingCnt=0, pricingCnt=0, heuPricingCnt=0, masterCnt=0, slaveCnt=0, findBendersCutCnt=0, rate=0.9574333333333334, gap=0.0, totalTime=0.133, preprocessingTime=0.016, lb0Time=0.103, ub0Time=0.006, rmpTime=0.0, roundingTime=0.0, pricingTime=0.0, heuPricingTime=0.0, masterTime=0.0, slaveTime=0.0, findBendersCutTime=0.0, totalLbLabelCnt=0, maxLbLabelCnt=0, minLbLabelCnt=9223372036854775807, totalHeuLabelCnt=0, maxHeuLabelCnt=0, minHeuLabelCnt=9223372036854775807}

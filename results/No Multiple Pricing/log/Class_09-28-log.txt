@@ -1,0 +1,196 @@
+====================================== 2024-03-22 07:27:10 Class_09-28 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 279413
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 279413 , time cost: 0.009 s
+LB0: 47 , time cost: 0.258 s
+UB0: 47 , time cost: 0.006 s
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:94,w:98},{x:99,y:0,h:38,w:1},{x:0,y:94,h:4,w:16},],
+----------------------- Bin-2 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:91,w:94},],
+----------------------- Bin-3 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:99,w:86},{x:86,y:0,h:90,w:14},],
+----------------------- Bin-4 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:83,w:91},],
+----------------------- Bin-5 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:90,w:83},{x:88,y:0,h:86,w:12},],
+----------------------- Bin-6 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:77,w:94},{x:0,y:77,h:23,w:29},],
+----------------------- Bin-7 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:81,w:88},{x:88,y:0,h:66,w:12},],
+----------------------- Bin-8 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:71,w:100},{x:0,y:71,h:28,w:19},],
+----------------------- Bin-9 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:84,w:82},{x:86,y:0,h:45,w:14},],
+----------------------- Bin-10 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:79,w:87},],
+----------------------- Bin-11 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:95,w:72},{x:80,y:0,h:88,w:20},],
+----------------------- Bin-12 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:69,w:97},],
+----------------------- Bin-13 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:85,w:78},{x:78,y:0,h:67,w:22},],
+----------------------- Bin-14 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:81,w:81},],
+----------------------- Bin-15 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:100,w:63},],
+----------------------- Bin-16 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:78,w:77},],
+----------------------- Bin-17 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:86,w:68},],
+----------------------- Bin-18 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:82,w:71},],
+----------------------- Bin-19 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:59,w:98},{x:0,y:59,h:36,w:91},],
+----------------------- Bin-20 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:68,w:85},],
+----------------------- Bin-21 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:67,w:85},],
+----------------------- Bin-22 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:57,w:99},{x:0,y:57,h:39,w:49},],
+----------------------- Bin-23 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:85,w:65},],
+----------------------- Bin-24 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:80,w:69},],
+----------------------- Bin-25 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:68,w:80},],
+----------------------- Bin-26 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:89,w:59},{x:62,y:0,h:77,w:38},],
+----------------------- Bin-27 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:97,w:53},],
+----------------------- Bin-28 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:59,w:87},],
+----------------------- Bin-29 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:73,w:70},],
+----------------------- Bin-30 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:82,w:61},],
+----------------------- Bin-31 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:66,w:74},],
+----------------------- Bin-32 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:70,w:69},],
+----------------------- Bin-33 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:67,w:69},],
+----------------------- Bin-34 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:57,w:80},],
+----------------------- Bin-35 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:67,w:68},],
+----------------------- Bin-36 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:89,w:51},],
+----------------------- Bin-37 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:81,w:54},],
+----------------------- Bin-38 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:84,w:52},],
+----------------------- Bin-39 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:83,w:51},],
+----------------------- Bin-40 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:51,w:79},],
+----------------------- Bin-41 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:79,w:51},],
+----------------------- Bin-42 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:73,w:55},],
+----------------------- Bin-43 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:53,w:72},],
+----------------------- Bin-44 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:59,w:57},],
+----------------------- Bin-45 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:52,w:61},],
+----------------------- Bin-46 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:54,w:52},],
+----------------------- Bin-47 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:50,w:92},],
+BpcSolution{className='Class_09', isOpt=true, id=28, inS=279413, outS=470000, LB_BM_3=47, LB_CCM_1=47, LB_CCM_2=47, LB0=47, LB_NoSr=47, LB=47, UB0=47, UB=47, rootColCnt=0, totalColCnt=0, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=0, generatedNodeCnt=0, rmpCnt=0, roundingCnt=0, pricingCnt=0, heuPricingCnt=0, masterCnt=0, slaveCnt=0, findBendersCutCnt=0, rate=0.5944957446808511, gap=0.0, totalTime=0.281, preprocessingTime=0.009, lb0Time=0.258, ub0Time=0.006, rmpTime=0.0, roundingTime=0.0, pricingTime=0.0, heuPricingTime=0.0, masterTime=0.0, slaveTime=0.0, findBendersCutTime=0.0, totalLbLabelCnt=0, maxLbLabelCnt=0, minLbLabelCnt=9223372036854775807, totalHeuLabelCnt=0, maxHeuLabelCnt=0, minHeuLabelCnt=9223372036854775807}

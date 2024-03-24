@@ -1,0 +1,364 @@
+====================================== 2024-03-22 07:13:51 Class_07-8 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 46602
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 46602 , time cost: 0.009 s
+LB0: 6 , time cost: 0.083 s
+45310.0 , 46602
+UB0: 7 , time cost: 10.002 s
+----------------------- Start column generation for bpcNode: BpcNode{isRoot=true, deep=0} -----------------------
+fat: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+
+Epoch: 1 , col: 26 , allScIpCol: 26 , allCol: 26 , lb: 6 , ub: 7 , deep: 0 , cons num: 28 , sr num: 0 , maxWasteInRootNode: 9595 , maxWasteInOtherNode: 9595 , cur time: 10.159 s
+	 Solve rmp: 7.0 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: true
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.014 s
+	 1,2,2,3,2,1,
+	 Label-setting LB: -2.0 , 0.004 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,2,3,2,1,
+	 Label-setting LB: -2.0 , 0.002 s
+	 1,2,2,3,3,1,
+	 Label-setting UB: -1.0 , 0.004 s
+	 Pricing time: 0.01 s
+Add Col: 3@6@12@ , -2.0
+Add Col: 6@12@ , -1.0
+Add Col: 4@12@ , -1.0
+Add Col: 3@12@ , -1.0
+Total Add Col: 4
+
+Epoch: 2 , col: 30 , allScIpCol: 30 , allCol: 30 , lb: 6 , ub: 7 , deep: 0 , cons num: 28 , sr num: 0 , maxWasteInRootNode: 9595 , maxWasteInOtherNode: 9595 , cur time: 10.191 s
+	 Solve rmp: 7.0 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: true
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.009 s
+	 1,2,3,2,2,1,
+	 Label-setting LB: -3.0 , 0.0 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,2,2,1,
+	 Label-setting LB: -3.0 , 0.001 s
+	 1,2,3,2,2,1,
+	 Label-setting UB: -1.0 , 0.002 s
+	 Pricing time: 0.002 s
+Add Col: 8@9@12@ , -2.0
+Add Col: 5@9@12@ , -2.0
+Add Col: 9@12@ , -1.0
+Add Col: 8@12@ , -1.0
+Total Add Col: 4
+
+Epoch: 3 , col: 34 , allScIpCol: 34 , allCol: 34 , lb: 6 , ub: 7 , deep: 0 , cons num: 28 , sr num: 0 , maxWasteInRootNode: 9595 , maxWasteInOtherNode: 9595 , cur time: 10.202 s
+	 Solve rmp: 6.5 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Rounding time: 0.006 s
+	 1,2,4,2,3,2,1,
+	 Label-setting LB: -2.0 , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,4,2,3,2,1,
+	 Label-setting LB: -2.0 , 0.001 s
+	 1,2,4,2,3,1,
+	 Label-setting UB: -0.5 , 0.001 s
+	 Pricing time: 0.002 s
+Add Col: 1@10@13@ , -2.0
+Add Col: 10@12@13@ , -1.5
+Add Col: 1@12@13@ , -1.5
+Add Col: 10@13@ , -1.0
+Add Col: 7@13@ , -1.0
+Add Col: 12@13@ , -0.5
+Total Add Col: 6
+
+Epoch: 4 , col: 40 , allScIpCol: 40 , allCol: 40 , lb: 6 , ub: 7 , deep: 0 , cons num: 28 , sr num: 0 , maxWasteInRootNode: 9595 , maxWasteInOtherNode: 9595 , cur time: 10.211 s
+	 Solve rmp: 6.5 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Rounding time: 0.006 s
+	 1,1,2,3,4,3,3,2,2,2,1,
+	 Label-setting LB: -1.0 , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,1,2,3,4,3,3,2,2,2,1,
+	 Label-setting LB: -1.0 , 0.001 s
+	 1,1,2,3,4,1,
+	 Label-setting UB: -0.5 , 0.001 s
+	 Pricing time: 0.003 s
+Add Col: 8@10@11@12@ , -1.0
+Add Col: 10@11@12@ , -0.5
+Add Col: 8@11@12@ , -0.5
+Total Add Col: 3
+
+Epoch: 5 , col: 43 , allScIpCol: 43 , allCol: 43 , lb: 6 , ub: 7 , deep: 0 , cons num: 28 , sr num: 0 , maxWasteInRootNode: 9595 , maxWasteInOtherNode: 9595 , cur time: 10.22 s
+	 Solve rmp: 6.5 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Rounding time: 0.006 s
+	 1,2,3,2,3,3,2,2,2,1,
+	 Label-setting LB: -1.5 , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,2,3,3,2,2,2,1,
+	 Label-setting LB: -1.5 , 0.0 s
+	 1,2,3,2,3,3,3,1,
+	 Label-setting UB: -0.5 , 0.001 s
+	 Pricing time: 0.002 s
+Add Col: 3@10@12@14@ , -1.5
+Add Col: 10@12@14@ , -1.0
+Add Col: 5@12@14@ , -1.0
+Add Col: 4@12@14@ , -1.0
+Add Col: 3@12@14@ , -1.0
+Add Col: 7@14@ , -1.0
+Add Col: 12@14@ , -0.5
+Add Col: 10@14@ , -0.5
+Add Col: 5@14@ , -0.5
+Add Col: 4@14@ , -0.5
+Add Col: 3@14@ , -0.5
+Total Add Col: 11
+
+Epoch: 6 , col: 54 , allScIpCol: 54 , allCol: 54 , lb: 6 , ub: 7 , deep: 0 , cons num: 28 , sr num: 0 , maxWasteInRootNode: 9595 , maxWasteInOtherNode: 9595 , cur time: 10.229 s
+	 Solve rmp: 6.4 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.007 s
+	 1,2,3,6,3,3,3,2,2,2,2,2,2,2,
+	 Label-setting LB: -1.7 , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,6,3,3,3,2,2,2,2,2,2,2,
+	 Label-setting LB: -1.7 , 0.001 s
+	 1,2,3,6,5,3,3,2,1,1,1,1,1,1,
+	 Label-setting UB: -0.19999999999999996 , 0.002 s
+	 Pricing time: 0.003 s
+Add Col: 2@11@13@15@ , -1.5999999999999999
+Add Col: 2@13@15@ , -1.2
+Add Col: 11@12@13@15@ , -0.9999999999999999
+Add Col: 2@12@15@ , -1.0
+Add Col: 2@11@12@ , -0.7999999999999999
+Add Col: 12@13@15@ , -0.6
+Add Col: 11@13@15@ , -0.5999999999999999
+Add Col: 2@15@ , -0.6
+Add Col: 11@12@15@ , -0.3999999999999999
+Add Col: 2@12@ , -0.4
+Add Col: 13@15@ , -0.19999999999999996
+Total Add Col: 11
+
+Epoch: 7 , col: 65 , allScIpCol: 65 , allCol: 65 , lb: 6 , ub: 7 , deep: 0 , cons num: 28 , sr num: 0 , maxWasteInRootNode: 9595 , maxWasteInOtherNode: 9595 , cur time: 10.239 s
+	 Solve rmp: 6.333333333333334 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.007 s
+	 1,2,3,4,5,5,4,5,4,5,4,4,4,3,
+	 Label-setting LB: -1.0000000000000002 , 0.002 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,4,5,5,4,5,4,5,4,4,4,3,
+	 Label-setting LB: -1.0000000000000002 , 0.001 s
+	 1,2,3,4,5,5,5,7,8,9,8,7,6,3,
+	 Label-setting UB: -0.33333333333333337 , 0.003 s
+	 Pricing time: 0.005 s
+Add Col: 4@12@13@16@ , -0.6666666666666667
+Add Col: 4@10@13@16@ , -0.666666666666667
+Add Col: 4@9@10@16@ , -0.6666666666666671
+Add Col: 4@9@13@16@ , -0.666666666666667
+Add Col: 4@8@10@16@ , -0.6666666666666669
+Add Col: 4@8@13@16@ , -0.6666666666666667
+Add Col: 4@6@13@16@ , -0.666666666666667
+Add Col: 3@4@10@16@ , -0.6666666666666669
+Add Col: 3@4@13@16@ , -0.6666666666666667
+Add Col: 2@4@16@ , -0.6666666666666669
+Add Col: 9@10@13@16@ , -0.3333333333333337
+Add Col: 8@10@13@16@ , -0.3333333333333335
+Add Col: 6@10@13@16@ , -0.3333333333333337
+Add Col: 7@13@16@ , -0.33333333333333337
+Add Col: 4@13@16@ , -0.3333333333333335
+Add Col: 4@12@16@ , -0.3333333333333334
+Add Col: 2@13@16@ , -0.3333333333333335
+Add Col: 4@10@16@ , -0.3333333333333336
+Add Col: 4@9@16@ , -0.3333333333333336
+Add Col: 4@8@16@ , -0.33333333333333337
+Add Col: 4@6@16@ , -0.3333333333333336
+Add Col: 4@5@16@ , -0.33333333333333337
+Total Add Col: 22
+
+Epoch: 8 , col: 87 , allScIpCol: 87 , allCol: 87 , lb: 6 , ub: 7 , deep: 0 , cons num: 28 , sr num: 0 , maxWasteInRootNode: 9595 , maxWasteInOtherNode: 9595 , cur time: 10.253 s
+	 Solve rmp: 6.285714285714286 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.007 s
+	 1,2,4,6,7,8,7,3,3,3,4,3,3,2,2,2,
+	 Label-setting LB: -0.7142857142857143 , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,4,6,7,8,7,3,3,3,4,3,3,2,2,2,
+	 Label-setting LB: -0.7142857142857143 , 0.0 s
+	 1,2,4,6,7,8,11,15,14,20,23,20,19,19,8,2,
+	 Label-setting UB: -0.0714285714285714 , 0.004 s
+	 Pricing time: 0.005 s
+Add Col: 5@11@13@14@18@ , -0.3571428571428572
+Add Col: 3@8@12@13@18@ , -0.28571428571428575
+Add Col: 2@11@13@14@18@ , -0.2857142857142858
+Add Col: 3@9@11@14@18@ , -0.2857142857142858
+Add Col: 5@9@13@14@18@ , -0.28571428571428575
+Add Col: 5@6@14@18@ , -0.28571428571428575
+Add Col: 1@11@14@18@ , -0.28571428571428575
+Add Col: 3@5@14@18@ , -0.28571428571428575
+Add Col: 1@5@18@ , -0.2857142857142857
+Add Col: 3@11@13@14@18@ , -0.21428571428571436
+Add Col: 5@11@14@18@ , -0.21428571428571436
+Add Col: 5@8@14@18@ , -0.21428571428571436
+Add Col: 3@6@12@18@ , -0.2142857142857143
+Add Col: 5@6@13@18@ , -0.2142857142857143
+Add Col: 1@12@13@18@ , -0.21428571428571425
+Add Col: 2@8@12@18@ , -0.21428571428571436
+Add Col: 4@5@18@ , -0.2142857142857143
+Add Col: 7@14@18@ , -0.2142857142857143
+Add Col: 8@11@13@14@18@ , -0.14285714285714296
+Add Col: 6@8@11@18@ , -0.14285714285714296
+Add Col: 6@8@12@18@ , -0.1428571428571429
+Add Col: 3@8@12@18@ , -0.1428571428571429
+Add Col: 5@8@13@18@ , -0.1428571428571429
+Add Col: 2@11@14@18@ , -0.14285714285714296
+Add Col: 1@6@18@ , -0.14285714285714285
+Add Col: 2@5@18@ , -0.1428571428571429
+Add Col: 6@11@14@18@ , -0.07142857142857151
+Add Col: 6@8@14@18@ , -0.07142857142857151
+Add Col: 3@11@14@18@ , -0.07142857142857151
+Add Col: 5@13@14@18@ , -0.07142857142857145
+Add Col: 4@11@12@ , -0.07142857142857145
+Add Col: 5@6@18@ , -0.07142857142857145
+Add Col: 4@8@12@ , -0.07142857142857145
+Add Col: 1@11@14@ , -0.07142857142857151
+Add Col: 1@11@18@ , -0.07142857142857145
+Add Col: 1@12@18@ , -0.0714285714285714
+Total Add Col: 36
+
+Epoch: 9 , col: 123 , allScIpCol: 123 , allCol: 123 , lb: 6 , ub: 7 , deep: 0 , cons num: 28 , sr num: 0 , maxWasteInRootNode: 9595 , maxWasteInOtherNode: 9595 , cur time: 10.266 s
+	 Solve rmp: 6.1538461538461515 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.008 s
+	 1,2,3,4,5,7,6,6,2,2,1,1,1,1,1,1,
+	 Label-setting LB: -0.46153846153846156 , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,4,5,7,6,6,2,2,1,1,1,1,1,1,
+	 Label-setting LB: -0.46153846153846156 , 0.001 s
+	 1,2,3,4,5,6,8,7,9,10,13,12,11,10,7,4,
+	 Label-setting UB: -0.07692307692307698 , 0.002 s
+	 Pricing time: 0.003 s
+Add Col: 9@11@12@13@14@ , -0.07692307692307698
+Add Col: 1@11@12@ , -0.07692307692307698
+Total Add Col: 2
+
+Epoch: 10 , col: 125 , allScIpCol: 125 , allCol: 125 , lb: 6 , ub: 7 , deep: 0 , cons num: 28 , sr num: 0 , maxWasteInRootNode: 9595 , maxWasteInOtherNode: 9595 , cur time: 10.279 s
+	 Solve rmp: 6.153846153846153 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.009 s
+	 1,2,2,2,3,4,6,10,9,14,7,6,1,
+	 Label-setting LB: -0.3076923076923077 , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,2,2,3,4,6,10,9,14,7,6,1,
+	 Label-setting LB: -0.3076923076923077 , 0.0 s
+	 1,2,2,2,3,4,6,10,9,13,16,20,22,20,21,18,
+	 Label-setting UB: null , 0.003 s
+	 1,2,2,2,3,4,6,10,9,14,7,6,1,
+	 Label-setting LB: -0.3076923076923077 , 0.0 s
+	 1,2,2,2,3,4,6,10,9,13,16,20,22,20,21,18,
+	 Label-setting UB: null , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:99 , itemList.size: 15 , xList.size: 44 , yList.size: 1
+	 Master obj: 1.0 , 0.095 s
+	 Pricing time: 0.129 s
+Termination By empty negative reduced cost column
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:86,w:89},{x:95,y:0,h:81,w:5},{x:89,y:0,h:73,w:6},],
+----------------------- Bin-2 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:83,w:55},{x:57,y:0,h:97,w:43},],
+----------------------- Bin-3 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:34,w:81},{x:81,y:0,h:67,w:19},{x:0,y:34,h:23,w:29},{x:59,y:34,h:19,w:22},],
+----------------------- Bin-4 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:98,w:33},{x:78,y:0,h:99,w:22},{x:54,y:0,h:88,w:24},{x:33,y:0,h:84,w:20},],
+----------------------- Bin-5 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:84,w:27},{x:61,y:0,h:72,w:39},{x:27,y:0,h:80,w:17},{x:44,y:0,h:76,w:17},],
+----------------------- Bin-6 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:68,w:43},{x:58,y:0,h:67,w:42},],
+----------------------- Bin-7 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:69,w:23},],
+BpcSolution{className='Class_07', isOpt=true, id=8, inS=46602, outS=70000, LB_BM_3=5, LB_CCM_1=6, LB_CCM_2=6, LB0=6, LB_NoSr=7, LB=7, UB0=7, UB=7, rootColCnt=125, totalColCnt=125, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=1, generatedNodeCnt=1, rmpCnt=10, roundingCnt=10, pricingCnt=10, heuPricingCnt=11, masterCnt=30, slaveCnt=0, findBendersCutCnt=0, rate=0.6657428571428572, gap=0.0, totalTime=10.417, preprocessingTime=0.009, lb0Time=0.083, ub0Time=10.002, rmpTime=0.002, roundingTime=0.07899999999999999, pricingTime=0.164, heuPricingTime=0.025, masterTime=0.136, slaveTime=0.0, findBendersCutTime=0.0, totalLbLabelCnt=749, maxLbLabelCnt=67, minLbLabelCnt=11, totalHeuLabelCnt=799, maxHeuLabelCnt=179, minHeuLabelCnt=11}

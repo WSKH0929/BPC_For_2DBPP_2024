@@ -1,0 +1,24 @@
+====================================== 2024-03-22 01:59:24 Class_03-8 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 40 , H = 40 , S = 1600 , totalItemS = 5159
+Before preprocessing: W = 40 , H = 40 , S = 1600 , totalItemS = 5159 , time cost: 0.008 s
+LB0: 4 , time cost: 0.033 s
+UB0: 4 , time cost: 0.006 s
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:32,w:30},{x:36,y:0,h:19,w:4},{x:30,y:0,h:16,w:4},{x:34,y:0,h:21,w:2},{x:30,y:16,h:13,w:3},{x:38,y:19,h:7,w:2},{x:32,y:29,h:2,w:8},{x:0,y:32,h:7,w:27},],
+----------------------- Bin-2 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:33,w:23},{x:23,y:0,h:5,w:17},{x:25,y:5,h:30,w:15},{x:0,y:33,h:5,w:15},],
+----------------------- Bin-3 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:27,w:23},{x:28,y:0,h:29,w:12},{x:0,y:27,h:13,w:12},],
+----------------------- Bin-4 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:12,w:23},{x:26,y:0,h:19,w:14},{x:0,y:12,h:19,w:19},{x:26,y:19,h:17,w:14},{x:0,y:36,h:4,w:31},],
+BpcSolution{className='Class_03', isOpt=true, id=8, inS=5159, outS=6400, LB_BM_3=4, LB_CCM_1=4, LB_CCM_2=4, LB0=4, LB_NoSr=4, LB=4, UB0=4, UB=4, rootColCnt=0, totalColCnt=0, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=0, generatedNodeCnt=0, rmpCnt=0, roundingCnt=0, pricingCnt=0, heuPricingCnt=0, masterCnt=0, slaveCnt=0, findBendersCutCnt=0, rate=0.80609375, gap=0.0, totalTime=0.055, preprocessingTime=0.008, lb0Time=0.033, ub0Time=0.006, rmpTime=0.0, roundingTime=0.0, pricingTime=0.0, heuPricingTime=0.0, masterTime=0.0, slaveTime=0.0, findBendersCutTime=0.0, totalLbLabelCnt=0, maxLbLabelCnt=0, minLbLabelCnt=9223372036854775807, totalHeuLabelCnt=0, maxHeuLabelCnt=0, minHeuLabelCnt=9223372036854775807}

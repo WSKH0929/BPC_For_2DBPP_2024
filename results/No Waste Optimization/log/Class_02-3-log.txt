@@ -1,0 +1,12 @@
+====================================== 2024-03-22 09:23:18 Class_02-3 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 30 , H = 30 , S = 900 , totalItemS = 650
+Before preprocessing: W = 30 , H = 30 , S = 900 , totalItemS = 650 , time cost: 0.008 s
+LB0: 1 , time cost: 0.014 s
+UB0: 1 , time cost: 0.004 s
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:30,
+canvasHeight:30,
+data:[{x:0,y:0,h:9,w:10},{x:10,y:0,h:9,w:5},{x:15,y:0,h:9,w:3},{x:21,y:0,h:8,w:9},{x:18,y:0,h:4,w:3},{x:18,y:4,h:10,w:2},{x:20,y:4,h:6,w:1},{x:21,y:8,h:4,w:9},{x:12,y:9,h:5,w:6},{x:0,y:9,h:10,w:6},{x:6,y:9,h:8,w:6},{x:20,y:12,h:3,w:10},{x:12,y:14,h:4,w:8},{x:20,y:15,h:3,w:6},{x:26,y:15,h:1,w:4},{x:28,y:16,h:7,w:2},{x:6,y:17,h:4,w:6},{x:23,y:18,h:8,w:5},{x:18,y:18,h:7,w:5},{x:0,y:21,h:1,w:7},],
+BpcSolution{className='Class_02', isOpt=true, id=3, inS=650, outS=900, LB_BM_3=1, LB_CCM_1=1, LB_CCM_2=1, LB0=1, LB_NoSr=1, LB=1, UB0=1, UB=1, rootColCnt=0, totalColCnt=0, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=0, generatedNodeCnt=0, rmpCnt=0, roundingCnt=0, pricingCnt=0, heuPricingCnt=0, masterCnt=0, slaveCnt=0, findBendersCutCnt=0, rate=0.7222222222222222, gap=0.0, totalTime=0.032, preprocessingTime=0.008, lb0Time=0.014, ub0Time=0.004, rmpTime=0.0, roundingTime=0.0, pricingTime=0.0, heuPricingTime=0.0, masterTime=0.0, slaveTime=0.0, findBendersCutTime=0.0, totalLbLabelCnt=0, maxLbLabelCnt=0, minLbLabelCnt=9223372036854775807, totalHeuLabelCnt=0, maxHeuLabelCnt=0, minHeuLabelCnt=9223372036854775807}

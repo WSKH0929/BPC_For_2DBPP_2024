@@ -1,0 +1,4111 @@
+====================================== 2024-03-23 10:59:53 Class_07-38 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 188955
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 188955 , time cost: 0.012 s
+LB0: 22 , time cost: 0.182 s
+188559.0 , 188955
+UB0: 23 , time cost: 10.002 s
+----------------------- Start column generation for bpcNode: BpcNode{isRoot=true, deep=0} -----------------------
+fat: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]
+
+Epoch: 1 , col: 103 , allScIpCol: 103 , allCol: 103 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.263 s
+	 Solve rmp: 23.0 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: true
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Solve rmp: 23.0 , time cost: 0.0 s
+	 Rounding time: 0.02 s
+	 Solve rmp: 23.0 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: true
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Solve rmp: 23.0 , time cost: 0.001 s
+	 Rounding time: 0.037 s
+	 Solve rmp: 23.0 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: true
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Solve rmp: 22.5 , time cost: 0.001 s
+	 Rounding time: 0.033 s
+	 Solve rmp: 22.5 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Solve rmp: 22.5 , time cost: 0.0 s
+	 Rounding time: 0.012 s
+	 Solve rmp: 22.5 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.012 s
+	 1,2,4,6,9,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -3.0 , 0.007 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 20 , pPie.size: 0
+	 W:98 , H:100 , itemList.size: 6 , xList.size: 19 , yList.size: 1
+	 Master obj: 3.0 , 0.005 s
+	 Check: true , slave time: 0.002 s
+	 Pricing time: 0.034 s
+Add Col: 29@35@36@66@ , -2.0
+Total Add Col: 1
+
+Epoch: 2 , col: 109 , allScIpCol: 109 , allCol: 109 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.42 s
+	 Solve rmp: 22.5 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.013 s
+	 1,2,4,8,10,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -3.5 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 20 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 6 , xList.size: 31 , yList.size: 1
+	 Master obj: 3.5 , 0.005 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.013 s
+Add Col: 34@38@47@66@ , -2.5
+Total Add Col: 1
+
+Epoch: 3 , col: 110 , allScIpCol: 110 , allCol: 110 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.447 s
+	 Solve rmp: 22.5 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Solve rmp: 22.5 , time cost: 0.0 s
+	 Rounding time: 0.013 s
+	 Solve rmp: 22.5 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.011 s
+	 1,2,4,8,10,9,12,13,14,13,13,14,17,12,9,9,7,8,7,5,4,2,2,1,1,1,
+	 Label-setting LB: -2.5 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 21 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 7 , xList.size: 21 , yList.size: 1
+	 Master obj: 3.0 , 0.004 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 0.013 s
+Add Col: 23@35@46@49@ , -2.0
+Total Add Col: 1
+
+Epoch: 4 , col: 112 , allScIpCol: 112 , allCol: 112 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.485 s
+	 Solve rmp: 22.5 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.012 s
+	 1,2,4,8,8,11,4,4,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,
+	 Label-setting LB: -3.0 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 21 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 7 , xList.size: 26 , yList.size: 1
+	 Master obj: 3.0 , 0.004 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 0.01 s
+Add Col: 25@28@55@ , -2.0
+Total Add Col: 1
+
+Epoch: 5 , col: 113 , allScIpCol: 113 , allCol: 113 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.507 s
+	 Solve rmp: 22.5 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.009 s
+	 1,2,4,8,9,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -3.5 , 0.0 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 22 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 6 , xList.size: 29 , yList.size: 1
+	 Master obj: 4.0 , 0.007 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.011 s
+Add Col: 30@35@44@55@66@ , -3.0
+Total Add Col: 1
+
+Epoch: 6 , col: 114 , allScIpCol: 114 , allCol: 114 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.527 s
+	 Solve rmp: 22.5 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.009 s
+	 1,2,4,5,8,2,2,2,3,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -3.0 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 23 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 7 , xList.size: 33 , yList.size: 1
+	 Master obj: 3.0 , 0.059 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.063 s
+Add Col: 18@19@56@ , -2.0
+Total Add Col: 1
+
+Epoch: 7 , col: 115 , allScIpCol: 115 , allCol: 115 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.6 s
+	 Solve rmp: 22.5 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.009 s
+	 1,2,4,5,8,10,3,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -3.0 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 24 , pPie.size: 0
+	 W:99 , H:100 , itemList.size: 7 , xList.size: 40 , yList.size: 1
+	 Master obj: 3.5 , 0.02 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.024 s
+Add Col: 20@47@56@63@66@ , -2.5
+Total Add Col: 1
+
+Epoch: 8 , col: 116 , allScIpCol: 116 , allCol: 116 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.634 s
+	 Solve rmp: 22.5 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.01 s
+	 1,2,3,4,8,11,6,6,7,6,6,6,6,6,5,6,5,6,5,4,3,2,2,2,1,1,1,
+	 Label-setting LB: -3.0 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 21 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 8 , xList.size: 47 , yList.size: 1
+	 Master obj: 3.5 , 0.011 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.018 s
+Add Col: 35@43@49@63@66@68@ , -2.5
+Total Add Col: 1
+
+Epoch: 9 , col: 117 , allScIpCol: 117 , allCol: 117 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.663 s
+	 Solve rmp: 22.42857142857143 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Rounding time: 0.005 s
+	 1,2,4,6,9,12,14,7,4,4,3,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -3.1428571428571423 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 22 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 12 , xList.size: 78 , yList.size: 1
+	 Master obj: 3.571428571428571 , 0.073 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.081 s
+Add Col: 24@53@56@66@69@70@ , -2.571428571428571
+Total Add Col: 1
+
+Epoch: 10 , col: 118 , allScIpCol: 118 , allCol: 118 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.749 s
+	 Solve rmp: 22.333333333333332 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Rounding time: 0.004 s
+	 1,2,4,6,10,16,4,4,3,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -3.0 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 23 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 9 , xList.size: 59 , yList.size: 1
+	 Master obj: 3.3333333333333335 , 0.003 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 0.01 s
+Add Col: 19@40@66@68@70@ , -2.3333333333333335
+Total Add Col: 1
+
+Epoch: 11 , col: 119 , allScIpCol: 119 , allCol: 119 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.764 s
+	 Solve rmp: 22.29629629629629 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Rounding time: 0.005 s
+	 1,2,4,6,11,19,9,11,8,8,6,6,5,5,5,5,5,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,1,
+	 Label-setting LB: -2.2962962962962967 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 22 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 14 , xList.size: 66 , yList.size: 1
+	 Master obj: 2.6296296296296298 , 0.201 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.213 s
+Add Col: 18@39@66@68@69@ , -1.6296296296296298
+Total Add Col: 1
+
+Epoch: 12 , col: 120 , allScIpCol: 120 , allCol: 120 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.983 s
+	 Solve rmp: 22.27659574468084 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Rounding time: 0.004 s
+	 1,2,4,8,16,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -2.234042553191489 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 21 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 16 , xList.size: 66 , yList.size: 3
+	 Master obj: 2.723404255319149 , 0.006 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.022 s
+Add Col: 21@42@46@53@ , -1.7234042553191489
+Total Add Col: 1
+
+Epoch: 13 , col: 121 , allScIpCol: 121 , allCol: 121 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 11.009 s
+	 Solve rmp: 22.27659574468084 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Solve rmp: 22.25 , time cost: 0.001 s
+	 Rounding time: 0.006 s
+	 Solve rmp: 22.25 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Rounding time: 0.004 s
+	 1,2,4,7,13,25,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -2.5833333333333335 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 23 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 14 , xList.size: 62 , yList.size: 3
+	 Master obj: 3.1666666666666665 , 0.066 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.081 s
+Add Col: 40@46@53@56@58@59@66@ , -2.1666666666666665
+Total Add Col: 1
+
+Epoch: 14 , col: 124 , allScIpCol: 124 , allCol: 124 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 11.101 s
+	 Solve rmp: 22.244444444444444 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,4,8,3,4,4,5,5,5,4,4,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -1.8 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 20 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 20 , xList.size: 68 , yList.size: 3
+	 Master obj: 2.2666666666666666 , 0.16 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.18 s
+Add Col: 22@34@36@ , -1.2666666666666666
+Total Add Col: 1
+
+Epoch: 15 , col: 125 , allScIpCol: 125 , allCol: 125 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 11.305 s
+	 Solve rmp: 22.238095238095255 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.025 s
+	 1,2,4,8,16,22,21,16,13,13,13,9,9,8,8,8,8,8,7,5,4,4,4,4,4,3,3,3,3,3,3,3,3,2,2,1,1,1,1,1,
+	 Label-setting LB: -1.8888888888888884 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 26 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 14 , xList.size: 62 , yList.size: 1
+	 Master obj: 2.507936507936508 , 0.09 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.102 s
+Add Col: 11@32@58@70@ , -1.507936507936508
+Total Add Col: 1
+
+Epoch: 16 , col: 126 , allScIpCol: 126 , allCol: 126 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 11.433 s
+	 Solve rmp: 22.23809523809526 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.031 s
+	 1,2,4,8,15,6,6,6,6,6,7,7,6,5,5,4,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,
+	 Label-setting LB: -2.095238095238095 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 23 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 20 , xList.size: 66 , yList.size: 3
+	 Master obj: 2.6904761904761907 , 0.208 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 0.23 s
+Add Col: 30@34@49@52@66@ , -1.6904761904761907
+Total Add Col: 1
+
+Epoch: 17 , col: 127 , allScIpCol: 127 , allCol: 127 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 11.695 s
+	 Solve rmp: 22.23809523809526 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,4,7,10,10,9,6,5,5,5,5,5,4,4,4,4,4,4,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -1.7857142857142856 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 15 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 29 , xList.size: 68 , yList.size: 7
+	 Master obj: 2.476190476190476 , 0.221 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.237 s
+Add Col: 15@32@34@ , -1.4761904761904758
+Total Add Col: 1
+
+Epoch: 18 , col: 128 , allScIpCol: 128 , allCol: 128 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 11.956 s
+	 Solve rmp: 22.238095238095255 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.026 s
+	 1,2,4,8,16,32,30,3,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -2.2063492063492065 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 25 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 18 , xList.size: 74 , yList.size: 3
+	 Master obj: 2.7936507936507944 , 0.07 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.081 s
+Add Col: 34@43@50@57@58@59@70@ , -1.7936507936507944
+Total Add Col: 1
+
+Epoch: 19 , col: 129 , allScIpCol: 129 , allCol: 129 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 12.064 s
+	 Solve rmp: 22.228571428571428 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.028 s
+	 1,2,4,8,16,22,38,8,11,6,6,6,5,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,
+	 Label-setting LB: -1.7428571428571427 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 19 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 25 , xList.size: 64 , yList.size: 7
+	 Master obj: 2.3999999999999995 , 0.307 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 0.322 s
+Add Col: 28@39@46@52@59@ , -1.3999999999999995
+Total Add Col: 1
+
+Epoch: 20 , col: 130 , allScIpCol: 130 , allCol: 130 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 12.414 s
+	 Solve rmp: 22.2137989778535 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,4,7,14,25,15,13,8,8,6,6,6,6,6,6,6,5,5,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,
+	 Label-setting LB: -1.6188245315161833 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 28 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 17 , xList.size: 76 , yList.size: 1
+	 Master obj: 2.196763202725724 , 0.08 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.088 s
+Add Col: 5@46@47@66@ , -1.196763202725724
+Total Add Col: 1
+
+Epoch: 21 , col: 131 , allScIpCol: 131 , allCol: 131 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 12.526 s
+	 Solve rmp: 22.212968849332487 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.025 s
+	 1,2,4,8,14,18,17,6,4,4,4,4,4,4,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -1.4996821360457724 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 23 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 23 , xList.size: 76 , yList.size: 3
+	 Master obj: 2.0 , 0.044 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.054 s
+Add Col: 6@7@ , -1.0
+Total Add Col: 1
+
+Epoch: 22 , col: 132 , allScIpCol: 132 , allCol: 132 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 12.605 s
+	 Solve rmp: 22.212968849332487 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.025 s
+	 1,2,4,8,16,22,9,9,10,7,7,7,7,6,5,5,5,5,5,5,5,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,2,2,2,2,1,1,1,1,1,
+	 Label-setting LB: -1.4996821360457724 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 23 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 23 , xList.size: 76 , yList.size: 3
+	 Master obj: 2.019071837253655 , 0.108 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.118 s
+Add Col: 10@24@46@ , -1.0190718372536551
+Total Add Col: 1
+
+Epoch: 23 , col: 133 , allScIpCol: 133 , allCol: 133 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 12.748 s
+	 Solve rmp: 22.2127659574468 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,4,8,16,4,5,5,5,4,3,3,3,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -2.2688588007736943 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 24 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 22 , xList.size: 80 , yList.size: 3
+	 Master obj: 2.7408123791102517 , 0.01 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.018 s
+Add Col: 7@24@62@ , -1.7408123791102517
+Total Add Col: 1
+
+Epoch: 24 , col: 134 , allScIpCol: 134 , allCol: 134 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 12.791 s
+	 Solve rmp: 22.204968944099384 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,4,8,14,14,13,14,16,13,11,8,9,4,3,3,3,3,3,3,3,3,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -1.312111801242236 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 26 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 22 , xList.size: 70 , yList.size: 3
+	 Master obj: 1.7965838509316772 , 0.112 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.121 s
+Add Col: 4@39@55@ , -0.7965838509316772
+Total Add Col: 1
+
+Epoch: 25 , col: 135 , allScIpCol: 135 , allCol: 135 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 12.937 s
+	 Solve rmp: 22.204968944099384 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,4,8,14,14,14,17,18,20,16,11,11,4,3,3,3,3,3,3,3,3,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -1.312111801242236 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 27 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 22 , xList.size: 70 , yList.size: 3
+	 Master obj: 1.9037267080745344 , 0.013 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.023 s
+Add Col: 16@39@47@55@ , -0.9037267080745344
+Total Add Col: 1
+
+Epoch: 26 , col: 136 , allScIpCol: 136 , allCol: 136 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 12.983 s
+	 Solve rmp: 22.204365355206452 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.022 s
+	 1,2,3,6,8,10,13,5,5,5,6,6,6,6,4,5,5,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,
+	 Label-setting LB: -1.91345752815237 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 27 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 25 , xList.size: 86 , yList.size: 3
+	 Master obj: 2.3570137633810644 , 0.008 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.019 s
+Add Col: 9@31@55@66@71@ , -1.3570137633810644
+Total Add Col: 1
+
+Epoch: 27 , col: 137 , allScIpCol: 137 , allCol: 137 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 13.024 s
+	 Solve rmp: 22.203023095219827 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,4,6,10,14,8,8,8,5,4,4,4,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,
+	 Label-setting LB: -1.8961098749328629 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 27 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 26 , xList.size: 86 , yList.size: 3
+	 Master obj: 2.5544003682958647 , 0.014 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.025 s
+Add Col: 33@49@55@56@57@66@71@ , -1.5544003682958647
+Total Add Col: 1
+
+Epoch: 28 , col: 138 , allScIpCol: 138 , allCol: 138 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 13.074 s
+	 Solve rmp: 22.198921509886162 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,4,8,16,23,16,17,7,8,9,7,7,3,4,4,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,
+	 Label-setting LB: -2.3648891551827464 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 25 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 29 , xList.size: 82 , yList.size: 5
+	 Master obj: 3.108448172558419 , 0.017 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.03 s
+Add Col: 14@44@49@58@61@ , -2.108448172558419
+Total Add Col: 1
+
+Epoch: 29 , col: 139 , allScIpCol: 139 , allCol: 139 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 13.129 s
+	 Solve rmp: 22.198895248769162 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,4,8,13,14,16,16,12,17,15,8,8,11,10,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -2.641716367129648 , 0.0 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 31 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 23 , xList.size: 86 , yList.size: 5
+	 Master obj: 3.108954088780371 , 0.009 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.018 s
+Add Col: 28@48@49@58@74@ , -2.108954088780371
+Total Add Col: 1
+
+Epoch: 30 , col: 140 , allScIpCol: 140 , allCol: 140 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 13.172 s
+	 Solve rmp: 22.198665529523897 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,3,5,9,14,22,14,4,6,6,6,6,5,5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+	 Label-setting LB: -1.426478703657252 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 26 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 30 , xList.size: 86 , yList.size: 7
+	 Master obj: 1.8939697988260675 , 0.018 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.036 s
+Add Col: 37@38@57@61@66@70@74@ , -0.8939697988260675
+Total Add Col: 1
+
+Epoch: 31 , col: 141 , allScIpCol: 141 , allCol: 141 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 13.232 s
+	 Solve rmp: 22.194047550891884 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,4,5,8,14,21,26,32,37,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -1.4183460239308407 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 26 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 31 , xList.size: 80 , yList.size: 5
+	 Master obj: 1.8707521939330494 , 0.019 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.033 s
+Add Col: 12@50@56@66@74@ , -0.8707521939330494
+Total Add Col: 1
+
+Epoch: 32 , col: 142 , allScIpCol: 142 , allCol: 142 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 13.29 s
+	 Solve rmp: 22.192738996804717 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,4,8,16,26,6,4,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -1.4101780958454988 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 28 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 30 , xList.size: 80 , yList.size: 5
+	 Master obj: 1.8093249536091893 , 0.035 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.051 s
+Add Col: 3@52@55@68@ , -0.8093249536091893
+Total Add Col: 1
+
+Epoch: 33 , col: 143 , allScIpCol: 143 , allCol: 143 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 13.366 s
+	 Solve rmp: 22.192738996804717 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,4,8,16,30,48,45,44,9,10,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -1.4149694093063645 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 29 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 30 , xList.size: 80 , yList.size: 5
+	 Master obj: 1.969957342888184 , 0.028 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.043 s
+Add Col: 23@27@55@68@ , -0.969957342888184
+Total Add Col: 1
+
+Epoch: 34 , col: 144 , allScIpCol: 144 , allCol: 144 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 13.433 s
+	 Solve rmp: 22.192399455037332 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,4,8,16,16,32,21,15,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -1.7838037702606713 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 25 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 35 , xList.size: 80 , yList.size: 9
+	 Master obj: 2.276015813417223 , 0.036 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.058 s
+Add Col: 23@52@55@66@67@68@70@ , -1.276015813417223
+Total Add Col: 1
+
+Epoch: 35 , col: 145 , allScIpCol: 145 , allCol: 145 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 13.514 s
+	 Solve rmp: 22.190499446222535 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.025 s
+	 1,2,3,6,12,14,18,24,28,43,30,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,
+	 Label-setting LB: -1.1792494789259336 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 25 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 34 , xList.size: 82 , yList.size: 7
+	 Master obj: 1.8062738189714573 , 0.172 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.193 s
+Add Col: 47@49@50@53@59@63@66@70@ , -0.8062738189714573
+Total Add Col: 1
+
+Epoch: 36 , col: 146 , allScIpCol: 146 , allCol: 146 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 13.733 s
+	 Solve rmp: 22.188576703592634 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.026 s
+	 1,2,4,6,10,18,22,30,11,10,10,7,7,10,10,10,9,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,1,1,1,
+	 Label-setting LB: -0.9706085247846252 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 20 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 41 , xList.size: 82 , yList.size: 9
+	 Master obj: 1.522959620508358 , 0.045 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.071 s
+Add Col: 32@48@53@56@61@66@70@ , -0.522959620508358
+Total Add Col: 1
+
+Epoch: 37 , col: 147 , allScIpCol: 147 , allCol: 147 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 13.83 s
+	 Solve rmp: 22.182069638789454 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.025 s
+	 1,2,4,8,16,24,35,39,47,72,6,6,6,6,6,7,6,6,6,6,6,6,6,6,6,6,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,
+	 Label-setting LB: -1.003172795314025 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 23 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 36 , xList.size: 80 , yList.size: 7
+	 Master obj: 1.5029287341360238 , 0.039 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.061 s
+Add Col: 29@32@53@66@67@68@ , -0.5029287341360238
+Total Add Col: 1
+
+Epoch: 38 , col: 148 , allScIpCol: 148 , allCol: 148 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 13.916 s
+	 Solve rmp: 22.177318632349124 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.025 s
+	 1,2,4,8,16,22,33,36,36,13,13,11,6,6,5,5,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,3,3,1,
+	 Label-setting LB: -1.2139412955011364 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 26 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 33 , xList.size: 86 , yList.size: 5
+	 Master obj: 1.6699894798116677 , 0.037 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.054 s
+Add Col: 38@49@55@63@66@69@74@ , -0.6699894798116677
+Total Add Col: 1
+
+Epoch: 39 , col: 149 , allScIpCol: 149 , allCol: 149 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 13.995 s
+	 Solve rmp: 22.17060058214327 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,4,5,10,13,18,29,49,45,45,39,39,6,6,6,8,8,8,12,12,12,12,6,6,6,6,6,6,6,6,6,6,6,6,5,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,
+	 Label-setting LB: -0.8688679509353283 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 26 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 35 , xList.size: 86 , yList.size: 5
+	 Master obj: 1.4335073008398618 , 0.024 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.044 s
+Add Col: 18@43@55@62@66@ , -0.4335073008398618
+Total Add Col: 1
+
+Epoch: 40 , col: 150 , allScIpCol: 150 , allCol: 150 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 14.063 s
+	 Solve rmp: 22.16411393373345 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.026 s
+	 1,2,4,8,12,20,25,19,17,12,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -1.1089302598545863 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 22 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 38 , xList.size: 82 , yList.size: 3
+	 Master obj: 1.552054935381205 , 0.014 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.035 s
+Add Col: 15@53@57@58@63@68@ , -0.552054935381205
+Total Add Col: 1
+
+Epoch: 41 , col: 151 , allScIpCol: 151 , allCol: 151 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 14.125 s
+	 Solve rmp: 22.160383614233258 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,4,8,12,15,29,37,58,9,11,11,11,11,13,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,9,9,9,9,9,9,9,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.8784947156069906 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 23 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 39 , xList.size: 86 , yList.size: 7
+	 Master obj: 1.3729788180792513 , 0.015 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.039 s
+Add Col: 8@31@57@74@ , -0.37297881807925126
+Total Add Col: 1
+
+Epoch: 42 , col: 152 , allScIpCol: 152 , allCol: 152 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 14.189 s
+	 Solve rmp: 22.16038361423327 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,4,8,16,24,48,64,85,11,14,14,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.8134141484272853 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 22 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 41 , xList.size: 86 , yList.size: 11
+	 Master obj: 1.649571122495593 , 0.162 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.19 s
+Add Col: 14@41@42@57@66@ , -0.6495711224955929
+Total Add Col: 1
+
+Epoch: 43 , col: 153 , allScIpCol: 153 , allCol: 153 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 14.402 s
+	 Solve rmp: 22.158715148136846 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.025 s
+	 1,2,4,6,12,16,17,24,38,36,26,16,16,16,5,4,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.8239025426239227 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 19 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 43 , xList.size: 82 , yList.size: 5
+	 Master obj: 1.363812678143008 , 0.055 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.082 s
+Add Col: 14@45@49@58@66@70@ , -0.363812678143008
+Total Add Col: 1
+
+Epoch: 44 , col: 154 , allScIpCol: 154 , allCol: 154 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 14.509 s
+	 Solve rmp: 22.15687051433601 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,4,8,16,30,44,52,66,8,11,11,11,14,13,9,9,9,9,9,9,9,6,6,6,6,6,6,6,6,6,6,5,5,5,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+	 Label-setting LB: -0.7835855377244394 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 21 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 42 , xList.size: 84 , yList.size: 5
+	 Master obj: 1.38432472928095 , 0.061 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.088 s
+Add Col: 12@51@52@63@69@ , -0.38432472928094996
+Total Add Col: 1
+
+Epoch: 45 , col: 155 , allScIpCol: 155 , allCol: 155 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 14.62 s
+	 Solve rmp: 22.153954830954515 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.021 s
+	 1,2,4,8,16,24,27,38,44,20,19,26,23,23,21,20,20,20,6,6,6,6,6,6,6,6,6,6,5,3,3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.7988814728840103 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 23 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 40 , xList.size: 84 , yList.size: 5
+	 Master obj: 1.3876101538741386 , 0.057 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.083 s
+Add Col: 24@33@37@70@ , -0.38761015387413855
+Total Add Col: 1
+
+Epoch: 46 , col: 156 , allScIpCol: 156 , allCol: 156 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 14.725 s
+	 Solve rmp: 22.152986797570225 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,3,6,12,18,31,29,17,17,17,17,17,16,16,16,16,12,8,9,7,6,5,5,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -1.0000251047900826 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 27 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 35 , xList.size: 84 , yList.size: 3
+	 Master obj: 1.4183022885705954 , 0.166 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.185 s
+Add Col: 38@48@52@57@63@68@ , -0.41830228857059537
+Total Add Col: 1
+
+Epoch: 47 , col: 157 , allScIpCol: 157 , allCol: 157 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 14.934 s
+	 Solve rmp: 22.15166579744296 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,3,5,10,14,27,38,39,39,13,13,13,12,17,16,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.8409281721377246 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 18 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 46 , xList.size: 82 , yList.size: 9
+	 Master obj: 1.3324785735380769 , 0.14 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.172 s
+Add Col: 25@39@58@61@68@69@ , -0.33247857353807686
+Total Add Col: 1
+
+Epoch: 48 , col: 158 , allScIpCol: 158 , allCol: 158 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 15.13 s
+	 Solve rmp: 22.151612137409504 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.022 s
+	 1,2,3,6,8,8,12,12,24,44,8,7,7,8,8,12,12,12,13,13,13,10,10,10,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,3,3,2,2,1,1,1,
+	 Label-setting LB: -0.7561924700205529 , 0.003 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 15 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 49 , xList.size: 84 , yList.size: 9
+	 Master obj: 1.302361395234425 , 0.014 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.051 s
+Add Col: 27@43@49@57@66@ , -0.30236139523442507
+Total Add Col: 1
+
+Epoch: 49 , col: 159 , allScIpCol: 159 , allCol: 159 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 15.204 s
+	 Solve rmp: 22.151049451347138 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.026 s
+	 1,2,3,6,12,16,17,20,32,32,23,26,32,7,4,5,5,5,5,5,5,5,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+	 Label-setting LB: -0.7540637669651767 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 14 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 50 , xList.size: 84 , yList.size: 9
+	 Master obj: 1.2933939827531165 , 0.024 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.061 s
+Add Col: 36@40@49@57@63@66@ , -0.29339398275311646
+Total Add Col: 1
+
+Epoch: 50 , col: 160 , allScIpCol: 160 , allCol: 160 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 15.291 s
+	 Solve rmp: 22.14687979183123 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,3,5,10,14,20,31,13,13,13,4,4,4,4,6,8,8,8,8,8,7,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.7607814589367492 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 19 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 44 , xList.size: 84 , yList.size: 9
+	 Master obj: 1.343127384621737 , 0.087 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.116 s
+Add Col: 15@29@66@69@70@ , -0.3431273846217371
+Total Add Col: 1
+
+Epoch: 51 , col: 161 , allScIpCol: 161 , allCol: 161 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 15.431 s
+	 Solve rmp: 22.146722194747404 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,3,6,8,16,24,27,14,14,6,6,6,6,6,6,6,6,6,5,5,4,4,4,4,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,
+	 Label-setting LB: -0.7732705171920147 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 18 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 46 , xList.size: 84 , yList.size: 9
+	 Master obj: 1.3502506572268933 , 0.025 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.057 s
+Add Col: 29@38@50@61@66@69@ , -0.3502506572268933
+Total Add Col: 1
+
+Epoch: 52 , col: 162 , allScIpCol: 162 , allCol: 162 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 15.513 s
+	 Solve rmp: 22.14058499704758 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.022 s
+	 1,2,4,6,8,16,20,27,53,53,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.7758426996253605 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 22 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 41 , xList.size: 86 , yList.size: 7
+	 Master obj: 1.3524929118329603 , 0.03 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.055 s
+Add Col: 22@29@51@61@ , -0.3524929118329603
+Total Add Col: 1
+
+Epoch: 53 , col: 163 , allScIpCol: 163 , allCol: 163 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 15.591 s
+	 Solve rmp: 22.138447033032676 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,3,4,6,12,14,14,8,8,9,6,6,6,7,7,7,10,9,9,9,9,9,9,9,9,9,9,8,7,9,9,9,9,9,9,9,9,9,7,7,7,7,6,6,7,6,6,6,5,5,5,5,5,5,5,5,4,2,2,2,1,1,
+	 Label-setting LB: -0.7424452090893643 , 0.0 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 11 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 52 , xList.size: 86 , yList.size: 7
+	 Master obj: 1.1987753244622747 , 0.028 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.065 s
+Add Col: 17@38@55@66@ , -0.19877532446227475
+Total Add Col: 1
+
+Epoch: 54 , col: 164 , allScIpCol: 164 , allCol: 164 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 15.68 s
+	 Solve rmp: 22.13825126282754 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,4,6,8,12,24,30,29,8,8,8,10,9,10,10,10,10,11,10,12,13,14,14,14,14,13,13,12,7,5,5,4,4,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,1,1,1,
+	 Label-setting LB: -0.7463698547463646 , 0.0 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 13 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 52 , xList.size: 88 , yList.size: 7
+	 Master obj: 1.2215466961516224 , 0.021 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.059 s
+Add Col: 12@38@41@66@73@ , -0.22154669615162237
+Total Add Col: 1
+
+Epoch: 55 , col: 165 , allScIpCol: 165 , allCol: 165 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 15.762 s
+	 Solve rmp: 22.13423758911099 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,3,4,4,7,13,13,26,39,54,79,24,24,24,6,6,6,6,6,6,6,6,9,6,6,6,6,6,6,6,6,6,6,6,6,6,6,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,4,4,4,1,
+	 Label-setting LB: -0.6338491192997722 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 12 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 52 , xList.size: 88 , yList.size: 5
+	 Master obj: 1.1136713639094487 , 0.021 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.058 s
+Add Col: 28@42@48@49@ , -0.11367136390944865
+Total Add Col: 1
+
+Epoch: 56 , col: 166 , allScIpCol: 166 , allCol: 166 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 15.844 s
+	 Solve rmp: 22.131279182820993 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.025 s
+	 1,2,3,4,4,7,14,27,27,34,49,50,50,26,25,33,50,9,9,9,9,9,9,9,9,9,9,9,9,9,7,7,7,7,7,6,6,6,6,6,6,6,6,6,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,1,1,
+	 Label-setting LB: -0.6276805260732958 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 9 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 56 , xList.size: 88 , yList.size: 7
+	 Master obj: 1.1220939519483533 , 0.037 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.08 s
+Add Col: 9@45@56@68@70@74@ , -0.12209395194835326
+Total Add Col: 1
+
+Epoch: 57 , col: 167 , allScIpCol: 167 , allCol: 167 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 15.95 s
+	 Solve rmp: 22.129178260668304 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,3,4,7,7,8,13,15,17,22,35,17,29,28,29,29,29,29,3,3,3,3,3,3,3,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.6300907228470995 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 11 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 54 , xList.size: 90 , yList.size: 5
+	 Master obj: 1.1118570064897186 , 0.021 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.06 s
+Add Col: 10@37@57@58@71@ , -0.11185700648971864
+Total Add Col: 1
+
+Epoch: 58 , col: 168 , allScIpCol: 168 , allCol: 168 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 16.033 s
+	 Solve rmp: 22.12897458413518 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,3,4,7,8,8,14,21,29,57,81,76,25,25,25,35,25,25,25,25,25,8,7,7,7,7,7,7,7,6,6,6,6,6,6,6,6,8,8,8,7,7,7,7,7,7,7,6,6,6,6,4,4,4,4,4,4,3,3,3,3,2,2,
+	 Label-setting LB: -0.6345987926385568 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 11 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 54 , xList.size: 90 , yList.size: 5
+	 Master obj: 1.1048400274321568 , 0.027 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.067 s
+Add Col: 29@33@55@57@58@ , -0.10484002743215681
+Total Add Col: 1
+
+Epoch: 59 , col: 169 , allScIpCol: 169 , allCol: 169 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 16.123 s
+	 Solve rmp: 22.127645125875414 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,3,4,8,14,15,24,27,35,33,31,51,49,48,48,39,35,35,35,35,35,35,14,21,21,21,18,18,14,14,14,13,13,13,11,11,11,11,11,11,11,11,5,5,5,5,5,5,4,4,4,4,4,4,4,4,4,4,4,4,3,2,2,1,1,
+	 Label-setting LB: -0.6147725683503464 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 10 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 56 , xList.size: 90 , yList.size: 7
+	 Master obj: 1.1265629345151413 , 0.029 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.073 s
+Add Col: 26@43@61@63@71@74@ , -0.12656293451514133
+Total Add Col: 1
+
+Epoch: 60 , col: 170 , allScIpCol: 170 , allCol: 170 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 16.219 s
+	 Solve rmp: 22.1268635414166 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,3,4,4,5,8,10,12,15,12,17,14,14,14,14,14,14,14,14,14,14,14,16,16,16,15,14,13,15,15,15,10,10,10,10,10,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,6,6,6,6,5,5,5,3,3,1,1,1,1,
+	 Label-setting LB: -0.5805272923544056 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 11 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 55 , xList.size: 90 , yList.size: 7
+	 Master obj: 1.1060836962018423 , 0.031 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.074 s
+Add Col: 37@40@42@43@ , -0.10608369620184233
+Total Add Col: 1
+
+Epoch: 61 , col: 171 , allScIpCol: 171 , allCol: 171 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 16.317 s
+	 Solve rmp: 22.1260061143353 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,3,4,4,5,8,15,20,30,39,34,39,30,36,13,15,15,15,15,15,15,14,14,14,14,14,14,14,14,14,14,15,15,15,8,8,8,8,8,8,8,8,8,7,7,7,7,7,7,7,7,7,7,7,7,6,6,6,6,3,3,3,2,2,
+	 Label-setting LB: -0.5949963940314056 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 7 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 59 , xList.size: 90 , yList.size: 7
+	 Master obj: 1.1098258563225984 , 0.04 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.087 s
+Add Col: 30@36@48@61@66@70@ , -0.10982585632259845
+Total Add Col: 1
+
+Epoch: 62 , col: 172 , allScIpCol: 172 , allCol: 172 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 16.427 s
+	 Solve rmp: 22.12516126415842 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,3,4,4,5,6,8,13,18,26,40,52,25,33,31,19,14,14,14,14,14,14,14,22,22,22,22,22,22,22,22,22,22,17,17,17,23,23,23,23,23,23,23,17,15,15,15,13,13,13,13,13,12,5,4,4,4,4,4,4,4,4,1,
+	 Label-setting LB: -0.6269848089463913 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 9 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 55 , xList.size: 88 , yList.size: 3
+	 Master obj: 1.0703844521475592 , 0.02 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.06 s
+Add Col: 19@32@36@ , -0.07038445214755917
+Total Add Col: 1
+
+Epoch: 63 , col: 173 , allScIpCol: 173 , allCol: 173 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 16.51 s
+	 Solve rmp: 22.123627739529397 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,3,4,4,5,7,7,10,13,24,34,54,59,51,38,34,25,25,14,14,14,14,14,25,25,25,38,37,37,37,37,37,37,42,41,40,16,16,17,17,17,17,11,11,11,11,11,11,8,8,8,7,7,7,7,5,5,5,5,4,4,4,1,1,
+	 Label-setting LB: -0.6226316437209225 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 14 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 51 , xList.size: 90 , yList.size: 5
+	 Master obj: 1.1263605590247114 , 0.006 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.042 s
+Add Col: 11@33@52@63@ , -0.12636055902471144
+Total Add Col: 1
+
+Epoch: 64 , col: 174 , allScIpCol: 174 , allCol: 174 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 16.576 s
+	 Solve rmp: 22.120647794761705 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,3,4,4,6,7,11,14,20,39,58,42,33,32,37,13,15,16,16,12,12,12,12,12,19,19,19,19,19,19,19,19,19,13,24,24,21,26,17,17,17,17,16,14,13,13,15,15,15,15,15,14,12,10,9,9,9,5,5,5,3,3,2,1,1,
+	 Label-setting LB: -0.5764332778797505 , 0.004 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 9 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 57 , xList.size: 90 , yList.size: 7
+	 Master obj: 1.0868238137428217 , 0.033 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.081 s
+Add Col: 22@30@61@63@66@ , -0.08682381374282166
+Total Add Col: 1
+
+Epoch: 65 , col: 175 , allScIpCol: 175 , allCol: 175 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 16.68 s
+	 Solve rmp: 22.119296054991786 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.022 s
+	 1,2,3,4,4,5,7,12,18,19,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.6332847171728853 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 8 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 57 , xList.size: 88 , yList.size: 5
+	 Master obj: 1.0933560970659204 , 0.027 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.071 s
+Add Col: 23@38@51@61@66@ , -0.09335609706592041
+Total Add Col: 1
+
+Epoch: 66 , col: 176 , allScIpCol: 176 , allCol: 176 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 16.773 s
+	 Solve rmp: 22.11894852781319 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,3,4,4,5,7,10,16,20,12,12,10,17,17,17,6,6,6,6,5,4,5,5,5,5,6,7,7,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.6021662570576123 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 7 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 58 , xList.size: 88 , yList.size: 5
+	 Master obj: 1.0696777841153136 , 0.045 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.09 s
+Add Col: 7@33@57@62@ , -0.06967778411531356
+Total Add Col: 1
+
+Epoch: 67 , col: 177 , allScIpCol: 177 , allCol: 177 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 16.886 s
+	 Solve rmp: 22.11627652992966 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,3,4,4,5,7,11,18,22,28,25,17,17,17,23,7,5,5,7,7,5,3,3,3,3,3,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.5953917263921921 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 5 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 60 , xList.size: 88 , yList.size: 5
+	 Master obj: 1.0575940897197706 , 0.027 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.074 s
+Add Col: 8@31@63@73@ , -0.05759408971977065
+Total Add Col: 1
+
+Epoch: 68 , col: 178 , allScIpCol: 178 , allCol: 178 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 16.986 s
+	 Solve rmp: 22.115976952325283 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.025 s
+	 1,2,3,4,4,5,7,10,10,16,22,32,14,11,11,14,12,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,
+	 Label-setting LB: -0.5915994781924695 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 7 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 58 , xList.size: 88 , yList.size: 5
+	 Master obj: 1.093288254315033 , 0.011 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.055 s
+Add Col: 12@25@57@ , -0.09328825431503307
+Total Add Col: 1
+
+Epoch: 69 , col: 179 , allScIpCol: 179 , allCol: 179 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 17.066 s
+	 Solve rmp: 22.11205444570217 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.024 s
+	 1,2,3,4,4,5,7,11,21,39,47,35,35,52,52,74,31,10,10,7,7,7,7,7,7,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.5976677580697523 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 8 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 57 , xList.size: 88 , yList.size: 5
+	 Master obj: 1.0982637997933726 , 0.074 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.118 s
+Add Col: 10@33@50@52@ , -0.09826379979337263
+Total Add Col: 1
+
+Epoch: 70 , col: 180 , allScIpCol: 180 , allCol: 180 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 17.208 s
+	 Solve rmp: 22.111215881545803 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,3,4,4,5,7,10,13,25,14,20,20,7,7,6,7,7,7,7,7,6,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,4,4,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+	 Label-setting LB: -0.6034842226577998 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 7 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 58 , xList.size: 88 , yList.size: 5
+	 Master obj: 1.0944895443179492 , 0.026 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.071 s
+Add Col: 17@18@49@ , -0.0944895443179492
+Total Add Col: 1
+
+Epoch: 71 , col: 181 , allScIpCol: 181 , allCol: 181 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 17.302 s
+	 Solve rmp: 22.108930751693084 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.025 s
+	 1,2,3,4,4,5,7,10,10,18,25,30,16,10,10,10,10,10,10,10,10,13,13,13,13,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.6156769521307888 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 7 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 58 , xList.size: 88 , yList.size: 7
+	 Master obj: 1.0605494592711064 , 0.392 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.438 s
+Add Col: 15@29@52@58@ , -0.06054945927110644
+Total Add Col: 1
+
+Epoch: 72 , col: 182 , allScIpCol: 182 , allCol: 182 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 17.766 s
+	 Solve rmp: 22.106556402164912 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.023 s
+	 1,2,4,6,8,8,9,12,20,25,21,21,10,9,10,9,12,11,8,9,11,11,11,11,5,5,5,5,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,
+	 Label-setting LB: -0.6412004009873085 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 10 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 55 , xList.size: 88 , yList.size: 5
+	 Master obj: 1.1162301890471036 , 0.046 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 0.089 s
+Add Col: 27@32@40@71@73@ , -0.11623018904710358
+Total Add Col: 1
+
+Epoch: 73 , col: 183 , allScIpCol: 183 , allCol: 183 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 17.878 s
+	 Solve rmp: 22.105195352983994 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Solve rmp: 22.101452823087588 , time cost: 0.0 s
+	 Rounding time: 0.028 s
+	 Solve rmp: 22.101452823087588 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.100338809132538 , time cost: 0.0 s
+	 Rounding time: 0.009 s
+	 Solve rmp: 22.100338809132538 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Solve rmp: 22.099390700781022 , time cost: 0.0 s
+	 Rounding time: 0.011 s
+	 Solve rmp: 22.099390700781022 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Rounding time: 0.011 s
+	 1,2,3,4,4,5,7,13,21,24,34,35,38,38,16,16,11,11,11,11,11,11,11,10,9,9,9,9,5,4,4,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+	 Label-setting LB: -0.5851398174775007 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 6 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 59 , xList.size: 88 , yList.size: 5
+	 Master obj: 1.079716455726485 , 0.026 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.072 s
+Add Col: 28@34@42@63@ , -0.07971645572648489
+Total Add Col: 1
+
+Epoch: 74 , col: 191 , allScIpCol: 191 , allCol: 191 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 18.01 s
+	 Solve rmp: 22.092228369030785 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.090979919073106 , time cost: 0.001 s
+	 Rounding time: 0.009 s
+	 Solve rmp: 22.090979919073106 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.089060885067372 , time cost: 0.001 s
+	 Rounding time: 0.009 s
+	 Solve rmp: 22.089060885067372 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Solve rmp: 22.074932409521328 , time cost: 0.0 s
+	 Rounding time: 0.011 s
+	 Solve rmp: 22.074932409521328 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Solve rmp: 22.070855181897798 , time cost: 0.0 s
+	 Rounding time: 0.014 s
+	 Solve rmp: 22.070855181897798 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.06522722599219 , time cost: 0.001 s
+	 Rounding time: 0.013 s
+	 Solve rmp: 22.06522722599219 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 22.063620195738057 , time cost: 0.0 s
+	 Rounding time: 0.007 s
+	 Solve rmp: 22.063620195738057 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.056642254565674 , time cost: 0.001 s
+	 Rounding time: 0.014 s
+	 Solve rmp: 22.056642254565674 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.05487516464005 , time cost: 0.001 s
+	 Rounding time: 0.012 s
+	 Solve rmp: 22.05487516464005 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.05487516464005 , time cost: 0.0 s
+	 Rounding time: 0.013 s
+	 Solve rmp: 22.05487516464005 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.012 s
+	 1,2,3,4,8,9,9,13,24,38,42,44,42,42,15,15,15,15,16,15,15,9,9,8,11,11,11,11,11,10,9,7,7,7,7,7,7,7,7,7,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,1,1,1,1,1,1,
+	 Label-setting LB: -0.5953384126152474 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 3 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 65 , xList.size: 88 , yList.size: 21
+	 Master obj: 1.0402922406328003 , 0.08 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.139 s
+Add Col: 38@41@42@48@69@70@73@ , -0.04029224063280035
+Total Add Col: 1
+
+Epoch: 75 , col: 218 , allScIpCol: 218 , allCol: 218 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 18.264 s
+	 Solve rmp: 22.050459063661894 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.04875584793563 , time cost: 0.001 s
+	 Rounding time: 0.025 s
+	 Solve rmp: 22.04875584793563 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.048049943883285 , time cost: 0.001 s
+	 Rounding time: 0.021 s
+	 Solve rmp: 22.048049943883285 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.045279383429676 , time cost: 0.0 s
+	 Rounding time: 0.018 s
+	 Solve rmp: 22.045279383429676 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.02 s
+	 1,2,3,4,4,8,9,14,17,22,27,44,65,84,49,47,47,47,53,53,51,48,48,61,42,35,35,32,30,29,29,29,29,20,20,20,20,20,20,20,19,19,19,19,16,16,16,16,15,15,15,15,14,12,12,11,9,9,9,9,9,9,9,
+	 Label-setting LB: -0.597302504816956 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 3 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 61 , xList.size: 88 , yList.size: 3
+	 Master obj: 1.0260115606936406 , 0.09 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.139 s
+Add Col: 16@24@55@69@73@ , -0.026011560693640634
+Total Add Col: 1
+
+Epoch: 76 , col: 228 , allScIpCol: 228 , allCol: 228 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 18.488 s
+	 Solve rmp: 22.042894557571007 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.042253521126774 , time cost: 0.001 s
+	 Rounding time: 0.025 s
+	 Solve rmp: 22.042253521126774 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Solve rmp: 22.040202159430276 , time cost: 0.0 s
+	 Rounding time: 0.029 s
+	 Solve rmp: 22.040202159430276 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.040110748260684 , time cost: 0.0 s
+	 Rounding time: 0.019 s
+	 Solve rmp: 22.040110748260684 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.039900463360226 , time cost: 0.0 s
+	 Rounding time: 0.017 s
+	 Solve rmp: 22.039900463360226 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.03989686524631 , time cost: 0.0 s
+	 Rounding time: 0.015 s
+	 Solve rmp: 22.03989686524631 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.03988326848248 , time cost: 0.0 s
+	 Rounding time: 0.018 s
+	 Solve rmp: 22.03988326848248 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.03904755155552 , time cost: 0.0 s
+	 Rounding time: 0.015 s
+	 Solve rmp: 22.03904755155552 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.038838605090987 , time cost: 0.001 s
+	 Rounding time: 0.022 s
+	 Solve rmp: 22.038838605090987 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 22.037972434449316 , time cost: 0.001 s
+	 Rounding time: 0.017 s
+	 Solve rmp: 22.037972434449316 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Solve rmp: 22.036714975845417 , time cost: 0.0 s
+	 Rounding time: 0.015 s
+	 Solve rmp: 22.036714975845417 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.035970452842307 , time cost: 0.0 s
+	 Rounding time: 0.017 s
+	 Solve rmp: 22.035970452842307 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.03591855410661 , time cost: 0.0 s
+	 Rounding time: 0.022 s
+	 Solve rmp: 22.03591855410661 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.03473658595936 , time cost: 0.0 s
+	 Rounding time: 0.022 s
+	 Solve rmp: 22.03473658595936 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.0331983805668 , time cost: 0.001 s
+	 Rounding time: 0.019 s
+	 Solve rmp: 22.0331983805668 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.033130866924353 , time cost: 0.0 s
+	 Rounding time: 0.018 s
+	 Solve rmp: 22.033130866924353 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.033102618116164 , time cost: 0.0 s
+	 Rounding time: 0.018 s
+	 Solve rmp: 22.033102618116164 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.033062054933875 , time cost: 0.0 s
+	 Rounding time: 0.017 s
+	 Solve rmp: 22.033062054933875 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.03218884120173 , time cost: 0.0 s
+	 Rounding time: 0.014 s
+	 Solve rmp: 22.03218884120173 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.03207150368033 , time cost: 0.0 s
+	 Rounding time: 0.011 s
+	 Solve rmp: 22.03207150368033 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.031990521327014 , time cost: 0.0 s
+	 Rounding time: 0.01 s
+	 Solve rmp: 22.031990521327014 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Rounding time: 0.009 s
+	 1,2,3,4,4,5,9,13,20,26,29,28,19,19,33,33,33,49,40,38,38,38,45,44,48,42,27,27,27,27,27,27,27,27,32,31,25,25,25,25,20,20,19,19,18,18,18,18,18,18,17,16,16,16,16,16,16,12,12,12,12,12,12,2,2,
+	 Label-setting LB: -0.5900473933649291 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 2 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 63 , xList.size: 88 , yList.size: 5
+	 Master obj: 1.0130331753554493 , 0.034 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.086 s
+Add Col: 3@38@41@73@ , -0.013033175355449345
+Total Add Col: 1
+
+Epoch: 77 , col: 265 , allScIpCol: 265 , allCol: 265 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 18.947 s
+	 Solve rmp: 22.030443109027274 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.030000000000005 , time cost: 0.0 s
+	 Rounding time: 0.032 s
+	 Solve rmp: 22.030000000000005 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.029999999999998 , time cost: 0.0 s
+	 Rounding time: 0.031 s
+	 Solve rmp: 22.029999999999998 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Rounding time: 0.032 s
+	 1,2,3,4,4,4,7,14,17,31,39,49,23,28,28,28,43,45,45,45,45,45,49,35,13,13,13,10,10,10,10,10,10,11,11,12,12,12,10,10,10,10,10,10,9,9,9,9,9,9,10,10,9,9,9,9,9,7,7,7,
+	 Label-setting LB: -0.6000000000000011 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 4 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 59 , xList.size: 88 , yList.size: 1
+	 Master obj: 1.0100000000000011 , 0.007 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.049 s
+Add Col: 13@50@68@ , -0.010000000000001119
+Total Add Col: 1
+
+Epoch: 78 , col: 270 , allScIpCol: 270 , allCol: 270 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 19.092 s
+	 Solve rmp: 22.029999999999994 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Rounding time: 0.027 s
+	 1,2,3,4,4,4,7,14,17,23,27,47,56,65,107,101,73,76,42,41,41,41,41,53,30,34,33,33,25,24,24,24,24,24,25,22,21,21,20,19,19,18,18,18,18,18,18,18,18,17,4,4,4,4,4,4,3,2,2,2,
+	 Label-setting LB: -0.6000000000000001 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 4 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 59 , xList.size: 88 , yList.size: 1
+	 Master obj: 1.01 , 0.008 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.051 s
+Add Col: 13@44@71@ , -0.010000000000000009
+Total Add Col: 1
+
+Epoch: 79 , col: 271 , allScIpCol: 271 , allCol: 271 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 19.171 s
+	 Solve rmp: 22.029999999999994 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.03 s
+	 1,2,3,4,4,4,7,14,17,31,40,50,31,36,33,32,46,55,55,55,55,14,14,16,14,13,13,13,13,13,13,13,13,14,15,15,14,14,10,10,10,10,10,10,9,9,9,9,9,9,10,10,9,9,9,9,9,8,8,8,
+	 Label-setting LB: -0.5899999999999987 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 4 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 59 , xList.size: 88 , yList.size: 1
+	 Master obj: 1.0100000000000005 , 0.009 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.052 s
+Add Col: 9@50@51@ , -0.010000000000000453
+Total Add Col: 1
+
+Epoch: 80 , col: 272 , allScIpCol: 272 , allCol: 272 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 19.253 s
+	 Solve rmp: 22.029999999999994 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Rounding time: 0.032 s
+	 1,2,3,4,4,4,7,14,17,31,41,51,91,91,85,77,71,78,50,50,50,50,29,28,34,30,29,29,29,29,29,29,29,29,29,25,25,25,22,21,21,20,20,20,17,17,17,17,17,17,19,19,17,17,17,17,16,12,11,11,
+	 Label-setting LB: -0.5899999999999979 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 4 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 59 , xList.size: 88 , yList.size: 1
+	 Master obj: 1.0 , 0.008 s
+	 Pricing time: 0.051 s
+Termination By empty negative reduced cost column
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:89,w:100},{x:0,y:89,h:11,w:93},],
+----------------------- Bin-2 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:79,w:98},{x:99,y:0,h:100,w:1},{x:98,y:0,h:91,w:1},{x:71,y:79,h:12,w:27},{x:0,y:79,h:19,w:44},{x:44,y:79,h:18,w:12},],
+----------------------- Bin-3 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:65,w:96},{x:97,y:0,h:86,w:3},{x:0,y:65,h:35,w:35},{x:35,y:65,h:20,w:42},{x:35,y:85,h:9,w:45},],
+----------------------- Bin-4 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:83,w:58},{x:63,y:0,h:100,w:37},{x:58,y:0,h:89,w:5},],
+----------------------- Bin-5 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:90,w:51},{x:52,y:0,h:100,w:48},],
+----------------------- Bin-6 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:77,w:63},{x:63,y:0,h:84,w:37},{x:0,y:77,h:18,w:38},],
+----------------------- Bin-7 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:53,w:83},{x:83,y:0,h:76,w:17},{x:7,y:53,h:23,w:76},{x:0,y:76,h:22,w:89},],
+----------------------- Bin-8 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:62,w:68},{x:72,y:0,h:92,w:28},{x:0,y:62,h:38,w:9},{x:9,y:62,h:25,w:37},],
+----------------------- Bin-9 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:52,w:60},{x:60,y:0,h:83,w:40},{x:0,y:83,h:13,w:80},],
+----------------------- Bin-10 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:50,w:75},{x:75,y:0,h:78,w:25},],
+----------------------- Bin-11 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:34,w:76},{x:76,y:0,h:94,w:24},{x:0,y:34,h:66,w:12},{x:12,y:34,h:66,w:6},],
+----------------------- Bin-12 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:99,w:48},{x:48,y:0,h:99,w:42},{x:90,y:0,h:92,w:10},],
+----------------------- Bin-13 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:98,w:38},{x:53,y:0,h:86,w:47},{x:38,y:0,h:87,w:15},],
+----------------------- Bin-14 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:88,w:41},{x:41,y:0,h:88,w:36},{x:77,y:0,h:86,w:23},],
+----------------------- Bin-15 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:85,w:43},{x:50,y:0,h:76,w:50},],
+----------------------- Bin-16 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:82,w:44},{x:44,y:0,h:82,w:41},{x:85,y:0,h:83,w:15},],
+----------------------- Bin-17 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:75,w:50},{x:50,y:0,h:75,w:22},{x:72,y:0,h:76,w:28},],
+----------------------- Bin-18 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:81,w:40},{x:40,y:0,h:81,w:39},{x:80,y:0,h:90,w:20},],
+----------------------- Bin-19 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:89,w:29},{x:29,y:0,h:89,w:14},{x:54,y:0,h:71,w:46},{x:43,y:0,h:99,w:11},],
+----------------------- Bin-20 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:78,w:37},{x:69,y:0,h:84,w:31},{x:61,y:0,h:84,w:8},{x:37,y:0,h:80,w:24},],
+----------------------- Bin-21 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:87,w:27},{x:27,y:0,h:87,w:20},{x:66,y:0,h:79,w:34},{x:55,y:0,h:79,w:11},{x:47,y:0,h:73,w:8},],
+----------------------- Bin-22 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:83,w:27},{x:27,y:0,h:83,w:20},{x:84,y:0,h:92,w:16},{x:71,y:0,h:93,w:13},{x:57,y:0,h:80,w:14},{x:47,y:0,h:68,w:10},],
+----------------------- Bin-23 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:68,w:31},{x:71,y:0,h:69,w:29},{x:57,y:0,h:76,w:14},],
+BpcSolution{className='Class_07', isOpt=true, id=38, inS=188955, outS=230000, LB_BM_3=18, LB_CCM_1=22, LB_CCM_2=22, LB0=22, LB_NoSr=23, LB=23, UB0=23, UB=23, rootColCnt=272, totalColCnt=272, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=1, generatedNodeCnt=1, rmpCnt=166, roundingCnt=123, pricingCnt=80, heuPricingCnt=0, masterCnt=1276, slaveCnt=79, findBendersCutCnt=0, rate=0.8215434782608696, gap=0.0, totalTime=19.337, preprocessingTime=0.012, lb0Time=0.182, ub0Time=10.002, rmpTime=0.04500000000000003, roundingTime=2.451999999999997, pricingTime=6.568000000000001, heuPricingTime=0.0, masterTime=5.789000000000044, slaveTime=0.008, findBendersCutTime=0.0, totalLbLabelCnt=32364, maxLbLabelCnt=1711, minLbLabelCnt=44, totalHeuLabelCnt=0, maxHeuLabelCnt=0, minHeuLabelCnt=9223372036854775807}

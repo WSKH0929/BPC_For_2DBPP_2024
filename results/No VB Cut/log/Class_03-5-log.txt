@@ -1,0 +1,24 @@
+====================================== 2024-03-21 02:07:03 Class_03-5 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 40 , H = 40 , S = 1600 , totalItemS = 5520
+Before preprocessing: W = 40 , H = 40 , S = 1600 , totalItemS = 5520 , time cost: 0.008 s
+LB0: 4 , time cost: 0.031 s
+UB0: 4 , time cost: 0.017 s
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:32,w:33},{x:34,y:0,h:22,w:6},{x:33,y:0,h:3,w:1},{x:34,y:22,h:6,w:6},{x:0,y:32,h:5,w:32},{x:0,y:37,h:3,w:24},],
+----------------------- Bin-2 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:29,w:34},{x:0,y:29,h:9,w:31},{x:0,y:38,h:2,w:23},],
+----------------------- Bin-3 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:5,w:35},{x:0,y:5,h:34,w:13},{x:26,y:5,h:29,w:14},{x:13,y:5,h:14,w:13},{x:13,y:19,h:6,w:13},{x:13,y:25,h:14,w:11},],
+----------------------- Bin-4 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:12,w:29},{x:31,y:0,h:18,w:9},{x:0,y:12,h:23,w:17},{x:20,y:18,h:15,w:20},{x:0,y:35,h:4,w:28},],
+BpcSolution{className='Class_03', isOpt=true, id=5, inS=5520, outS=6400, LB_BM_3=4, LB_CCM_1=4, LB_CCM_2=4, LB0=4, LB_NoSr=4, LB=4, UB0=4, UB=4, rootColCnt=0, totalColCnt=0, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=0, generatedNodeCnt=0, rmpCnt=0, roundingCnt=0, pricingCnt=0, heuPricingCnt=0, masterCnt=0, slaveCnt=0, findBendersCutCnt=0, rate=0.8625, gap=0.0, totalTime=0.064, preprocessingTime=0.008, lb0Time=0.031, ub0Time=0.017, rmpTime=0.0, roundingTime=0.0, pricingTime=0.0, heuPricingTime=0.0, masterTime=0.0, slaveTime=0.0, findBendersCutTime=0.0, totalLbLabelCnt=0, maxLbLabelCnt=0, minLbLabelCnt=9223372036854775807, totalHeuLabelCnt=0, maxHeuLabelCnt=0, minHeuLabelCnt=9223372036854775807}

@@ -1,0 +1,40 @@
+====================================== 2024-03-22 09:24:25 Class_03-17 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 40 , H = 40 , S = 1600 , totalItemS = 11621
+Before preprocessing: W = 40 , H = 40 , S = 1600 , totalItemS = 11621 , time cost: 0.008 s
+LB0: 8 , time cost: 0.052 s
+UB0: 8 , time cost: 0.03 s
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:33,w:35},{x:37,y:0,h:27,w:3},{x:35,y:0,h:32,w:2},{x:37,y:27,h:5,w:2},{x:0,y:33,h:2,w:19},{x:19,y:33,h:2,w:10},{x:33,y:33,h:5,w:7},{x:0,y:35,h:3,w:33},{x:0,y:38,h:2,w:24},],
+----------------------- Bin-2 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:32,w:26},{x:26,y:0,h:29,w:14},{x:28,y:29,h:11,w:12},{x:0,y:32,h:6,w:15},{x:15,y:32,h:6,w:8},{x:0,y:38,h:2,w:24},],
+----------------------- Bin-3 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:32,w:24},{x:25,y:0,h:26,w:15},{x:34,y:26,h:14,w:6},{x:25,y:26,h:9,w:9},{x:0,y:35,h:5,w:30},],
+----------------------- Bin-4 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:21,w:27},{x:27,y:0,h:21,w:3},{x:32,y:0,h:35,w:8},{x:0,y:21,h:9,w:13},{x:21,y:21,h:16,w:11},{x:14,y:21,h:18,w:7},],
+----------------------- Bin-5 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:24,w:22},{x:29,y:0,h:35,w:11},{x:23,y:0,h:33,w:6},{x:0,y:24,h:12,w:15},{x:0,y:36,h:3,w:34},],
+----------------------- Bin-6 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:21,w:35},{x:37,y:0,h:28,w:3},{x:0,y:21,h:19,w:35},],
+----------------------- Bin-7 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:34,w:35},{x:0,y:34,h:6,w:35},],
+----------------------- Bin-8 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:11,w:35},{x:0,y:11,h:21,w:20},{x:20,y:11,h:21,w:19},{x:0,y:32,h:8,w:29},],
+BpcSolution{className='Class_03', isOpt=true, id=17, inS=11621, outS=12800, LB_BM_3=8, LB_CCM_1=8, LB_CCM_2=8, LB0=8, LB_NoSr=8, LB=8, UB0=8, UB=8, rootColCnt=0, totalColCnt=0, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=0, generatedNodeCnt=0, rmpCnt=0, roundingCnt=0, pricingCnt=0, heuPricingCnt=0, masterCnt=0, slaveCnt=0, findBendersCutCnt=0, rate=0.907890625, gap=0.0, totalTime=0.099, preprocessingTime=0.008, lb0Time=0.052, ub0Time=0.03, rmpTime=0.0, roundingTime=0.0, pricingTime=0.0, heuPricingTime=0.0, masterTime=0.0, slaveTime=0.0, findBendersCutTime=0.0, totalLbLabelCnt=0, maxLbLabelCnt=0, minLbLabelCnt=9223372036854775807, totalHeuLabelCnt=0, maxHeuLabelCnt=0, minHeuLabelCnt=9223372036854775807}

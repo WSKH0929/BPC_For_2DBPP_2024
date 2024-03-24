@@ -1,0 +1,28 @@
+====================================== 2024-03-22 03:03:49 Class_05-4 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 38889
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 38889 , time cost: 0.006 s
+LB0: 5 , time cost: 0.059 s
+UB0: 5 , time cost: 0.005 s
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:53,w:90},{x:90,y:0,h:80,w:10},{x:11,y:53,h:27,w:79},{x:0,y:80,h:16,w:65},{x:78,y:80,h:7,w:22},{x:79,y:87,h:4,w:21},{x:0,y:96,h:3,w:92},],
+----------------------- Bin-2 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:62,w:65},{x:65,y:0,h:89,w:35},{x:0,y:62,h:30,w:64},{x:0,y:92,h:8,w:84},],
+----------------------- Bin-3 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:65,w:53},{x:53,y:0,h:89,w:47},{x:0,y:65,h:31,w:26},],
+----------------------- Bin-4 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:52,w:62},{x:73,y:0,h:78,w:27},{x:62,y:0,h:56,w:11},{x:0,y:52,h:30,w:54},],
+----------------------- Bin-5 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:40,w:70},{x:85,y:0,h:73,w:15},],
+BpcSolution{className='Class_05', isOpt=true, id=4, inS=38889, outS=50000, LB_BM_3=4, LB_CCM_1=5, LB_CCM_2=5, LB0=5, LB_NoSr=5, LB=5, UB0=5, UB=5, rootColCnt=0, totalColCnt=0, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=0, generatedNodeCnt=0, rmpCnt=0, roundingCnt=0, pricingCnt=0, heuPricingCnt=0, masterCnt=0, slaveCnt=0, findBendersCutCnt=0, rate=0.77778, gap=0.0, totalTime=0.078, preprocessingTime=0.006, lb0Time=0.059, ub0Time=0.005, rmpTime=0.0, roundingTime=0.0, pricingTime=0.0, heuPricingTime=0.0, masterTime=0.0, slaveTime=0.0, findBendersCutTime=0.0, totalLbLabelCnt=0, maxLbLabelCnt=0, minLbLabelCnt=9223372036854775807, totalHeuLabelCnt=0, maxHeuLabelCnt=0, minHeuLabelCnt=9223372036854775807}

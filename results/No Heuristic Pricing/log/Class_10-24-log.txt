@@ -1,0 +1,1072 @@
+====================================== 2024-03-24 12:10:43 Class_10-24 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 69409
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 69409 , time cost: 0.011 s
+LB0: 7 , time cost: 0.115 s
+67497.0 , 69409
+67621.0 , 69409
+67775.0 , 69409
+67841.0 , 69409
+UB0: 8 , time cost: 10.002 s
+----------------------- Start column generation for bpcNode: BpcNode{isRoot=true, deep=0} -----------------------
+fat: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]
+
+Epoch: 1 , col: 68 , allScIpCol: 68 , allCol: 68 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 9992 , maxWasteInOtherNode: 9992 , cur time: 10.195 s
+	 Solve rmp: 8.0 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: true
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 8.0 , time cost: 0.0 s
+	 Rounding time: 0.02 s
+	 Solve rmp: 8.0 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: true
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.015 s
+	 1,2,3,2,1,
+	 Label-setting LB: -3.0 , 0.004 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 4 , pPie.size: 0
+	 W:99 , H:100 , itemList.size: 4 , xList.size: 5 , yList.size: 3
+	 Master obj: 3.0 , 0.004 s
+	 Check: true , slave time: 0.002 s
+	 Pricing time: 0.024 s
+Add Col: 4@14@19@ , -2.0
+Total Add Col: 1
+
+Epoch: 2 , col: 70 , allScIpCol: 70 , allCol: 70 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 9992 , maxWasteInOtherNode: 9992 , cur time: 10.263 s
+	 Solve rmp: 8.0 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: true
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.017 s
+	 1,2,3,2,
+	 Label-setting LB: -2.0 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 4 , pPie.size: 0
+	 W:99 , H:98 , itemList.size: 4 , xList.size: 7 , yList.size: 4
+	 Master obj: 3.0 , 0.005 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 0.013 s
+Add Col: 5@19@20@ , -2.0
+Total Add Col: 1
+
+Epoch: 3 , col: 71 , allScIpCol: 71 , allCol: 71 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 9992 , maxWasteInOtherNode: 9992 , cur time: 10.293 s
+	 Solve rmp: 8.0 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: true
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.017 s
+	 1,2,4,3,
+	 Label-setting LB: -2.0 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 4 , pPie.size: 0
+	 W:99 , H:98 , itemList.size: 4 , xList.size: 7 , yList.size: 3
+	 Master obj: 3.0 , 0.003 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.006 s
+Add Col: 5@14@21@ , -2.0
+Total Add Col: 1
+
+Epoch: 4 , col: 72 , allScIpCol: 72 , allCol: 72 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 9992 , maxWasteInOtherNode: 9992 , cur time: 10.317 s
+	 Solve rmp: 8.0 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: true
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 8.0 , time cost: 0.0 s
+	 Rounding time: 0.015 s
+	 Solve rmp: 8.0 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: true
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.015 s
+	 1,2,4,6,3,
+	 Label-setting LB: -2.0 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 5 , pPie.size: 0
+	 W:99 , H:98 , itemList.size: 5 , xList.size: 15 , yList.size: 3
+	 Master obj: 3.0 , 0.005 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.01 s
+Add Col: 6@14@20@30@ , -2.0
+Total Add Col: 1
+
+Epoch: 5 , col: 74 , allScIpCol: 74 , allCol: 74 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 9992 , maxWasteInOtherNode: 9992 , cur time: 10.357 s
+	 Solve rmp: 8.0 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: true
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.015 s
+	 1,2,4,4,1,
+	 Label-setting LB: -3.0 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 4 , pPie.size: 0
+	 W:99 , H:98 , itemList.size: 4 , xList.size: 10 , yList.size: 7
+	 Master obj: 4.0 , 0.006 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.01 s
+Add Col: 5@15@30@38@ , -3.0
+Total Add Col: 1
+
+Epoch: 6 , col: 75 , allScIpCol: 75 , allCol: 75 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 9992 , maxWasteInOtherNode: 9992 , cur time: 10.382 s
+	 Solve rmp: 7.800000000000001 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 7.666666666666665 , time cost: 0.0 s
+	 Rounding time: 0.013 s
+	 Solve rmp: 7.666666666666665 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.024 s
+	 1,2,4,7,10,2,1,1,
+	 Label-setting LB: -2.6666666666666665 , 0.0 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 4 , pPie.size: 0
+	 W:100 , H:99 , itemList.size: 6 , xList.size: 17 , yList.size: 7
+	 Master obj: 3.3333333333333335 , 0.005 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.011 s
+Add Col: 7@14@16@19@30@ , -2.3333333333333335
+Total Add Col: 1
+
+Epoch: 7 , col: 77 , allScIpCol: 77 , allCol: 77 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 7257 , maxWasteInOtherNode: 9992 , cur time: 10.432 s
+	 Solve rmp: 7.666666666666665 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.024 s
+	 1,2,4,7,11,10,10,2,1,
+	 Label-setting LB: -2.3333333333333335 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 3 , pPie.size: 0
+	 W:99 , H:100 , itemList.size: 9 , xList.size: 10 , yList.size: 9
+	 Master obj: 3.3333333333333335 , 0.109 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 0.117 s
+Add Col: 3@16@18@20@21@30@ , -2.3333333333333335
+Total Add Col: 1
+
+Epoch: 8 , col: 78 , allScIpCol: 78 , allCol: 78 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 7257 , maxWasteInOtherNode: 9992 , cur time: 10.573 s
+	 Solve rmp: 7.666666666666665 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.026 s
+	 1,2,4,7,9,5,2,1,1,1,1,
+	 Label-setting LB: -2.6666666666666665 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 4 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 7 , xList.size: 15 , yList.size: 4
+	 Master obj: 3.3333333333333335 , 0.005 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.01 s
+Add Col: 4@7@12@24@30@ , -2.3333333333333335
+Total Add Col: 1
+
+Epoch: 9 , col: 79 , allScIpCol: 79 , allCol: 79 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 7257 , maxWasteInOtherNode: 9992 , cur time: 10.609 s
+	 Solve rmp: 7.666666666666665 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.03 s
+	 1,2,4,7,10,7,4,2,1,1,1,1,
+	 Label-setting LB: -3.3333333333333335 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 4 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 8 , xList.size: 31 , yList.size: 8
+	 Master obj: 4.333333333333333 , 0.005 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 0.013 s
+Add Col: 9@13@14@15@18@24@30@32@ , -3.333333333333333
+Total Add Col: 1
+
+Epoch: 10 , col: 80 , allScIpCol: 80 , allCol: 80 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 7257 , maxWasteInOtherNode: 9992 , cur time: 10.652 s
+	 Solve rmp: 7.666666666666665 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.031 s
+	 1,2,4,5,5,5,4,2,1,
+	 Label-setting LB: -3.3333333333333335 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 2 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 9 , xList.size: 25 , yList.size: 7
+	 Master obj: 4.333333333333334 , 0.005 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.011 s
+Add Col: 4@15@17@19@20@30@35@ , -3.333333333333334
+Total Add Col: 1
+
+Epoch: 11 , col: 81 , allScIpCol: 81 , allCol: 81 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 7257 , maxWasteInOtherNode: 9992 , cur time: 10.695 s
+	 Solve rmp: 7.666666666666665 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.025 s
+	 1,2,4,5,9,8,10,11,10,8,4,4,4,1,
+	 Label-setting LB: -3.083333333333333 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 13 , xList.size: 40 , yList.size: 23
+	 Master obj: 3.9166666666666665 , 0.146 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.158 s
+Add Col: 5@14@20@21@26@30@35@40@ , -2.9166666666666665
+Total Add Col: 1
+
+Epoch: 12 , col: 82 , allScIpCol: 82 , allCol: 82 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 7257 , maxWasteInOtherNode: 9992 , cur time: 10.879 s
+	 Solve rmp: 7.599999999999998 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.01 s
+	 1,2,3,4,6,10,10,13,13,4,1,1,1,1,1,
+	 Label-setting LB: -3.2 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 2 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 13 , xList.size: 41 , yList.size: 39
+	 Master obj: 4.2 , 0.011 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.018 s
+Add Col: 9@14@16@19@20@24@30@40@41@42@ , -3.2
+Total Add Col: 1
+
+Epoch: 13 , col: 83 , allScIpCol: 83 , allCol: 83 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 6591 , maxWasteInOtherNode: 9992 , cur time: 10.907 s
+	 Solve rmp: 7.5 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,8,12,22,23,22,25,1,1,1,1,1,
+	 Label-setting LB: -3.0 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 13 , xList.size: 37 , yList.size: 48
+	 Master obj: 3.666666666666667 , 0.062 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 0.07 s
+Add Col: 4@9@14@21@38@44@50@ , -2.666666666666667
+Total Add Col: 1
+
+Epoch: 14 , col: 84 , allScIpCol: 84 , allCol: 84 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 5591 , maxWasteInOtherNode: 9992 , cur time: 10.987 s
+	 Solve rmp: 7.5 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,7,6,2,1,1,1,
+	 Label-setting LB: -3.5 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 3 , pPie.size: 0
+	 W:99 , H:99 , itemList.size: 7 , xList.size: 13 , yList.size: 15
+	 Master obj: 4.0 , 0.004 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.007 s
+Add Col: 9@12@15@20@21@46@ , -3.0
+Total Add Col: 1
+
+Epoch: 15 , col: 85 , allScIpCol: 85 , allCol: 85 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 5591 , maxWasteInOtherNode: 9992 , cur time: 11.003 s
+	 Solve rmp: 7.431818181818182 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.01 s
+	 1,2,4,8,14,15,17,30,36,18,17,10,6,6,6,5,
+	 Label-setting LB: -1.931818181818182 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 2 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 15 , xList.size: 39 , yList.size: 26
+	 Master obj: 2.8863636363636362 , 0.048 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.055 s
+Add Col: 10@12@14@15@20@21@24@26@30@48@ , -1.8863636363636362
+Total Add Col: 1
+
+Epoch: 16 , col: 86 , allScIpCol: 86 , allCol: 86 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 4909 , maxWasteInOtherNode: 9992 , cur time: 11.069 s
+	 Solve rmp: 7.409448818897637 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,7,14,28,39,36,3,3,3,2,2,2,2,2,2,2,2,2,
+	 Label-setting LB: -1.275590551181102 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 2 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 18 , xList.size: 53 , yList.size: 30
+	 Master obj: 2.1141732283464565 , 0.094 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.104 s
+Add Col: 7@9@13@20@21@26@30@48@ , -1.1141732283464565
+Total Add Col: 1
+
+Epoch: 17 , col: 87 , allScIpCol: 87 , allCol: 87 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 4685 , maxWasteInOtherNode: 9992 , cur time: 11.184 s
+	 Solve rmp: 7.402597402597403 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 7.402597402597403 , time cost: 0.001 s
+	 Rounding time: 0.01 s
+	 Solve rmp: 7.402597402597403 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,7,9,16,26,36,35,5,6,6,6,4,3,2,2,1,1,1,1,1,
+	 Label-setting LB: -1.1590909090909087 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 21 , xList.size: 47 , yList.size: 32
+	 Master obj: 1.9772727272727266 , 0.267 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 0.282 s
+Add Col: 9@11@14@15@19@23@26@30@46@ , -0.9772727272727266
+Total Add Col: 1
+
+Epoch: 18 , col: 89 , allScIpCol: 89 , allCol: 89 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 4616 , maxWasteInOtherNode: 9992 , cur time: 11.485 s
+	 Solve rmp: 7.392857142857147 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 7.392857142857145 , time cost: 0.0 s
+	 Rounding time: 0.01 s
+	 Solve rmp: 7.392857142857145 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,8,12,21,34,49,71,79,57,56,3,3,3,3,3,3,2,2,2,2,
+	 Label-setting LB: -1.1454081632653057 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 21 , xList.size: 58 , yList.size: 41
+	 Master obj: 2.035714285714285 , 0.589 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 0.603 s
+Add Col: 6@12@19@20@23@30@32@33@46@48@ , -1.0357142857142851
+Total Add Col: 1
+
+Epoch: 19 , col: 91 , allScIpCol: 91 , allCol: 91 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 4519 , maxWasteInOtherNode: 9992 , cur time: 12.107 s
+	 Solve rmp: 7.384615384615383 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,3,4,8,13,19,26,38,35,46,3,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -1.153846153846154 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 19 , xList.size: 41 , yList.size: 45
+	 Master obj: 2.0 , 0.126 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 0.137 s
+Add Col: 6@9@17@20@24@30@38@43@46@ , -1.0
+Total Add Col: 1
+
+Epoch: 20 , col: 92 , allScIpCol: 92 , allCol: 92 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 4437 , maxWasteInOtherNode: 9992 , cur time: 12.253 s
+	 Solve rmp: 7.357476635514018 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,8,16,29,49,62,99,90,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.7383177570093462 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 21 , xList.size: 49 , yList.size: 40
+	 Master obj: 1.5233644859813091 , 0.488 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 0.499 s
+Add Col: 9@10@13@14@19@23@30@32@42@44@ , -0.5233644859813091
+Total Add Col: 1
+
+Epoch: 21 , col: 93 , allScIpCol: 93 , allCol: 93 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 4165 , maxWasteInOtherNode: 9992 , cur time: 12.763 s
+	 Solve rmp: 7.356194690265487 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 7.355932203389831 , time cost: 0.0 s
+	 Rounding time: 0.01 s
+	 Solve rmp: 7.355932203389831 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,6,12,19,32,55,103,188,170,37,6,4,4,4,4,4,1,1,1,1,1,
+	 Label-setting LB: -0.9697336561743346 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 22 , xList.size: 55 , yList.size: 62
+	 Master obj: 1.7590799031477002 , 6.983 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 6.996 s
+Add Col: 9@14@15@19@20@23@24@30@32@41@47@50@ , -0.7590799031477002
+Total Add Col: 1
+
+Epoch: 22 , col: 95 , allScIpCol: 95 , allCol: 95 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 4150 , maxWasteInOtherNode: 9992 , cur time: 19.778 s
+	 Solve rmp: 7.321739130434785 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,8,10,18,31,44,36,45,61,5,5,4,2,2,2,2,2,2,2,1,1,
+	 Label-setting LB: -0.7507246376811597 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 23 , xList.size: 60 , yList.size: 54
+	 Master obj: 1.6492753623188405 , 1.071 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 1.084 s
+Add Col: 3@13@18@19@30@33@38@40@48@ , -0.6492753623188405
+Total Add Col: 1
+
+Epoch: 23 , col: 96 , allScIpCol: 96 , allCol: 96 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3808 , maxWasteInOtherNode: 9992 , cur time: 20.872 s
+	 Solve rmp: 7.3171912832929795 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,7,13,23,36,47,22,24,23,23,29,25,23,7,6,8,7,6,4,3,3,2,2,
+	 Label-setting LB: -0.8692493946731235 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 24 , xList.size: 60 , yList.size: 54
+	 Master obj: 1.7772397094430996 , 4.707 s
+	 Check: true , slave time: 0.004 s
+	 Pricing time: 4.724 s
+Add Col: 9@14@15@17@20@21@23@30@33@38@42@48@ , -0.7772397094430996
+Total Add Col: 1
+
+Epoch: 24 , col: 97 , allScIpCol: 97 , allCol: 97 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3762 , maxWasteInOtherNode: 9992 , cur time: 25.605 s
+	 Solve rmp: 7.315497460974231 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.01 s
+	 1,2,4,8,16,18,30,35,8,6,6,5,5,5,3,3,2,2,3,3,3,3,3,2,2,2,
+	 Label-setting LB: -0.7853112657513646 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 25 , xList.size: 51 , yList.size: 68
+	 Master obj: 1.6058867782584165 , 0.931 s
+	 Check: true , slave time: 0.002 s
+	 Pricing time: 0.95 s
+Add Col: 9@11@13@15@19@20@21@24@38@42@44@48@ , -0.6058867782584165
+Total Add Col: 1
+
+Epoch: 25 , col: 98 , allScIpCol: 98 , allCol: 98 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3745 , maxWasteInOtherNode: 9992 , cur time: 26.565 s
+	 Solve rmp: 7.313911022576361 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.01 s
+	 1,2,4,8,14,22,21,35,58,91,12,12,8,8,2,2,2,2,2,2,1,1,1,1,1,1,
+	 Label-setting LB: -0.6015936254980081 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 25 , xList.size: 62 , yList.size: 58
+	 Master obj: 1.4203187250996008 , 2.25 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [7, 9, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24]
+	 Master obj: 1.4203187250996008 , 0.058 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 2.328 s
+Add Col: 9@11@16@17@19@20@23@30@33@41@44@50@ , -0.4203187250996008
+Total Add Col: 1
+
+Epoch: 26 , col: 99 , allScIpCol: 99 , allCol: 99 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3730 , maxWasteInOtherNode: 9992 , cur time: 28.903 s
+	 Solve rmp: 7.311671087533156 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.01 s
+	 1,2,4,8,13,21,38,51,47,48,41,43,25,23,22,19,2,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.7639257294429701 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 25 , xList.size: 51 , yList.size: 66
+	 Master obj: 1.5384615384615379 , 0.726 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.742 s
+Add Col: 6@9@11@21@30@38@41@42@48@ , -0.5384615384615379
+Total Add Col: 1
+
+Epoch: 27 , col: 100 , allScIpCol: 100 , allCol: 100 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3707 , maxWasteInOtherNode: 9992 , cur time: 29.655 s
+	 Solve rmp: 7.3058772257502165 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,5,10,15,22,39,42,75,62,22,13,12,12,12,6,4,4,4,4,2,2,2,2,1,1,1,
+	 Label-setting LB: -0.6017307931764417 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 27 , xList.size: 58 , yList.size: 70
+	 Master obj: 1.4494458971485498 , 0.568 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.584 s
+Add Col: 5@14@16@19@20@30@38@41@46@50@ , -0.44944589714854977
+Total Add Col: 1
+
+Epoch: 28 , col: 101 , allScIpCol: 101 , allCol: 101 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3649 , maxWasteInOtherNode: 9992 , cur time: 30.25 s
+	 Solve rmp: 7.303092783505153 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,8,13,23,33,30,53,11,4,4,4,4,3,3,3,3,3,3,3,2,2,3,3,3,1,1,1,
+	 Label-setting LB: -0.8174020618556699 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 28 , xList.size: 58 , yList.size: 76
+	 Master obj: 1.6743092783505147 , 2.634 s
+	 Check: true , slave time: 0.003 s
+	 Pricing time: 2.655 s
+Add Col: 7@14@16@19@20@21@23@35@38@40@44@50@ , -0.6743092783505147
+Total Add Col: 1
+
+Epoch: 29 , col: 102 , allScIpCol: 102 , allCol: 102 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3621 , maxWasteInOtherNode: 9992 , cur time: 32.914 s
+	 Solve rmp: 7.297094086567773 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,8,12,17,24,34,47,38,57,62,54,73,11,11,7,7,7,6,6,6,6,5,3,4,3,2,
+	 Label-setting LB: -0.3806136964031699 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 27 , xList.size: 51 , yList.size: 62
+	 Master obj: 1.2692542166226373 , 5.346 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 5.363 s
+Add Col: 6@9@17@19@20@23@41@44@47@ , -0.26925421662263727
+Total Add Col: 1
+
+Epoch: 30 , col: 103 , allScIpCol: 103 , allCol: 103 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3561 , maxWasteInOtherNode: 9992 , cur time: 38.286 s
+	 Solve rmp: 7.294793095977469 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,7,13,21,33,32,44,64,50,88,84,120,193,199,7,2,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.5237957680363973 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 29 , xList.size: 68 , yList.size: 70
+	 Master obj: 1.4437784357622587 , 138.619 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [9, 10, 11, 12, 16, 18, 20, 23, 25, 26, 27, 28]
+	 Master obj: 1.4437784357622587 , 0.037 s
+	 Check: false , slave time: 0.0 s
+	 Fixed these items must be used for the next solution: [9, 10, 11, 12, 16, 18, 20, 23, 25, 26, 27, 28]
+	 Master obj: 1.4437784357622587 , 0.061 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 138.749 s
+Add Col: 11@12@13@14@18@20@23@30@35@42@46@50@ , -0.4437784357622587
+Total Add Col: 1
+
+Epoch: 31 , col: 104 , allScIpCol: 104 , allCol: 104 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3538 , maxWasteInOtherNode: 9992 , cur time: 177.045 s
+	 Solve rmp: 7.294403856189405 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,8,13,23,34,56,91,84,105,150,162,128,98,61,60,75,17,6,3,2,2,2,2,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.7440880002197267 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 33 , xList.size: 68 , yList.size: 90
+	 Master obj: 1.6642986624186336 , 180.388 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 180.414 s
+Add Col: 3@19@20@26@30@33@35@42@43@44@46@48@50@ , -0.6642986624186336
+Total Add Col: 1
+
+Epoch: 32 , col: 105 , allScIpCol: 105 , allCol: 105 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3535 , maxWasteInOtherNode: 9992 , cur time: 357.469 s
+	 Solve rmp: 7.291156445677482 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,8,12,21,28,42,60,93,139,238,232,391,252,3,3,3,3,3,3,3,2,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.4059590808332949 , 0.002 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 30 , xList.size: 60 , yList.size: 78
+	 Master obj: 1.3548233261929572 , 10.98 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 11.003 s
+Add Col: 10@11@14@17@18@20@26@30@32@35@38@40@48@50@ , -0.3548233261929572
+Total Add Col: 1
+
+Epoch: 33 , col: 106 , allScIpCol: 106 , allCol: 106 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3502 , maxWasteInOtherNode: 9992 , cur time: 368.482 s
+	 Solve rmp: 7.290232498076416 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,8,16,19,33,56,71,102,96,19,30,44,30,22,22,14,11,4,3,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.4017196571447018 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 28 , xList.size: 60 , yList.size: 62
+	 Master obj: 1.2745102259336782 , 0.839 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 0.857 s
+Add Col: 5@9@13@14@23@35@46@50@ , -0.27451022593367824
+Total Add Col: 1
+
+Epoch: 34 , col: 107 , allScIpCol: 107 , allCol: 107 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3493 , maxWasteInOtherNode: 9992 , cur time: 369.349 s
+	 Solve rmp: 7.28371877068371 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 7.283582089552238 , time cost: 0.001 s
+	 Rounding time: 0.011 s
+	 Solve rmp: 7.283582089552238 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,8,13,17,21,40,51,75,72,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.4726368159203977 , 0.0 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 28 , xList.size: 62 , yList.size: 60
+	 Master obj: 1.3233830845771146 , 5.757 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 5.773 s
+Add Col: 3@12@20@21@30@32@38@ , -0.3233830845771146
+Total Add Col: 1
+
+Epoch: 35 , col: 109 , allScIpCol: 109 , allCol: 109 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3426 , maxWasteInOtherNode: 9992 , cur time: 375.142 s
+	 Solve rmp: 7.27776588523991 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,8,16,29,50,49,61,99,94,3,3,3,4,5,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.6311413355610096 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 30 , xList.size: 56 , yList.size: 74
+	 Master obj: 1.4802850728345438 , 1.448 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 1.468 s
+Add Col: 5@10@14@20@24@38@40@41@42@44@ , -0.4802850728345438
+Total Add Col: 1
+
+Epoch: 36 , col: 110 , allScIpCol: 110 , allCol: 110 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3368 , maxWasteInOtherNode: 9992 , cur time: 376.619 s
+	 Solve rmp: 7.272393161864335 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.008 s
+	 1,2,3,6,10,18,23,35,51,77,63,45,82,126,72,59,49,9,8,8,6,4,3,3,3,3,2,2,2,2,2,
+	 Label-setting LB: -0.38438217332929014 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 30 , xList.size: 60 , yList.size: 74
+	 Master obj: 1.3506802868403622 , 1.131 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 1.151 s
+Add Col: 7@11@14@16@24@26@30@33@38@42@44@47@ , -0.35068028684036223
+Total Add Col: 1
+
+Epoch: 37 , col: 111 , allScIpCol: 111 , allCol: 111 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3314 , maxWasteInOtherNode: 9992 , cur time: 377.78 s
+	 Solve rmp: 7.264857745258594 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 7.264822615121578 , time cost: 0.0 s
+	 Rounding time: 0.009 s
+	 Solve rmp: 7.264822615121578 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,3,6,10,20,36,39,60,92,147,136,130,122,10,13,13,6,6,7,6,5,4,4,3,3,3,3,3,1,1,
+	 Label-setting LB: -0.43674272237592493 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 30 , xList.size: 64 , yList.size: 72
+	 Master obj: 1.2998829876319191 , 2.086 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [6, 8, 11, 13, 17, 22, 23, 25, 27, 28, 29]
+	 Master obj: 1.2998829876319191 , 0.028 s
+	 Check: false , slave time: 0.002 s
+	 Fixed these items must be used for the next solution: [6, 8, 11, 13, 17, 22, 23, 25, 27, 28, 29]
+	 Master obj: 1.299882987631919 , 0.048 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [6, 8, 11, 13, 17, 22, 23, 25, 27, 28, 29]
+	 Master obj: 1.299882987631919 , 0.045 s
+	 Check: false , slave time: 0.002 s
+	 Fixed these items must be used for the next solution: [6, 8, 11, 13, 17, 22, 23, 25, 27, 28, 29]
+	 Because the lastRange resulted in no solution to the master problem, remove the lastRange to solve the master problem again
+	 Master obj: 1.2984248765218953 , 6.963 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 9.273 s
+Add Col: 7@10@15@17@19@23@32@41@42@43@46@48@ , -0.2984248765218953
+Total Add Col: 1
+
+Epoch: 38 , col: 113 , allScIpCol: 113 , allCol: 113 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3239 , maxWasteInOtherNode: 9992 , cur time: 387.072 s
+	 Solve rmp: 7.263405143225227 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,7,11,16,26,44,69,64,97,86,19,15,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.3620139068581828 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 1 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 32 , xList.size: 64 , yList.size: 88
+	 Master obj: 1.2850967589202633 , 15.694 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 15.717 s
+Add Col: 2@21@33@41@42@43@46@47@48@ , -0.2850967589202633
+Total Add Col: 1
+
+Epoch: 39 , col: 114 , allScIpCol: 114 , allCol: 114 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3225 , maxWasteInOtherNode: 9992 , cur time: 402.8 s
+	 Solve rmp: 7.263405143225227 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.009 s
+	 1,2,4,8,16,27,46,83,139,70,108,94,24,10,4,4,3,3,3,3,3,2,2,2,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.5634629508305025 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 0 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 34 , xList.size: 64 , yList.size: 94
+	 Master obj: 1.4712495802066765 , 508.801 s
+	 Check: true , slave time: 0.001 s
+	 Pricing time: 508.827 s
+Add Col: 11@14@15@18@20@21@23@26@27@33@41@43@46@47@48@ , -0.4712495802066765
+Total Add Col: 1
+
+Epoch: 40 , col: 115 , allScIpCol: 115 , allCol: 115 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3225 , maxWasteInOtherNode: 9992 , cur time: 911.637 s
+	 Solve rmp: 7.256613756613756 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 7.2565901317002215 , time cost: 0.001 s
+	 Rounding time: 0.012 s
+	 Solve rmp: 7.2565901317002215 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.011 s
+	 1,2,4,6,10,19,34,31,52,51,79,71,32,34,5,5,5,3,3,3,3,3,3,2,2,2,2,2,2,2,1,
+	 Label-setting LB: -0.4979415439444516 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 0 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 31 , xList.size: 62 , yList.size: 64
+	 Master obj: 1.4240009831431895 , 287.704 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [9, 11, 12, 14, 17, 19, 23, 24, 27, 28, 29, 30]
+	 Master obj: 1.4240009831431895 , 0.142 s
+	 Check: false , slave time: 0.0 s
+	 Fixed these items must be used for the next solution: [9, 11, 12, 14, 17, 19, 23, 24, 27, 28, 29, 30]
+	 Master obj: 1.4240009831431895 , 0.085 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [9, 11, 12, 14, 17, 19, 23, 24, 27, 28, 29, 30]
+	 Master obj: 1.4240009831431895 , 0.208 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 288.185 s
+Add Col: 10@12@13@15@18@20@26@28@32@33@42@47@ , -0.42400098314318946
+Total Add Col: 1
+
+Epoch: 41 , col: 118 , allScIpCol: 118 , allCol: 118 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3156 , maxWasteInOtherNode: 9992 , cur time: 1199.845 s
+	 Solve rmp: 7.255156289359407 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 7.255156289359407 , time cost: 0.0 s
+	 Rounding time: 0.011 s
+	 Solve rmp: 7.255156289359407 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.011 s
+	 1,2,4,8,16,18,33,48,46,43,55,27,4,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.3808454829600615 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 0 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 35 , xList.size: 72 , yList.size: 86
+	 Master obj: 1.2721872093603468 , 455.903 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 455.933 s
+Add Col: 10@11@12@15@20@21@26@29@33@38@41@42@43@46@48@ , -0.2721872093603468
+Total Add Col: 1
+
+Epoch: 42 , col: 120 , allScIpCol: 120 , allCol: 120 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3142 , maxWasteInOtherNode: 9992 , cur time: 1655.801 s
+	 Solve rmp: 7.254456174809722 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.011 s
+	 1,2,4,8,16,17,17,29,21,22,28,28,5,6,6,6,9,10,6,6,6,5,5,4,4,4,4,4,1,1,1,1,
+	 Label-setting LB: -0.3800638350110478 , 0.0 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 0 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 32 , xList.size: 76 , yList.size: 60
+	 Master obj: 1.2429986087241178 , 8.186 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 8.208 s
+Add Col: 0@31@33@36@ , -0.24299860872411783
+Total Add Col: 1
+
+Epoch: 43 , col: 121 , allScIpCol: 121 , allCol: 121 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3135 , maxWasteInOtherNode: 9992 , cur time: 1664.021 s
+	 Solve rmp: 7.254456174809722 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.011 s
+	 1,2,4,7,14,28,20,20,30,47,13,13,10,13,13,5,6,4,3,3,3,2,2,2,2,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.5403879204517548 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 0 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 33 , xList.size: 76 , yList.size: 60
+	 Master obj: 1.3889516327031664 , 16.034 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [8, 10, 14, 19, 20, 21, 22, 23, 26, 28, 31, 32]
+	 Master obj: 1.3889516327031664 , 0.076 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [8, 10, 14, 19, 20, 21, 22, 23, 26, 28, 31, 32]
+	 Because the lastRange resulted in no solution to the master problem, remove the lastRange to solve the master problem again
+	 Master obj: 1.387560356821343 , 41.567 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 57.789 s
+Add Col: 9@11@15@20@21@22@23@24@31@33@48@ , -0.38756035682134304
+Total Add Col: 1
+
+Epoch: 44 , col: 122 , allScIpCol: 122 , allCol: 122 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3135 , maxWasteInOtherNode: 9992 , cur time: 1721.822 s
+	 Solve rmp: 7.254456174809722 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 7.25426885080327 , time cost: 0.0 s
+	 Rounding time: 0.012 s
+	 Solve rmp: 7.25426885080327 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 7.253576942871847 , time cost: 0.0 s
+	 Rounding time: 0.011 s
+	 Solve rmp: 7.253576942871847 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 7.253495614804225 , time cost: 0.001 s
+	 Rounding time: 0.011 s
+	 Solve rmp: 7.253495614804225 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 7.253420201409313 , time cost: 0.001 s
+	 Rounding time: 0.011 s
+	 Solve rmp: 7.253420201409313 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.011 s
+	 1,2,4,8,16,30,52,49,44,76,83,8,8,8,6,4,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.4342120937222236 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 0 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 36 , xList.size: 72 , yList.size: 82
+	 Master obj: 1.309670640484067 , 131.779 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 131.814 s
+Add Col: 5@15@17@20@26@32@33@34@38@41@42@47@ , -0.309670640484067
+Total Add Col: 1
+
+Epoch: 45 , col: 128 , allScIpCol: 128 , allCol: 128 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3125 , maxWasteInOtherNode: 9992 , cur time: 1853.695 s
+	 Solve rmp: 7.252128496816198 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 7.252123915159887 , time cost: 0.001 s
+	 Rounding time: 0.012 s
+	 Solve rmp: 7.252123915159887 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 7.251445270313194 , time cost: 0.0 s
+	 Rounding time: 0.012 s
+	 Solve rmp: 7.251445270313194 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 7.248643410852711 , time cost: 0.0 s
+	 Rounding time: 0.012 s
+	 Solve rmp: 7.248643410852711 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.012 s
+	 1,2,4,6,10,20,22,40,68,114,75,54,42,44,15,17,13,13,12,11,19,8,8,7,7,7,7,6,4,2,2,2,2,1,
+	 Label-setting LB: -0.5478682170542606 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 0 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 34 , xList.size: 82 , yList.size: 64
+	 Master obj: 1.467635658914726 , 177.617 s
+	 Check: false , slave time: 0.002 s
+	 Fixed these items must be used for the next solution: [9, 12, 13, 17, 20, 21, 23, 24, 25, 26, 27, 31, 32, 33]
+	 Master obj: 1.467635658914726 , 0.114 s
+	 Check: false , slave time: 0.004 s
+	 Fixed these items must be used for the next solution: [9, 12, 13, 17, 20, 21, 23, 24, 25, 26, 27, 31, 32, 33]
+	 Master obj: 1.467635658914726 , 0.248 s
+	 Check: false , slave time: 0.004 s
+	 Fixed these items must be used for the next solution: [9, 12, 13, 17, 20, 21, 23, 24, 25, 26, 27, 31, 32, 33]
+	 Master obj: 1.4676356589147261 , 0.746 s
+	 Check: false , slave time: 0.006 s
+	 Fixed these items must be used for the next solution: [9, 12, 13, 17, 20, 21, 23, 24, 25, 26, 27, 31, 32, 33]
+	 Master obj: 1.467635658914726 , 0.128 s
+	 Check: false , slave time: 0.006 s
+	 Fixed these items must be used for the next solution: [9, 12, 13, 17, 20, 21, 23, 24, 25, 26, 27, 31, 32, 33]
+	 Because the lastRange resulted in no solution to the master problem, remove the lastRange to solve the master problem again
+	 Master obj: 1.4575581395348804 , 313.355 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 493.017 s
+Add Col: 4@10@23@25@26@29@30@31@37@42@47@50@ , -0.45755813953488045
+Total Add Col: 1
+
+Epoch: 46 , col: 133 , allScIpCol: 133 , allCol: 133 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3077 , maxWasteInOtherNode: 9992 , cur time: 2346.76 s
+	 Solve rmp: 7.248389694041869 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.011 s
+	 1,2,4,6,8,13,23,41,70,113,123,100,128,88,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.44089953480050215 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 0 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 35 , xList.size: 78 , yList.size: 74
+	 Master obj: 1.3624194847020958 , 81.931 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 81.96 s
+Add Col: 7@10@14@18@21@26@29@30@42@45@47@ , -0.36241948470209584
+Total Add Col: 1
+
+Epoch: 47 , col: 134 , allScIpCol: 134 , allCol: 134 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3074 , maxWasteInOtherNode: 9992 , cur time: 2428.732 s
+	 Solve rmp: 7.246820265306742 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.011 s
+	 1,2,4,8,10,16,16,28,47,56,57,29,16,7,7,9,7,5,5,5,5,4,6,5,4,4,3,3,3,2,2,2,1,1,
+	 Label-setting LB: -0.3810217648665881 , 0.0 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 0 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 34 , xList.size: 72 , yList.size: 86
+	 Master obj: 1.2767507512976959 , 158.686 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [7, 10, 17, 18, 19, 22, 23, 24, 30, 32, 33]
+	 Master obj: 1.2767507512976959 , 0.145 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [7, 10, 17, 18, 19, 22, 23, 24, 30, 32, 33]
+	 Master obj: 1.276750751297696 , 0.123 s
+	 Check: false , slave time: 0.002 s
+	 Fixed these items must be used for the next solution: [7, 10, 17, 18, 19, 22, 23, 24, 30, 32, 33]
+	 Master obj: 1.2767507512976959 , 0.149 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [7, 10, 17, 18, 19, 22, 23, 24, 30, 32, 33]
+	 Master obj: 1.2767507512976959 , 0.142 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [7, 10, 17, 18, 19, 22, 23, 24, 30, 32, 33]
+	 Master obj: 1.2767507512976959 , 0.141 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [7, 10, 17, 18, 19, 22, 23, 24, 30, 32, 33]
+	 Master obj: 1.2767507512976959 , 0.144 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [7, 10, 17, 18, 19, 22, 23, 24, 30, 32, 33]
+	 Because the lastRange resulted in no solution to the master problem, remove the lastRange to solve the master problem again
+	 Master obj: 1.2748990680873025 , 256.469 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [10, 11, 14, 17, 18, 19, 20, 22, 24, 26, 29, 33]
+	 Master obj: 1.2748990680873025 , 0.098 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [10, 11, 14, 17, 18, 19, 20, 22, 24, 26, 29, 33]
+	 Master obj: 1.2748990680873025 , 0.105 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [10, 11, 14, 17, 18, 19, 20, 22, 24, 26, 29, 33]
+	 Master obj: 1.2748990680873025 , 0.143 s
+	 Check: false , slave time: 0.001 s
+	 Fixed these items must be used for the next solution: [10, 11, 14, 17, 18, 19, 20, 22, 24, 26, 29, 33]
+	 Master obj: 1.2748990680873025 , 0.106 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 416.886 s
+Add Col: 11@12@15@18@19@20@21@23@26@32@40@49@ , -0.27489906808730247
+Total Add Col: 1
+
+Epoch: 48 , col: 135 , allScIpCol: 135 , allCol: 135 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3059 , maxWasteInOtherNode: 9992 , cur time: 2845.63 s
+	 Solve rmp: 7.245266455719297 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.012 s
+	 1,2,4,8,15,30,58,58,104,107,160,194,4,6,6,6,6,8,6,9,8,8,8,8,5,5,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.36981593365062376 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 0 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 41 , xList.size: 82 , yList.size: 96
+	 Master obj: 1.2963478650701408 , 97.823 s
+	 Check: true , slave time: 0.0 s
+	 Pricing time: 97.869 s
+Add Col: 6@11@15@20@21@28@30@37@41@44@47@50@ , -0.29634786507014077
+Total Add Col: 1
+
+Epoch: 49 , col: 136 , allScIpCol: 136 , allCol: 136 , lb: 7 , ub: 8 , deep: 0 , cons num: 101 , sr num: 0 , maxWasteInRootNode: 3043 , maxWasteInOtherNode: 9992 , cur time: 2943.512 s
+	 Solve rmp: 7.2441312948594785 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 7.2439818368701125 , time cost: 0.001 s
+	 Rounding time: 0.013 s
+	 Solve rmp: 7.2439818368701125 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Rounding time: 0.012 s
+	 1,2,4,8,16,28,30,53,89,144,133,117,9,9,9,12,14,16,13,18,13,17,15,18,18,17,15,10,3,2,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.4197937596303432 , 0.001 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 0 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 40 , xList.size: 86 , yList.size: 94
+	 Pricing time: 658.342 s
+Termination By empty negative reduced cost column
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:98,w:81},{x:81,y:0,h:98,w:7},{x:89,y:0,h:68,w:11},{x:88,y:0,h:41,w:1},{x:88,y:41,h:21,w:1},{x:88,y:62,h:8,w:1},{x:91,y:68,h:22,w:9},{x:91,y:90,h:5,w:9},{x:90,y:95,h:4,w:10},{x:65,y:98,h:1,w:25},{x:52,y:98,h:1,w:13},{x:0,y:99,h:1,w:96},],
+----------------------- Bin-2 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:78,w:99},{x:0,y:78,h:21,w:93},],
+----------------------- Bin-3 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:74,w:87},{x:94,y:0,h:82,w:6},{x:87,y:0,h:35,w:7},{x:87,y:35,h:39,w:2},{x:90,y:35,h:31,w:4},{x:21,y:74,h:8,w:73},{x:0,y:74,h:25,w:21},{x:21,y:82,h:17,w:23},{x:68,y:82,h:16,w:32},{x:52,y:82,h:16,w:16},{x:44,y:82,h:13,w:8},],
+----------------------- Bin-4 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:67,w:74},{x:75,y:0,h:49,w:25},{x:77,y:49,h:44,w:23},{x:0,y:67,h:33,w:18},{x:18,y:67,h:31,w:47},{x:65,y:67,h:11,w:9},{x:65,y:93,h:5,w:34},],
+----------------------- Bin-5 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:60,w:59},{x:61,y:0,h:100,w:39},{x:0,y:60,h:38,w:28},{x:28,y:60,h:32,w:33},{x:28,y:92,h:6,w:31},],
+----------------------- Bin-6 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:85,w:45},{x:54,y:0,h:67,w:46},{x:67,y:67,h:29,w:33},{x:49,y:67,h:27,w:18},{x:20,y:85,h:9,w:29},{x:0,y:85,h:10,w:15},{x:35,y:94,h:5,w:32},{x:4,y:95,h:4,w:31},{x:73,y:96,h:4,w:27},],
+----------------------- Bin-7 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:78,w:15},{x:60,y:0,h:48,w:40},{x:15,y:0,h:43,w:38},{x:15,y:43,h:45,w:34},{x:49,y:43,h:42,w:11},{x:60,y:48,h:37,w:24},{x:85,y:48,h:49,w:15},{x:62,y:85,h:9,w:23},{x:0,y:88,h:4,w:39},{x:0,y:92,h:3,w:38},],
+----------------------- Bin-8 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:30,w:30},{x:67,y:0,h:24,w:33},{x:30,y:0,h:50,w:14},{x:44,y:0,h:36,w:14},],
+BpcSolution{className='Class_10', isOpt=false, id=24, inS=69409, outS=80000, LB_BM_3=7, LB_CCM_1=7, LB_CCM_2=7, LB0=7, LB_NoSr=7, LB=7, UB0=8, UB=8, rootColCnt=137, totalColCnt=137, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=0, generatedNodeCnt=1, rmpCnt=85, roundingCnt=67, pricingCnt=49, heuPricingCnt=0, masterCnt=81, slaveCnt=76, findBendersCutCnt=28, rate=0.8676125, gap=0.125, totalTime=3601.88, preprocessingTime=0.011, lb0Time=0.115, ub0Time=10.002, rmpTime=0.03000000000000002, roundingTime=0.8230000000000005, pricingTime=3590.8190000000004, heuPricingTime=0.0, masterTime=3589.522, slaveTime=0.06900000000000002, findBendersCutTime=0.395, totalLbLabelCnt=18639, maxLbLabelCnt=1554, minLbLabelCnt=8, totalHeuLabelCnt=0, maxHeuLabelCnt=0, minHeuLabelCnt=9223372036854775807}

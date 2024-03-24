@@ -1,0 +1,1694 @@
+====================================== 2024-03-22 07:19:39 Class_07-38 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 188955
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 188955 , time cost: 0.011 s
+LB0: 22 , time cost: 0.175 s
+188559.0 , 188955
+UB0: 23 , time cost: 10.004 s
+----------------------- Start column generation for bpcNode: BpcNode{isRoot=true, deep=0} -----------------------
+fat: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]
+
+Epoch: 1 , col: 103 , allScIpCol: 103 , allCol: 103 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.256 s
+	 Solve rmp: 23.0 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: true
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Solve rmp: 23.0 , time cost: 0.0 s
+	 Rounding time: 0.021 s
+	 Solve rmp: 23.0 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: true
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Solve rmp: 23.0 , time cost: 0.0 s
+	 Rounding time: 0.037 s
+	 Solve rmp: 23.0 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: true
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Solve rmp: 22.5 , time cost: 0.0 s
+	 Rounding time: 0.034 s
+	 Solve rmp: 22.5 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Solve rmp: 22.5 , time cost: 0.0 s
+	 Rounding time: 0.012 s
+	 Solve rmp: 22.5 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.012 s
+	 1,2,4,6,9,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -3.0 , 0.007 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,4,6,9,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -3.0 , 0.001 s
+	 1,2,4,6,11,12,16,19,20,19,16,17,14,11,11,10,8,7,6,6,3,3,1,1,
+	 Label-setting UB: -0.5 , 0.008 s
+	 Pricing time: 0.02 s
+Add Col: 36@38@42@66@ , -2.0
+Add Col: 36@37@38@66@ , -2.0
+Add Col: 35@36@38@66@ , -2.0
+Add Col: 29@36@38@ , -2.0
+Add Col: 28@36@38@ , -2.0
+Add Col: 23@36@38@ , -2.0
+Add Col: 18@36@38@ , -2.0
+Add Col: 36@38@66@ , -1.5
+Add Col: 29@38@66@ , -1.5
+Add Col: 28@38@66@ , -1.5
+Add Col: 28@29@66@ , -1.5
+Add Col: 23@38@66@ , -1.5
+Add Col: 23@29@66@ , -1.5
+Add Col: 22@38@66@ , -1.5
+Add Col: 22@29@66@ , -1.5
+Add Col: 22@23@66@ , -1.5
+Add Col: 18@38@66@ , -1.5
+Add Col: 18@29@66@ , -1.5
+Add Col: 18@23@66@ , -1.5
+Add Col: 18@22@66@ , -1.5
+Add Col: 19@38@66@ , -1.5
+Add Col: 19@29@66@ , -1.5
+Add Col: 19@23@66@ , -1.5
+Add Col: 12@38@66@ , -1.5
+Add Col: 12@29@66@ , -1.5
+Add Col: 36@38@42@ , -1.5
+Add Col: 29@38@42@ , -1.5
+Add Col: 23@38@42@ , -1.5
+Add Col: 11@38@66@ , -1.5
+Add Col: 11@29@66@ , -1.5
+Add Col: 36@37@38@ , -1.5
+Add Col: 23@37@38@ , -1.5
+Add Col: 35@36@38@ , -1.5
+Add Col: 23@35@38@ , -1.5
+Add Col: 38@42@66@ , -1.0
+Add Col: 29@42@66@ , -1.0
+Add Col: 37@38@66@ , -1.0
+Add Col: 35@38@66@ , -1.0
+Add Col: 36@38@ , -1.0
+Add Col: 29@38@ , -1.0
+Add Col: 28@38@ , -1.0
+Add Col: 28@29@ , -1.0
+Add Col: 23@38@ , -1.0
+Add Col: 23@29@ , -1.0
+Add Col: 22@38@ , -1.0
+Add Col: 22@29@ , -1.0
+Add Col: 18@38@ , -1.0
+Add Col: 18@29@ , -1.0
+Add Col: 19@38@ , -1.0
+Add Col: 12@38@ , -1.0
+Add Col: 38@66@ , -0.5
+Add Col: 36@66@ , -0.5
+Add Col: 29@66@ , -0.5
+Add Col: 28@66@ , -0.5
+Add Col: 23@66@ , -0.5
+Add Col: 22@66@ , -0.5
+Add Col: 18@66@ , -0.5
+Total Add Col: 57
+
+Epoch: 2 , col: 165 , allScIpCol: 165 , allCol: 165 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.402 s
+	 Solve rmp: 22.5 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.013 s
+	 1,2,4,8,6,3,4,3,3,3,3,3,3,3,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -3.0 , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,4,8,6,3,4,3,3,3,3,3,3,3,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -3.0 , 0.002 s
+	 1,2,4,8,6,6,6,6,6,5,5,5,5,5,5,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,
+	 Label-setting UB: -0.5 , 0.004 s
+	 Pricing time: 0.007 s
+Add Col: 32@34@47@66@ , -2.5
+Add Col: 25@34@47@66@ , -2.5
+Add Col: 32@34@35@47@ , -2.5
+Add Col: 34@42@47@66@ , -2.0
+Add Col: 25@42@47@66@ , -2.0
+Add Col: 34@39@47@66@ , -2.0
+Add Col: 25@39@47@66@ , -2.0
+Add Col: 34@37@47@66@ , -2.0
+Add Col: 25@37@47@66@ , -2.0
+Add Col: 34@35@47@66@ , -2.0
+Add Col: 32@34@47@ , -2.0
+Add Col: 25@34@47@ , -2.0
+Add Col: 34@47@66@ , -1.5
+Add Col: 32@47@66@ , -1.5
+Add Col: 32@34@66@ , -1.5
+Add Col: 25@47@66@ , -1.5
+Add Col: 34@47@ , -1.0
+Add Col: 32@47@ , -1.0
+Add Col: 32@34@ , -1.0
+Add Col: 47@66@ , -0.5
+Add Col: 34@66@ , -0.5
+Add Col: 32@66@ , -0.5
+Total Add Col: 22
+
+Epoch: 3 , col: 187 , allScIpCol: 187 , allCol: 187 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.424 s
+	 Solve rmp: 22.5 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Solve rmp: 22.5 , time cost: 0.0 s
+	 Rounding time: 0.013 s
+	 Solve rmp: 22.5 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.011 s
+	 1,2,4,8,8,2,3,3,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -3.5 , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,4,8,8,2,3,3,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -3.5 , 0.001 s
+	 1,2,4,8,8,4,5,7,5,5,5,5,5,5,5,4,4,4,3,3,3,3,3,3,3,3,3,2,2,1,1,
+	 Label-setting UB: -0.5 , 0.003 s
+	 Pricing time: 0.005 s
+Add Col: 42@44@46@49@66@ , -3.0
+Add Col: 39@44@46@49@66@ , -3.0
+Add Col: 37@44@46@49@66@ , -3.0
+Add Col: 35@44@46@49@66@ , -3.0
+Add Col: 32@44@46@49@66@ , -3.0
+Add Col: 30@44@46@49@66@ , -3.0
+Add Col: 24@44@46@49@ , -3.0
+Add Col: 44@46@49@66@ , -2.5
+Add Col: 24@46@49@66@ , -2.5
+Add Col: 24@44@46@66@ , -2.5
+Add Col: 42@44@46@49@ , -2.5
+Add Col: 39@44@46@49@ , -2.5
+Add Col: 37@44@46@49@ , -2.5
+Add Col: 35@44@46@49@ , -2.5
+Add Col: 44@46@49@ , -2.0
+Add Col: 24@46@49@ , -2.0
+Add Col: 24@44@46@ , -2.0
+Add Col: 46@49@66@ , -1.5
+Add Col: 44@49@66@ , -1.5
+Add Col: 44@46@66@ , -1.5
+Add Col: 24@49@66@ , -1.5
+Add Col: 24@46@66@ , -1.5
+Add Col: 46@49@ , -1.0
+Add Col: 44@49@ , -1.0
+Add Col: 44@46@ , -1.0
+Add Col: 49@66@ , -0.5
+Add Col: 46@66@ , -0.5
+Add Col: 44@66@ , -0.5
+Total Add Col: 28
+
+Epoch: 4 , col: 216 , allScIpCol: 216 , allCol: 216 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.455 s
+	 Solve rmp: 22.4 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.033 s
+	 1,2,3,5,9,8,11,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -3.8000000000000003 , 0.002 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,5,9,8,11,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -3.8000000000000003 , 0.001 s
+	 1,2,3,5,9,8,11,11,10,8,10,10,11,9,8,10,10,10,8,7,7,6,6,6,6,6,6,6,3,2,2,1,1,1,
+	 Label-setting UB: -0.4 , 0.003 s
+	 Pricing time: 0.005 s
+Add Col: 40@52@55@58@63@66@ , -3.2
+Add Col: 35@40@52@55@58@63@ , -3.2
+Add Col: 20@52@55@58@63@ , -3.2
+Add Col: 6@52@55@58@63@ , -3.2
+Add Col: 5@52@55@58@63@ , -3.2
+Add Col: 39@52@55@58@63@66@ , -3.0
+Add Col: 37@52@55@58@63@66@ , -3.0
+Add Col: 35@52@55@58@63@66@ , -3.0
+Add Col: 32@52@55@58@63@66@ , -3.0
+Add Col: 30@52@55@58@63@66@ , -3.0
+Add Col: 40@44@52@55@58@63@ , -3.0
+Add Col: 20@55@58@63@66@ , -3.0
+Add Col: 20@40@55@63@66@ , -3.0
+Add Col: 6@55@58@63@66@ , -3.0
+Add Col: 5@55@58@63@66@ , -3.0
+Add Col: 40@52@55@58@63@ , -2.8000000000000003
+Add Col: 28@52@55@58@63@ , -2.8000000000000003
+Add Col: 23@52@55@58@63@ , -2.8000000000000003
+Add Col: 21@52@55@58@63@ , -2.8000000000000003
+Add Col: 52@55@58@63@66@ , -2.6
+Add Col: 40@55@58@63@66@ , -2.6
+Add Col: 28@55@58@63@66@ , -2.6
+Add Col: 39@52@55@58@63@ , -2.6
+Add Col: 37@52@55@58@63@ , -2.6
+Add Col: 20@55@58@63@ , -2.6
+Add Col: 20@40@55@63@ , -2.6
+Add Col: 20@55@63@66@ , -2.4
+Add Col: 52@55@58@63@ , -2.2
+Add Col: 40@55@58@63@ , -2.2
+Add Col: 55@58@63@66@ , -2.0
+Add Col: 52@55@63@66@ , -2.0
+Add Col: 40@55@63@66@ , -2.0
+Add Col: 55@58@63@ , -1.6
+Add Col: 52@55@63@ , -1.6
+Add Col: 40@55@63@ , -1.6
+Add Col: 55@63@66@ , -1.4
+Add Col: 52@58@63@ , -1.2
+Add Col: 40@58@63@ , -1.2
+Add Col: 58@63@66@ , -1.0
+Add Col: 52@63@66@ , -1.0
+Add Col: 40@63@66@ , -1.0
+Add Col: 55@63@ , -1.0
+Add Col: 58@63@ , -0.6
+Add Col: 52@63@ , -0.6
+Add Col: 63@66@ , -0.4
+Total Add Col: 45
+
+Epoch: 5 , col: 261 , allScIpCol: 261 , allCol: 261 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.495 s
+	 Solve rmp: 22.375 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.03 s
+	 1,2,4,6,6,7,10,3,4,4,3,4,5,5,5,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,1,1,1,1,
+	 Label-setting LB: -3.625 , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,4,6,6,7,10,3,4,4,3,4,5,5,5,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,1,1,1,1,
+	 Label-setting LB: -3.625 , 0.001 s
+	 1,2,4,6,6,7,10,6,5,5,4,5,8,8,9,5,6,6,6,6,6,5,5,6,6,6,6,6,6,6,5,3,3,3,3,3,3,2,2,2,2,1,1,1,
+	 Label-setting UB: -0.375 , 0.003 s
+	 Pricing time: 0.005 s
+Add Col: 40@53@56@57@58@66@70@ , -3.25
+Add Col: 42@53@56@57@58@66@70@ , -3.125
+Add Col: 40@53@56@57@66@70@ , -3.125
+Add Col: 40@42@53@56@57@70@ , -3.125
+Add Col: 39@40@53@56@57@70@ , -3.125
+Add Col: 37@40@53@56@57@70@ , -3.125
+Add Col: 28@53@56@57@66@70@ , -3.125
+Add Col: 35@40@53@56@57@70@ , -3.125
+Add Col: 23@53@56@57@66@70@ , -3.125
+Add Col: 21@53@56@57@66@70@ , -3.125
+Add Col: 15@53@56@57@66@70@ , -3.125
+Add Col: 44@53@56@57@58@66@70@ , -3.0
+Add Col: 42@53@56@57@66@70@ , -3.0
+Add Col: 39@53@56@57@66@70@ , -3.0
+Add Col: 37@53@56@57@66@70@ , -3.0
+Add Col: 35@53@56@57@66@70@ , -3.0
+Add Col: 30@53@56@57@66@70@ , -3.0
+Add Col: 40@44@53@56@57@70@ , -3.0
+Add Col: 24@53@56@57@66@70@ , -3.0
+Add Col: 44@53@56@57@66@70@ , -2.875
+Add Col: 40@53@56@57@58@70@ , -2.875
+Add Col: 14@53@56@57@70@ , -2.875
+Add Col: 53@56@57@58@66@70@ , -2.75
+Add Col: 40@53@56@57@70@ , -2.75
+Add Col: 28@53@56@57@70@ , -2.75
+Add Col: 23@53@56@57@70@ , -2.75
+Add Col: 21@53@56@57@70@ , -2.75
+Add Col: 53@56@57@66@70@ , -2.625
+Add Col: 42@53@56@57@70@ , -2.625
+Add Col: 39@53@56@57@70@ , -2.625
+Add Col: 37@53@56@57@70@ , -2.625
+Add Col: 35@53@56@57@70@ , -2.625
+Add Col: 40@56@57@66@70@ , -2.375
+Add Col: 53@56@57@70@ , -2.25
+Add Col: 40@53@56@57@ , -2.125
+Add Col: 53@56@57@66@ , -2.0
+Add Col: 40@56@57@70@ , -2.0
+Add Col: 56@57@66@70@ , -1.875
+Add Col: 53@56@57@ , -1.625
+Add Col: 40@57@66@70@ , -1.5
+Add Col: 56@57@70@ , -1.5
+Add Col: 53@57@70@ , -1.375
+Add Col: 40@56@57@ , -1.375
+Add Col: 56@57@66@ , -1.25
+Add Col: 57@66@70@ , -1.0
+Add Col: 56@57@ , -0.875
+Add Col: 53@57@ , -0.75
+Add Col: 57@70@ , -0.625
+Add Col: 56@70@ , -0.5
+Add Col: 53@70@ , -0.375
+Add Col: 57@66@ , -0.375
+Total Add Col: 51
+
+Epoch: 6 , col: 312 , allScIpCol: 312 , allCol: 312 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.532 s
+	 Solve rmp: 22.277777777777786 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.032 s
+	 1,2,4,7,13,16,20,24,14,10,8,7,5,5,5,5,5,5,4,4,4,4,4,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,
+	 Label-setting LB: -2.111111111111111 , 0.002 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,4,7,13,16,20,24,14,10,8,7,5,5,5,5,5,5,4,4,4,4,4,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,
+	 Label-setting LB: -2.111111111111111 , 0.001 s
+	 1,2,4,7,13,14,14,18,23,25,26,27,31,33,34,34,36,34,35,34,37,35,33,30,27,26,31,31,29,25,23,22,15,14,13,13,11,11,11,10,9,7,5,5,4,4,3,2,
+	 Label-setting UB: -1.0555555555555556 , 0.007 s
+	 Pricing time: 0.009 s
+Add Col: 4@50@52@68@ , -1.5555555555555558
+Add Col: 4@52@66@68@ , -1.5555555555555556
+Add Col: 3@52@66@68@ , -1.5555555555555556
+Add Col: 44@50@52@53@66@68@70@ , -1.5000000000000002
+Add Col: 20@50@52@66@68@70@ , -1.5000000000000004
+Add Col: 6@50@52@66@68@ , -1.5
+Add Col: 5@50@52@66@68@ , -1.5
+Add Col: 9@52@68@70@ , -1.5
+Add Col: 4@52@68@70@ , -1.5
+Add Col: 3@52@68@70@ , -1.5
+Add Col: 42@43@52@66@68@70@ , -1.4444444444444446
+Add Col: 39@43@52@66@68@70@ , -1.4444444444444446
+Add Col: 38@43@52@66@68@70@ , -1.4444444444444446
+Add Col: 37@43@52@66@68@70@ , -1.4444444444444449
+Add Col: 37@44@50@52@66@68@ , -1.4444444444444449
+Add Col: 35@43@52@66@68@70@ , -1.4444444444444449
+Add Col: 35@37@50@52@68@70@ , -1.4444444444444449
+Add Col: 34@43@52@66@68@70@ , -1.4444444444444446
+Add Col: 32@43@52@66@68@70@ , -1.4444444444444446
+Add Col: 30@43@52@66@68@70@ , -1.4444444444444446
+Add Col: 25@50@52@66@68@70@ , -1.4444444444444446
+Add Col: 18@50@52@66@68@70@ , -1.4444444444444446
+Add Col: 17@50@52@66@68@ , -1.4444444444444446
+Add Col: 6@50@52@68@70@ , -1.4444444444444446
+Add Col: 6@52@66@68@70@ , -1.4444444444444444
+Add Col: 5@50@52@68@70@ , -1.4444444444444446
+Add Col: 5@52@66@68@70@ , -1.4444444444444444
+Add Col: 9@66@68@70@ , -1.4444444444444446
+Add Col: 4@50@68@70@ , -1.4444444444444446
+Add Col: 4@66@68@70@ , -1.4444444444444446
+Add Col: 3@66@68@70@ , -1.4444444444444446
+Add Col: 43@50@52@66@68@70@ , -1.3888888888888893
+Add Col: 42@50@52@66@68@70@ , -1.388888888888889
+Add Col: 39@50@52@66@68@70@ , -1.388888888888889
+Add Col: 38@50@52@66@68@70@ , -1.388888888888889
+Add Col: 37@50@52@66@68@70@ , -1.3888888888888893
+Add Col: 43@44@52@66@68@70@ , -1.3888888888888893
+Add Col: 37@44@50@52@68@70@ , -1.3888888888888893
+Add Col: 35@50@52@66@68@70@ , -1.3888888888888893
+Add Col: 35@44@50@52@68@70@ , -1.3888888888888893
+Add Col: 34@50@52@66@68@70@ , -1.388888888888889
+Add Col: 40@43@52@66@68@70@ , -1.388888888888889
+Add Col: 34@40@50@52@68@70@ , -1.388888888888889
+Add Col: 20@52@53@66@68@70@ , -1.388888888888889
+Add Col: 32@50@52@66@68@70@ , -1.388888888888889
+Add Col: 30@50@52@66@68@70@ , -1.388888888888889
+Add Col: 29@50@52@66@68@70@ , -1.3888888888888893
+Add Col: 28@50@52@66@68@70@ , -1.388888888888889
+Add Col: 24@50@52@66@68@70@ , -1.3888888888888893
+Add Col: 23@50@52@66@68@70@ , -1.388888888888889
+Add Col: 21@50@52@66@68@70@ , -1.3888888888888893
+Add Col: 17@50@52@68@70@ , -1.3888888888888893
+Add Col: 17@52@66@68@70@ , -1.388888888888889
+Add Col: 14@50@52@68@70@ , -1.388888888888889
+Add Col: 14@52@66@68@70@ , -1.3888888888888888
+Add Col: 44@50@52@66@68@70@ , -1.3333333333333337
+Add Col: 40@50@52@66@68@70@ , -1.3333333333333335
+Add Col: 32@50@52@53@66@68@ , -1.3333333333333333
+Add Col: 30@50@52@53@66@68@ , -1.3333333333333333
+Add Col: 29@50@52@53@66@68@ , -1.3333333333333335
+Add Col: 25@52@53@66@68@70@ , -1.3333333333333335
+Add Col: 14@44@66@68@70@ , -1.3333333333333335
+Add Col: 43@52@53@66@68@70@ , -1.277777777777778
+Add Col: 32@50@52@53@68@70@ , -1.277777777777778
+Add Col: 32@52@53@66@68@70@ , -1.277777777777778
+Add Col: 30@50@52@53@68@70@ , -1.277777777777778
+Add Col: 30@52@53@66@68@70@ , -1.277777777777778
+Add Col: 29@52@53@66@68@70@ , -1.277777777777778
+Add Col: 20@50@52@66@68@ , -1.2777777777777781
+Add Col: 9@52@68@ , -1.277777777777778
+Add Col: 4@52@68@ , -1.277777777777778
+Add Col: 3@52@68@ , -1.277777777777778
+Add Col: 50@52@53@66@68@70@ , -1.2222222222222223
+Add Col: 42@43@50@52@68@ , -1.2222222222222225
+Add Col: 42@43@52@66@68@ , -1.2222222222222223
+Add Col: 39@43@52@66@68@ , -1.2222222222222223
+Add Col: 39@42@52@66@68@ , -1.222222222222222
+Add Col: 38@43@52@66@68@ , -1.2222222222222223
+Add Col: 38@42@52@66@68@ , -1.222222222222222
+Add Col: 37@43@52@66@68@ , -1.2222222222222225
+Add Col: 37@42@52@66@68@ , -1.2222222222222223
+Add Col: 35@43@52@66@68@ , -1.2222222222222225
+Add Col: 35@42@52@66@68@ , -1.2222222222222223
+Add Col: 34@43@52@66@68@ , -1.2222222222222223
+Add Col: 34@42@52@66@68@ , -1.222222222222222
+Add Col: 14@53@66@68@70@ , -1.222222222222222
+Add Col: 20@50@52@68@70@ , -1.2222222222222225
+Add Col: 20@52@66@68@70@ , -1.2222222222222223
+Add Col: 32@43@52@66@68@ , -1.2222222222222223
+Add Col: 26@52@66@68@ , -1.222222222222222
+Add Col: 17@43@52@68@ , -1.2222222222222223
+Add Col: 14@43@52@68@ , -1.2222222222222223
+Add Col: 6@52@66@68@ , -1.222222222222222
+Add Col: 9@66@68@ , -1.2222222222222223
+Add Col: 9@50@68@ , -1.2222222222222223
+Add Col: 4@66@68@ , -1.2222222222222223
+Add Col: 3@66@68@ , -1.2222222222222223
+Add Col: 9@44@68@ , -1.2222222222222223
+Add Col: 43@50@52@66@68@ , -1.166666666666667
+Add Col: 42@50@52@66@68@ , -1.1666666666666667
+Add Col: 39@50@52@66@68@ , -1.1666666666666667
+Add Col: 38@50@52@66@68@ , -1.1666666666666667
+Add Col: 37@50@52@66@68@ , -1.166666666666667
+Add Col: 37@44@50@52@68@ , -1.1666666666666672
+Add Col: 43@44@52@66@68@ , -1.166666666666667
+Add Col: 42@44@52@66@68@ , -1.1666666666666667
+Add Col: 35@50@52@66@68@ , -1.166666666666667
+Add Col: 34@50@52@66@68@ , -1.1666666666666667
+Add Col: 40@43@52@66@68@ , -1.1666666666666667
+Add Col: 34@40@52@66@68@ , -1.1666666666666665
+Add Col: 32@50@52@66@68@ , -1.1666666666666667
+Add Col: 30@50@52@66@68@ , -1.1666666666666667
+Add Col: 29@50@52@66@68@ , -1.166666666666667
+Add Col: 25@52@66@68@70@ , -1.1666666666666667
+Add Col: 26@52@68@70@ , -1.1666666666666665
+Add Col: 26@50@66@68@ , -1.1666666666666665
+Add Col: 17@50@52@68@ , -1.166666666666667
+Add Col: 17@52@66@68@ , -1.1666666666666667
+Add Col: 14@50@52@68@ , -1.166666666666667
+Add Col: 14@52@66@68@ , -1.1666666666666665
+Add Col: 9@68@70@ , -1.1666666666666667
+Add Col: 4@68@70@ , -1.1666666666666667
+Add Col: 3@68@70@ , -1.1666666666666667
+Add Col: 43@50@52@68@70@ , -1.1111111111111114
+Add Col: 43@52@66@68@70@ , -1.1111111111111114
+Add Col: 42@50@52@68@70@ , -1.1111111111111114
+Add Col: 42@52@66@68@70@ , -1.1111111111111112
+Add Col: 39@50@52@68@70@ , -1.1111111111111114
+Add Col: 39@52@66@68@70@ , -1.1111111111111112
+Add Col: 38@50@52@68@70@ , -1.1111111111111114
+Add Col: 38@52@66@68@70@ , -1.1111111111111112
+Add Col: 37@50@52@68@70@ , -1.1111111111111114
+Add Col: 37@52@66@68@70@ , -1.1111111111111114
+Add Col: 44@50@52@66@68@ , -1.1111111111111114
+Add Col: 35@50@52@68@70@ , -1.1111111111111114
+Add Col: 35@52@66@68@70@ , -1.1111111111111114
+Add Col: 34@50@52@68@70@ , -1.1111111111111114
+Add Col: 34@52@66@68@70@ , -1.1111111111111112
+Add Col: 40@50@52@66@68@ , -1.1111111111111112
+Add Col: 32@50@52@68@70@ , -1.1111111111111114
+Add Col: 32@52@66@68@70@ , -1.1111111111111112
+Add Col: 30@52@66@68@70@ , -1.1111111111111112
+Add Col: 29@52@66@68@70@ , -1.1111111111111112
+Add Col: 26@66@68@70@ , -1.1111111111111112
+Add Col: 26@50@68@70@ , -1.1111111111111112
+Add Col: 17@52@68@70@ , -1.1111111111111112
+Add Col: 14@52@68@70@ , -1.1111111111111112
+Add Col: 14@38@68@70@ , -1.1111111111111112
+Add Col: 26@44@68@70@ , -1.1111111111111112
+Add Col: 9@53@68@ , -1.111111111111111
+Add Col: 50@52@66@68@70@ , -1.0555555555555558
+Add Col: 44@50@52@68@70@ , -1.0555555555555558
+Add Col: 44@52@66@68@70@ , -1.0555555555555558
+Add Col: 35@44@66@68@70@ , -1.0555555555555558
+Add Col: 34@44@66@68@70@ , -1.0555555555555556
+Add Col: 40@50@52@68@70@ , -1.0555555555555558
+Total Add Col: 156
+
+Epoch: 7 , col: 468 , allScIpCol: 468 , allCol: 468 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.576 s
+	 Solve rmp: 22.170454545454547 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.031 s
+	 1,2,4,8,10,17,21,26,29,28,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,1,1,1,1,
+	 Label-setting LB: -1.0227272727272725 , 0.002 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,4,8,10,17,21,26,29,28,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,1,1,1,1,
+	 Label-setting LB: -1.0227272727272725 , 0.001 s
+	 1,2,4,7,9,13,18,24,33,42,48,55,49,52,57,60,71,97,100,111,119,118,129,141,143,147,142,141,130,120,95,85,82,74,70,62,60,53,48,40,37,37,33,31,25,20,17,14,12,10,10,8,6,4,2,1,1,
+	 Label-setting UB: -0.38636363636363613 , 0.013 s
+	 Pricing time: 0.015 s
+Add Col: 36@39@56@58@66@ , -0.5227272727272727
+Add Col: 36@48@56@63@66@68@ , -0.4886363636363635
+Add Col: 36@39@56@66@68@73@ , -0.48863636363636354
+Add Col: 30@32@56@58@66@ , -0.4886363636363638
+Add Col: 24@36@56@66@68@ , -0.4886363636363634
+Add Col: 32@33@36@56@ , -0.48863636363636337
+Add Col: 36@48@50@56@66@68@ , -0.46590909090909066
+Add Col: 30@48@56@63@66@68@ , -0.45454545454545475
+Add Col: 39@48@56@63@66@68@ , -0.4545454545454544
+Add Col: 36@48@52@56@66@68@ , -0.4545454545454543
+Add Col: 36@39@56@66@68@ , -0.4545454545454545
+Add Col: 34@36@56@66@68@ , -0.4545454545454545
+Add Col: 32@36@56@66@68@ , -0.4545454545454543
+Add Col: 30@36@56@66@68@ , -0.4545454545454548
+Add Col: 27@36@56@66@68@ , -0.45454545454545436
+Add Col: 16@36@56@66@68@ , -0.45454545454545436
+Add Col: 20@36@56@58@ , -0.4545454545454544
+Add Col: 17@36@56@58@ , -0.4545454545454546
+Add Col: 10@36@56@58@ , -0.4545454545454545
+Add Col: 36@39@56@63@66@ , -0.4431818181818184
+Add Col: 29@36@56@58@63@ , -0.4431818181818184
+Add Col: 39@44@56@58@66@68@ , -0.43181818181818155
+Add Col: 20@48@56@66@68@ , -0.4318181818181814
+Add Col: 24@48@56@58@66@ , -0.43181818181818143
+Add Col: 28@36@56@66@68@ , -0.43181818181818155
+Add Col: 10@48@56@66@68@ , -0.43181818181818143
+Add Col: 15@48@56@58@66@ , -0.43181818181818155
+Add Col: 36@39@49@56@66@ , -0.431818181818182
+Add Col: 34@39@56@66@68@ , -0.4204545454545454
+Add Col: 32@39@56@66@68@ , -0.42045454545454525
+Add Col: 30@39@56@66@68@ , -0.42045454545454575
+Add Col: 29@36@56@66@68@ , -0.4204545454545454
+Add Col: 33@36@56@58@63@ , -0.42045454545454536
+Add Col: 36@39@50@56@66@ , -0.4204545454545456
+Add Col: 20@36@56@66@ , -0.42045454545454536
+Add Col: 17@36@56@66@ , -0.4204545454545455
+Add Col: 19@36@56@58@ , -0.4204545454545453
+Add Col: 10@36@56@66@ , -0.4204545454545454
+Add Col: 32@39@56@63@66@ , -0.40909090909090917
+Add Col: 24@39@56@63@68@ , -0.4090909090909091
+Add Col: 36@39@52@56@66@ , -0.4090909090909092
+Add Col: 36@48@56@66@68@73@ , -0.3977272727272724
+Add Col: 34@48@56@58@66@ , -0.3977272727272725
+Add Col: 32@48@56@58@66@ , -0.3977272727272723
+Add Col: 30@48@56@58@66@ , -0.3977272727272728
+Add Col: 25@48@56@58@68@ , -0.39772727272727226
+Add Col: 24@48@56@58@68@ , -0.39772727272727226
+Add Col: 30@33@56@58@68@ , -0.3977272727272727
+Add Col: 33@36@56@66@68@ , -0.3977272727272724
+Add Col: 27@48@56@58@66@ , -0.3977272727272724
+Add Col: 15@48@56@58@68@ , -0.3977272727272724
+Add Col: 16@48@56@58@66@ , -0.3977272727272724
+Add Col: 20@48@56@63@68@ , -0.38636363636363613
+Total Add Col: 53
+
+Epoch: 8 , col: 521 , allScIpCol: 521 , allCol: 521 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.624 s
+	 Solve rmp: 22.15147625160462 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.028 s
+	 1,2,4,8,14,17,21,32,43,40,55,24,28,8,11,11,9,9,9,9,9,9,9,9,9,9,9,9,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.9460847240051347 , 0.002 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,4,8,14,17,21,32,43,40,55,24,28,8,11,11,9,9,9,9,9,9,9,9,9,9,9,9,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.9460847240051347 , 0.001 s
+	 1,2,4,7,11,14,18,27,36,35,55,60,76,101,157,185,205,220,239,252,335,328,348,309,330,307,318,315,451,477,450,422,413,408,393,382,471,449,435,436,406,384,411,581,570,604,522,455,359,416,383,236,195,141,70,55,43,18,5,2,2,
+	 Label-setting UB: -0.3350449293966618 , 0.047 s
+	 Pricing time: 0.049 s
+Add Col: 29@48@55@57@61@66@70@ , -0.43645699614890826
+Add Col: 36@39@55@57@61@66@70@ , -0.4236200256739406
+Add Col: 29@48@55@57@66@70@ , -0.4030808729139918
+Add Col: 34@39@55@57@66@70@ , -0.39922978177150154
+Add Col: 34@39@48@55@61@70@ , -0.39922978177150137
+Add Col: 36@39@55@57@66@70@ , -0.3902439024390241
+Add Col: 36@39@48@55@61@70@ , -0.39024390243902396
+Add Col: 36@48@55@57@66@70@73@ , -0.3709884467265722
+Add Col: 17@42@55@57@70@ , -0.36713735558408156
+Add Col: 34@39@48@55@70@ , -0.3658536585365849
+Add Col: 39@48@49@55@57@70@ , -0.35815147625160404
+Add Col: 28@34@55@57@66@ , -0.3581514762516043
+Add Col: 17@48@55@57@70@ , -0.35815147625160404
+Add Col: 36@39@48@55@70@ , -0.3568677792041075
+Add Col: 10@48@55@57@66@ , -0.3568677792041076
+Add Col: 32@48@49@55@66@70@ , -0.35044929396662344
+Add Col: 17@48@55@66@70@ , -0.35044929396662344
+Add Col: 33@39@48@55@70@ , -0.3504492939666234
+Add Col: 17@24@55@70@ , -0.35044929396662333
+Add Col: 39@42@48@55@57@ , -0.3491655969191265
+Add Col: 36@48@55@57@58@66@ , -0.34788189987163015
+Add Col: 29@34@55@57@66@ , -0.3465982028241331
+Add Col: 29@32@55@57@66@ , -0.3465982028241331
+Add Col: 36@48@53@55@57@66@ , -0.34531450577663647
+Add Col: 39@42@55@57@66@70@ , -0.34403080872913944
+Add Col: 34@42@55@57@66@70@ , -0.34403080872913944
+Add Col: 32@42@55@57@66@70@ , -0.34403080872913944
+Add Col: 30@42@55@57@66@70@ , -0.3440308087291395
+Add Col: 33@48@55@57@58@66@ , -0.34146341463414603
+Add Col: 36@48@49@55@66@70@ , -0.34146341463414603
+Add Col: 34@42@48@55@66@ , -0.34146341463414587
+Add Col: 17@48@55@58@70@ , -0.34146341463414603
+Add Col: 44@48@55@57@58@66@70@ , -0.3401797175866492
+Add Col: 29@48@55@62@66@70@ , -0.3388960205391522
+Add Col: 36@48@50@55@57@66@ , -0.3376123234916557
+Add Col: 29@36@55@57@66@ , -0.3376123234916557
+Add Col: 10@29@55@57@ , -0.3376123234916558
+Add Col: 36@42@55@57@66@70@ , -0.33504492939666203
+Add Col: 34@48@55@57@66@70@ , -0.3350449293966619
+Add Col: 32@42@55@57@58@70@ , -0.33504492939666203
+Add Col: 32@48@55@57@66@70@ , -0.3350449293966619
+Add Col: 30@48@55@57@66@70@ , -0.335044929396662
+Add Col: 33@48@49@55@66@70@ , -0.3350449293966619
+Add Col: 24@39@55@57@70@ , -0.3350449293966618
+Total Add Col: 44
+
+Epoch: 9 , col: 565 , allScIpCol: 565 , allCol: 565 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.703 s
+	 Solve rmp: 22.13793103448277 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.03 s
+	 1,2,4,5,7,10,10,9,12,17,14,13,21,21,21,21,29,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.8896551724137949 , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,4,5,7,10,10,9,12,17,14,13,21,21,21,21,29,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.8896551724137949 , 0.001 s
+	 1,2,4,5,7,9,9,8,11,16,28,41,75,113,133,151,236,370,558,614,586,664,721,742,813,1138,1222,1203,1054,1065,1053,1209,1389,1355,1441,1402,1380,1190,1122,1044,1222,1130,1139,1436,1271,1388,1429,1682,1710,1579,1570,1521,1490,1736,1565,1571,1339,1247,887,970,239,182,24,15,8,1,
+	 Label-setting UB: -0.1931034482758638 , 0.13 s
+	 Pricing time: 0.131 s
+Add Col: 8@31@69@73@ , -0.30344827586206946
+Add Col: 8@31@69@74@ , -0.27586206896551735
+Add Col: 8@31@57@73@ , -0.25517241379310374
+Add Col: 8@67@69@73@ , -0.2482758620689654
+Add Col: 8@31@69@ , -0.248275862068966
+Add Col: 25@49@52@62@66@67@69@ , -0.23448275862069062
+Add Col: 8@57@67@73@74@ , -0.227586206896551
+Add Col: 8@69@73@ , -0.22758620689655207
+Add Col: 8@69@70@ , -0.2275862068965519
+Add Col: 11@49@62@66@69@73@ , -0.2206896551724154
+Add Col: 23@49@52@62@66@69@ , -0.2206896551724153
+Add Col: 8@67@69@74@ , -0.2206896551724133
+Add Col: 49@52@53@58@62@63@66@69@ , -0.21379310344827768
+Add Col: 25@49@52@62@66@69@ , -0.2137931034482773
+Add Col: 7@49@52@62@69@ , -0.21379310344827773
+Add Col: 42@49@52@62@63@68@69@73@ , -0.20689655172413973
+Add Col: 38@49@57@62@63@66@69@ , -0.20689655172413945
+Add Col: 8@57@73@74@ , -0.20689655172413768
+Add Col: 8@52@67@74@ , -0.206896551724137
+Add Col: 24@49@57@62@66@69@73@ , -0.20000000000000184
+Add Col: 16@49@57@62@66@69@73@ , -0.20000000000000184
+Add Col: 11@49@63@66@69@73@ , -0.2000000000000013
+Add Col: 38@46@49@52@62@69@ , -0.200000000000001
+Add Col: 25@49@53@62@66@69@ , -0.20000000000000157
+Add Col: 14@49@52@66@69@ , -0.20000000000000084
+Add Col: 7@49@53@62@69@ , -0.200000000000002
+Add Col: 8@57@67@73@ , -0.19999999999999968
+Add Col: 8@69@74@ , -0.19999999999999996
+Add Col: 8@49@ , -0.20000000000000046
+Add Col: 49@52@57@58@62@63@66@69@ , -0.19310344827586395
+Add Col: 42@49@57@62@66@68@69@73@ , -0.1931034482758638
+Total Add Col: 31
+
+Epoch: 10 , col: 596 , allScIpCol: 596 , allCol: 596 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.866 s
+	 Solve rmp: 22.127659574468066 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Rounding time: 0.026 s
+	 1,2,4,6,6,8,16,17,25,49,46,42,40,31,38,36,35,35,35,35,34,22,28,27,27,27,24,24,23,15,15,15,15,12,12,12,11,11,11,11,11,11,11,11,11,11,10,10,8,8,8,8,8,8,5,5,5,5,5,5,4,4,2,
+	 Label-setting LB: -0.6436170212765963 , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,4,6,6,8,16,17,25,49,46,42,40,31,38,36,35,35,35,35,34,22,28,27,27,27,24,24,23,15,15,15,15,12,12,12,11,11,11,11,11,11,11,11,11,11,10,10,8,8,8,8,8,8,5,5,5,5,5,5,4,4,2,
+	 Label-setting LB: -0.6436170212765963 , 0.002 s
+	 1,2,4,6,6,8,16,17,23,41,63,83,104,148,225,280,287,261,243,273,262,325,398,382,368,360,451,426,333,379,361,352,325,306,328,325,328,309,317,301,266,261,258,257,248,238,241,226,203,189,165,164,155,144,147,134,105,104,71,43,18,11,11,4,
+	 Label-setting UB: -0.2872340425531911 , 0.022 s
+	 Pricing time: 0.024 s
+Add Col: 26@37@41@66@74@ , -0.36702127659574507
+Add Col: 26@41@42@58@74@ , -0.36702127659574507
+Add Col: 13@41@42@74@ , -0.3670212765957452
+Add Col: 26@41@48@66@73@74@ , -0.34574468085106386
+Add Col: 26@41@42@70@73@74@ , -0.34042553191489405
+Add Col: 26@39@41@68@74@ , -0.34042553191489394
+Add Col: 26@37@41@68@74@ , -0.340425531914894
+Add Col: 26@41@42@68@74@ , -0.3351063829787236
+Add Col: 13@41@58@68@74@ , -0.32978723404255395
+Add Col: 3@41@42@66@ , -0.3297872340425535
+Add Col: 13@41@66@68@74@ , -0.32446808510638353
+Add Col: 12@38@41@68@74@ , -0.3191489361702129
+Add Col: 26@28@41@74@ , -0.3191489361702129
+Add Col: 12@14@41@ , -0.31382978723404276
+Add Col: 12@37@41@66@68@ , -0.30851063829787273
+Add Col: 13@41@48@74@ , -0.30851063829787273
+Add Col: 38@41@42@48@66@68@ , -0.30319148936170176
+Add Col: 13@41@68@70@73@74@ , -0.3031914893617029
+Add Col: 12@39@41@66@74@ , -0.30319148936170287
+Add Col: 12@37@41@66@74@ , -0.3031914893617029
+Add Col: 26@41@48@66@74@ , -0.3031914893617022
+Add Col: 26@39@41@70@74@ , -0.30319148936170276
+Add Col: 3@41@42@68@ , -0.3031914893617026
+Add Col: 3@37@41@74@ , -0.30319148936170304
+Add Col: 14@41@57@66@68@70@74@ , -0.2978723404255329
+Add Col: 38@41@42@48@66@74@ , -0.2978723404255319
+Add Col: 12@41@42@66@74@ , -0.2978723404255325
+Add Col: 14@38@41@68@74@ , -0.2978723404255319
+Add Col: 26@41@42@70@74@ , -0.2978723404255324
+Add Col: 3@41@42@74@ , -0.2978723404255327
+Add Col: 13@41@58@70@74@ , -0.29255319148936276
+Add Col: 12@41@57@58@66@74@ , -0.2872340425531925
+Add Col: 26@41@58@66@70@74@ , -0.28723404255319224
+Add Col: 22@38@41@66@68@ , -0.2872340425531911
+Add Col: 14@37@41@66@68@ , -0.28723404255319174
+Add Col: 22@38@41@58@74@ , -0.28723404255319157
+Add Col: 13@41@66@70@74@ , -0.28723404255319235
+Total Add Col: 37
+
+Epoch: 11 , col: 633 , allScIpCol: 633 , allCol: 633 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 10.918 s
+	 Solve rmp: 22.125575101488494 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.028 s
+	 1,2,3,6,8,8,9,15,20,35,47,24,42,49,5,5,5,5,5,6,6,8,8,7,7,7,7,7,5,5,5,7,6,4,4,4,4,4,4,4,4,4,4,4,4,4,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,1,1,1,1,1,
+	 Label-setting LB: -0.6170500676589987 , 0.002 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,6,8,8,9,15,20,35,47,24,42,49,5,5,5,5,5,6,6,8,8,7,7,7,7,7,5,5,5,7,6,4,4,4,4,4,4,4,4,4,4,4,4,4,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,1,1,1,1,1,
+	 Label-setting LB: -0.6170500676589987 , 0.001 s
+	 1,2,3,6,8,8,9,14,19,29,39,56,87,124,208,250,321,337,378,511,492,769,781,901,918,936,954,966,1223,1031,931,1276,1278,1255,1168,1107,1048,988,950,892,856,892,789,774,751,731,753,737,666,737,750,704,682,674,623,577,551,503,475,429,228,78,13,10,3,2,
+	 Label-setting UB: -0.2511502029769972 , 0.054 s
+	 Pricing time: 0.056 s
+Add Col: 26@43@45@67@68@73@ , -0.28930987821380383
+Add Col: 14@43@45@58@66@ , -0.2871447902571049
+Add Col: 26@45@47@58@67@73@ , -0.2847090663058195
+Add Col: 26@45@46@58@67@73@ , -0.2847090663058194
+Add Col: 26@44@45@58@67@73@ , -0.2811907983761849
+Add Col: 22@43@45@58@68@73@ , -0.2801082543978357
+Add Col: 37@43@45@48@58@66@ , -0.2776725304465501
+Add Col: 12@43@45@58@66@ , -0.2776725304465501
+Add Col: 13@43@45@67@ , -0.27388362652232845
+Add Col: 22@43@45@66@68@73@ , -0.2611637347767262
+Add Col: 22@43@45@48@73@ , -0.2611637347767258
+Add Col: 26@43@45@68@73@ , -0.2611637347767262
+Add Col: 13@45@57@67@69@73@ , -0.26062246278755197
+Add Col: 13@45@57@67@70@73@ , -0.25953991880920296
+Add Col: 22@45@48@58@66@73@ , -0.25656292286874216
+Add Col: 22@45@47@58@66@73@ , -0.25656292286874194
+Add Col: 22@45@47@58@66@70@ , -0.2565629228687417
+Add Col: 22@45@46@58@66@73@ , -0.2565629228687418
+Add Col: 22@45@46@58@66@70@ , -0.2565629228687416
+Add Col: 26@45@47@58@73@ , -0.2565629228687419
+Add Col: 26@45@46@58@73@ , -0.25656292286874177
+Add Col: 22@45@56@58@66@70@73@ , -0.2562922868741546
+Add Col: 22@37@45@66@70@73@ , -0.25304465493910755
+Add Col: 22@44@45@58@66@73@ , -0.2530446549391073
+Add Col: 22@44@45@58@66@70@ , -0.2530446549391071
+Add Col: 22@37@45@58@66@ , -0.25304465493910755
+Add Col: 22@45@47@48@66@ , -0.25304465493910716
+Add Col: 26@44@45@58@73@ , -0.25304465493910727
+Add Col: 14@40@45@66@70@73@ , -0.2511502029769972
+Total Add Col: 29
+
+Epoch: 12 , col: 662 , allScIpCol: 662 , allCol: 662 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 11.003 s
+	 Solve rmp: 22.11955366631244 , time cost: 0.002 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.025 s
+	 1,2,3,4,4,5,8,13,16,30,43,57,44,44,31,37,42,40,40,8,8,8,8,8,8,8,8,7,7,7,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,2,2,2,2,2,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.6115834218916045 , 0.002 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,4,4,5,8,13,16,30,43,57,44,44,31,37,42,40,40,8,8,8,8,8,8,8,8,7,7,7,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,2,2,2,2,2,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.6115834218916045 , 0.001 s
+	 1,2,3,4,4,5,8,12,15,24,35,46,79,99,137,219,298,345,343,560,592,605,595,564,584,615,625,723,727,795,911,878,880,882,885,940,1090,1555,1624,1621,1566,1507,1610,1993,1937,1618,1567,1380,1851,2144,2248,2639,3018,2814,3322,3073,3502,3333,3151,2251,1383,620,2,2,1,
+	 Label-setting UB: -0.05791710945802325 , 0.129 s
+	 Pricing time: 0.131 s
+Add Col: 4@42@51@67@ , -0.0839532412327314
+Add Col: 4@42@51@ , -0.08182784272051014
+Add Col: 4@51@58@63@ , -0.07970244420828876
+Add Col: 4@51@55@66@ , -0.06854410201912858
+Add Col: 4@49@51@69@ , -0.0664187035069072
+Add Col: 4@51@58@68@ , -0.06323060573857586
+Add Col: 4@50@51@68@ , -0.06269925611052063
+Add Col: 17@23@51@ , -0.061636556854409996
+Add Col: 4@43@51@ , -0.061105207226354985
+Add Col: 4@51@52@68@ , -0.05791710945802325
+Total Add Col: 10
+
+Epoch: 13 , col: 672 , allScIpCol: 672 , allCol: 672 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 11.161 s
+	 Solve rmp: 22.116330007301045 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 6
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 7
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Rounding time: 0.028 s
+	 1,2,3,4,4,5,7,11,19,26,36,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.5853005597468971 , 0.002 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,4,4,5,7,11,19,26,36,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.5853005597468971 , 0.001 s
+	 1,2,3,4,4,5,7,10,17,24,35,51,61,70,78,90,121,171,170,201,320,309,422,443,568,568,590,838,854,860,1246,1438,1427,1423,1420,1684,2013,2203,2318,2585,2350,2370,2322,2283,2303,1924,2175,1942,1923,2397,2651,2633,2569,2987,3060,2975,2921,3281,3068,3286,2986,1981,1138,16,3,2,
+	 Label-setting UB: -0.049038695546361255 , 0.113 s
+	 Pricing time: 0.116 s
+Add Col: 38@42@52@55@61@66@71@ , -0.07994645899245484
+Add Col: 22@42@52@56@61@ , -0.07532246288634648
+Add Col: 28@42@43@56@ , -0.06254563154052051
+Add Col: 38@42@52@55@66@71@ , -0.05402774397663607
+Add Col: 40@42@44@52@66@73@ , -0.05268921878802585
+Add Col: 22@42@52@62@71@ , -0.052689218788025405
+Add Col: 26@44@52@61@71@ , -0.049647116086638465
+Add Col: 22@42@52@56@ , -0.0494037478705277
+Add Col: 26@44@52@61@73@ , -0.04928206376247235
+Add Col: 19@27@56@71@ , -0.049038695546361255
+Total Add Col: 10
+
+Epoch: 14 , col: 682 , allScIpCol: 682 , allCol: 682 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 11.306 s
+	 Solve rmp: 22.110805104195347 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Rounding time: 0.004 s
+	 1,2,3,4,4,5,7,10,12,21,17,24,11,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.5871201689158171 , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,4,4,5,7,10,12,21,17,24,11,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.5871201689158171 , 0.001 s
+	 1,2,3,4,4,5,7,10,12,18,26,35,45,65,78,93,114,127,182,196,213,234,243,241,388,470,570,603,731,761,984,1111,1624,1636,1662,1547,1561,1835,1900,2763,3183,3200,4066,4241,4494,4635,4569,4518,5611,6632,6521,6469,6522,5835,5336,6457,9482,9599,9115,11438,9227,8775,2147,1,1,
+	 Label-setting UB: -0.039199485908381015 , 0.247 s
+	 Pricing time: 0.248 s
+Add Col: 6@36@42@ , -0.05232718259432689
+Add Col: 5@36@42@ , -0.05232718259432689
+Add Col: 5@15@58@ , -0.04746167263380152
+Add Col: 20@33@38@ , -0.045855136326080626
+Add Col: 29@36@38@69@ , -0.04576333425135404
+Add Col: 33@38@49@51@69@ , -0.04245845956118527
+Add Col: 29@34@38@69@ , -0.04053061599192109
+Add Col: 33@36@42@46@ , -0.03956669420728931
+Add Col: 33@36@42@44@ , -0.03956669420728934
+Add Col: 19@40@49@51@ , -0.039199485908381015
+Total Add Col: 10
+
+Epoch: 15 , col: 692 , allScIpCol: 692 , allCol: 692 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 11.56 s
+	 Solve rmp: 22.101286347421908 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.10128634742191 , time cost: 0.001 s
+	 Rounding time: 0.01 s
+	 Solve rmp: 22.10128634742191 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.10101375814627 , time cost: 0.001 s
+	 Rounding time: 0.009 s
+	 Solve rmp: 22.10101375814627 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.08339882979653 , time cost: 0.001 s
+	 Rounding time: 0.013 s
+	 Solve rmp: 22.08339882979653 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.061317240351663 , time cost: 0.001 s
+	 Rounding time: 0.01 s
+	 Solve rmp: 22.061317240351663 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.06037735849057 , time cost: 0.0 s
+	 Rounding time: 0.01 s
+	 Solve rmp: 22.06037735849057 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.059850002130645 , time cost: 0.0 s
+	 Rounding time: 0.01 s
+	 Solve rmp: 22.059850002130645 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.059040590405907 , time cost: 0.0 s
+	 Rounding time: 0.012 s
+	 Solve rmp: 22.059040590405907 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Rounding time: 0.013 s
+	 1,2,3,4,4,5,5,7,9,18,19,19,6,5,7,7,8,5,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.5727757277572774 , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,4,4,5,5,7,9,18,19,19,6,5,7,7,8,5,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,
+	 Label-setting LB: -0.5727757277572774 , 0.001 s
+	 1,2,3,4,4,5,5,7,9,17,23,27,45,62,92,102,148,183,240,232,309,469,482,501,760,858,851,942,973,970,966,1395,1423,1401,1403,1721,1751,1735,2146,2412,2513,2635,2579,2739,2799,2460,2259,2396,2327,2467,2357,2832,3101,3157,3170,3116,3068,3020,3293,3128,2293,2056,555,52,8,
+	 Label-setting UB: -0.021935219352196656 , 0.124 s
+	 Pricing time: 0.125 s
+Add Col: 26@36@55@74@ , -0.02890528905288813
+Add Col: 26@50@56@63@74@ , -0.027880278802790304
+Add Col: 26@35@49@74@ , -0.0260352603526043
+Add Col: 26@49@55@63@74@ , -0.025625256252562307
+Add Col: 26@34@55@74@ , -0.02521525215251773
+Add Col: 26@50@51@69@74@ , -0.024805248052480845
+Add Col: 26@46@56@73@74@ , -0.024395243952437935
+Add Col: 26@44@46@74@ , -0.02419024190241802
+Add Col: 26@44@56@73@74@ , -0.023780237802376165
+Add Col: 26@50@63@69@73@74@ , -0.021935219352196656
+Total Add Col: 10
+
+Epoch: 16 , col: 719 , allScIpCol: 719 , allCol: 719 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 11.777 s
+	 Solve rmp: 22.050843222985623 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.049980067769575 , time cost: 0.0 s
+	 Rounding time: 0.013 s
+	 Solve rmp: 22.049980067769575 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.042816560172668 , time cost: 0.001 s
+	 Rounding time: 0.013 s
+	 Solve rmp: 22.042816560172668 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 5
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.042500304618017 , time cost: 0.001 s
+	 Rounding time: 0.012 s
+	 Solve rmp: 22.042500304618017 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 4
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.04140786749483 , time cost: 0.001 s
+	 Rounding time: 0.018 s
+	 Solve rmp: 22.04140786749483 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.038910505836576 , time cost: 0.001 s
+	 Rounding time: 0.014 s
+	 Solve rmp: 22.038910505836576 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 22.03787972466098 , time cost: 0.001 s
+	 Rounding time: 0.013 s
+	 Solve rmp: 22.03787972466098 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Solve rmp: 22.037873654092316 , time cost: 0.001 s
+	 Rounding time: 0.015 s
+	 Solve rmp: 22.037873654092316 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.037436877303122 , time cost: 0.0 s
+	 Rounding time: 0.015 s
+	 Solve rmp: 22.037436877303122 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Rounding time: 0.017 s
+	 1,2,3,4,4,5,9,14,26,34,44,58,94,54,47,47,47,81,68,66,66,66,87,55,53,39,25,25,25,25,25,25,25,25,25,25,18,17,17,19,18,17,17,17,14,14,14,14,14,14,14,13,10,10,10,9,8,7,7,7,7,7,7,1,1,
+	 Label-setting LB: -0.5888221645966971 , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,4,4,5,9,14,26,34,44,58,94,54,47,47,47,81,68,66,66,66,87,55,53,39,25,25,25,25,25,25,25,25,25,25,18,17,17,19,18,17,17,17,14,14,14,14,14,14,14,13,10,10,10,9,8,7,7,7,7,7,7,1,1,
+	 Label-setting LB: -0.5888221645966971 , 0.002 s
+	 1,2,3,4,4,5,9,14,23,31,40,52,83,104,140,171,170,248,350,357,342,388,570,683,714,962,1077,1068,1076,1076,1116,1053,1134,1131,1305,1294,1578,1587,1577,1987,1939,2114,2186,2373,2718,2735,2748,2434,2349,2179,2446,2490,2732,2752,3974,4582,4740,5938,5826,5740,5732,4875,3127,
+	 Label-setting UB: -0.003917019243891484 , 0.141 s
+	 Pricing time: 0.143 s
+Add Col: 7@38@68@70@ , -0.007206223556708524
+Add Col: 6@10@68@ , -0.0064282789681992525
+Add Col: 4@10@ , -0.0051999454073971
+Add Col: 10@36@38@ , -0.004886037941858934
+Add Col: 22@37@49@68@ , -0.004858741640507203
+Add Col: 7@38@66@73@ , -0.004531186024295142
+Add Col: 17@22@63@ , -0.00453118602429381
+Add Col: 10@38@63@68@73@ , -0.004449297120240725
+Add Col: 22@34@63@68@73@ , -0.004149037805377509
+Add Col: 13@56@63@ , -0.003917019243891484
+Total Add Col: 10
+
+Epoch: 17 , col: 745 , allScIpCol: 745 , allCol: 745 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 12.054 s
+	 Solve rmp: 22.0342741935484 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.0335720680394 , time cost: 0.001 s
+	 Rounding time: 0.025 s
+	 Solve rmp: 22.0335720680394 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Solve rmp: 22.033568904593654 , time cost: 0.0 s
+	 Rounding time: 0.01 s
+	 Solve rmp: 22.033568904593654 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Rounding time: 0.016 s
+	 1,2,3,4,4,5,8,14,17,21,39,48,27,43,42,49,48,78,74,74,74,63,62,75,44,36,34,34,34,13,13,13,13,13,13,13,14,14,15,15,15,15,14,14,14,14,12,12,12,12,11,11,11,11,10,10,8,5,5,5,5,5,5,1,
+	 Label-setting LB: -0.5856890459363955 , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,4,4,5,8,14,17,21,39,48,27,43,42,49,48,78,74,74,74,63,62,75,44,36,34,34,34,13,13,13,13,13,13,13,14,14,15,15,15,15,14,14,14,14,12,12,12,12,11,11,11,11,10,10,8,5,5,5,5,5,5,1,
+	 Label-setting LB: -0.5856890459363955 , 0.002 s
+	 1,2,3,4,4,5,8,14,18,22,36,45,53,80,105,147,150,214,232,207,218,299,325,438,485,536,525,511,496,577,566,499,619,589,574,613,810,753,1060,1067,1001,1093,1209,1210,1426,1443,1817,1917,1870,1752,1992,2140,2334,3031,3344,3951,5182,7572,7452,7483,7141,6670,3229,1,
+	 Label-setting UB: -0.005300353356890247 , 0.115 s
+	 Pricing time: 0.116 s
+Add Col: 28@37@39@59@73@ , -0.00795053003533619
+Add Col: 7@35@55@66@ , -0.007067137809187857
+Add Col: 28@39@52@56@73@ , -0.00618374558303883
+Add Col: 33@35@39@55@73@ , -0.006183745583039607
+Add Col: 28@37@39@73@ , -0.006183745583038969
+Add Col: 7@39@56@73@ , -0.006183745583038913
+Add Col: 4@33@52@ , -0.006183745583038858
+Add Col: 22@29@56@73@ , -0.005300353356890497
+Add Col: 4@46@52@69@ , -0.005300353356890247
+Add Col: 28@33@39@73@ , -0.005300353356890608
+Total Add Col: 10
+
+Epoch: 18 , col: 759 , allScIpCol: 759 , allCol: 759 , lb: 22 , ub: 23 , deep: 0 , cons num: 464 , sr num: 0 , maxWasteInRootNode: 9909 , maxWasteInOtherNode: 9909 , cur time: 12.223 s
+	 Solve rmp: 22.031746031746025 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.031249999999996 , time cost: 0.0 s
+	 Rounding time: 0.019 s
+	 Solve rmp: 22.031249999999996 , time cost: 0.001 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Solve rmp: 22.029999999999983 , time cost: 0.001 s
+	 Rounding time: 0.021 s
+	 Solve rmp: 22.029999999999983 , time cost: 0.0 s
+	 IntRmpSolutionRoundingSolver: 
+	 isInt: false
+	 SkyLineBasedRoundingSolver: 
+	 Try to combine two pattern: 3
+	 Combine two pattern fail
+	 Try to combine two pattern: 2
+	 Combine two pattern fail
+	 Rounding time: 0.017 s
+	 1,2,3,4,4,4,7,14,17,31,39,49,79,96,71,62,59,82,59,58,58,58,35,34,38,30,26,24,23,23,23,23,23,23,24,22,21,21,19,19,19,19,19,19,16,16,16,16,16,16,17,17,14,14,14,14,13,9,8,8,8,
+	 Label-setting LB: -0.5899999999999989 , 0.001 s
+	 ==================== Heu Origin Model Pricing ====================
+	 1,2,3,4,4,4,7,14,17,31,39,49,79,96,71,62,59,82,59,58,58,58,35,34,38,30,26,24,23,23,23,23,23,23,24,22,21,21,19,19,19,19,19,19,16,16,16,16,16,16,17,17,14,14,14,14,13,9,8,8,8,
+	 Label-setting LB: -0.5899999999999989 , 0.002 s
+	 1,2,3,4,4,4,7,13,17,27,35,43,64,75,105,105,130,173,236,236,216,238,297,313,416,466,549,523,502,494,478,429,419,454,534,643,607,598,812,749,693,757,777,864,1023,942,910,837,838,1023,1452,1154,1150,1082,1179,1334,1438,1350,1121,941,798,868,568,
+	 Label-setting UB: null , 0.064 s
+	 1,2,3,4,4,4,7,14,17,31,39,49,79,96,71,62,59,82,59,58,58,58,35,34,38,30,26,24,23,23,23,23,23,23,24,22,21,21,19,19,19,19,19,19,16,16,16,16,16,16,17,17,14,14,14,14,13,9,8,8,8,
+	 Label-setting LB: -0.5899999999999989 , 0.002 s
+	 1,2,3,4,4,4,7,13,17,27,35,43,64,75,105,105,130,173,236,236,216,238,297,313,416,466,549,523,502,494,478,429,419,454,534,643,607,598,812,749,693,757,777,864,1023,942,910,837,838,1023,1452,1154,1150,1082,1179,1334,1438,1350,1121,941,798,868,568,
+	 Label-setting UB: null , 0.132 s
+	 ==================== Exact Origin Model Pricing ====================
+	 Dominate reduce: 3 , pPie.size: 0
+	 W:100 , H:100 , itemList.size: 60 , xList.size: 88 , yList.size: 1
+	 Master obj: 1.0 , 0.007 s
+	 Pricing time: 0.399 s
+Termination By empty negative reduced cost column
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:89,w:100},{x:0,y:89,h:11,w:93},],
+----------------------- Bin-2 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:79,w:98},{x:99,y:0,h:100,w:1},{x:98,y:0,h:91,w:1},{x:71,y:79,h:12,w:27},{x:0,y:79,h:19,w:44},{x:44,y:79,h:18,w:12},],
+----------------------- Bin-3 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:65,w:96},{x:97,y:0,h:86,w:3},{x:0,y:65,h:35,w:35},{x:35,y:65,h:20,w:42},{x:35,y:85,h:9,w:45},],
+----------------------- Bin-4 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:83,w:58},{x:63,y:0,h:100,w:37},{x:58,y:0,h:89,w:5},],
+----------------------- Bin-5 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:90,w:51},{x:52,y:0,h:100,w:48},],
+----------------------- Bin-6 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:77,w:63},{x:63,y:0,h:84,w:37},{x:0,y:77,h:18,w:38},],
+----------------------- Bin-7 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:53,w:83},{x:83,y:0,h:76,w:17},{x:7,y:53,h:23,w:76},{x:0,y:76,h:22,w:89},],
+----------------------- Bin-8 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:62,w:68},{x:72,y:0,h:92,w:28},{x:0,y:62,h:38,w:9},{x:9,y:62,h:25,w:37},],
+----------------------- Bin-9 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:52,w:60},{x:60,y:0,h:83,w:40},{x:0,y:83,h:13,w:80},],
+----------------------- Bin-10 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:50,w:75},{x:75,y:0,h:78,w:25},],
+----------------------- Bin-11 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:34,w:76},{x:76,y:0,h:94,w:24},{x:0,y:34,h:66,w:12},{x:12,y:34,h:66,w:6},],
+----------------------- Bin-12 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:99,w:48},{x:48,y:0,h:99,w:42},{x:90,y:0,h:92,w:10},],
+----------------------- Bin-13 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:98,w:38},{x:53,y:0,h:86,w:47},{x:38,y:0,h:87,w:15},],
+----------------------- Bin-14 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:88,w:41},{x:41,y:0,h:88,w:36},{x:77,y:0,h:86,w:23},],
+----------------------- Bin-15 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:85,w:43},{x:50,y:0,h:76,w:50},],
+----------------------- Bin-16 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:82,w:44},{x:44,y:0,h:82,w:41},{x:85,y:0,h:83,w:15},],
+----------------------- Bin-17 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:75,w:50},{x:50,y:0,h:75,w:22},{x:72,y:0,h:76,w:28},],
+----------------------- Bin-18 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:81,w:40},{x:40,y:0,h:81,w:39},{x:80,y:0,h:90,w:20},],
+----------------------- Bin-19 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:89,w:29},{x:29,y:0,h:89,w:14},{x:54,y:0,h:71,w:46},{x:43,y:0,h:99,w:11},],
+----------------------- Bin-20 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:78,w:37},{x:69,y:0,h:84,w:31},{x:61,y:0,h:84,w:8},{x:37,y:0,h:80,w:24},],
+----------------------- Bin-21 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:87,w:27},{x:27,y:0,h:87,w:20},{x:66,y:0,h:79,w:34},{x:55,y:0,h:79,w:11},{x:47,y:0,h:73,w:8},],
+----------------------- Bin-22 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:83,w:27},{x:27,y:0,h:83,w:20},{x:84,y:0,h:92,w:16},{x:71,y:0,h:93,w:13},{x:57,y:0,h:80,w:14},{x:47,y:0,h:68,w:10},],
+----------------------- Bin-23 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:68,w:31},{x:71,y:0,h:69,w:29},{x:57,y:0,h:76,w:14},],
+BpcSolution{className='Class_07', isOpt=true, id=38, inS=188955, outS=230000, LB_BM_3=18, LB_CCM_1=22, LB_CCM_2=22, LB0=22, LB_NoSr=23, LB=23, UB0=23, UB=23, rootColCnt=762, totalColCnt=762, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=1, generatedNodeCnt=1, rmpCnt=66, roundingCnt=42, pricingCnt=18, heuPricingCnt=19, masterCnt=270, slaveCnt=0, findBendersCutCnt=0, rate=0.8215434782608696, gap=0.0, totalTime=12.681, preprocessingTime=0.011, lb0Time=0.175, ub0Time=10.004, rmpTime=0.035000000000000024, roundingTime=0.7730000000000005, pricingTime=1.604, heuPricingTime=1.359, masterTime=0.34900000000000025, slaveTime=0.0, findBendersCutTime=0.0, totalLbLabelCnt=19902, maxLbLabelCnt=1666, minLbLabelCnt=50, totalHeuLabelCnt=781313, maxHeuLabelCnt=164178, minHeuLabelCnt=98}

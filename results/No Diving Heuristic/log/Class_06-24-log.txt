@@ -1,0 +1,16 @@
+====================================== 2024-03-22 04:15:04 Class_06-24 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 300 , H = 300 , S = 90000 , totalItemS = 154920
+Before preprocessing: W = 300 , H = 300 , S = 90000 , totalItemS = 154920 , time cost: 0.016 s
+LB0: 2 , time cost: 0.194 s
+UB0: 2 , time cost: 0.006 s
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:300,
+canvasHeight:300,
+data:[{x:0,y:0,h:96,w:96},{x:203,y:0,h:87,w:97},{x:122,y:0,h:87,w:81},{x:96,y:0,h:80,w:20},{x:120,y:0,h:90,w:2},{x:118,y:0,h:71,w:2},{x:116,y:0,h:64,w:2},{x:117,y:71,h:21,w:3},{x:96,y:80,h:93,w:13},{x:109,y:80,h:62,w:8},{x:223,y:87,h:100,w:77},{x:148,y:87,h:85,w:75},{x:125,y:87,h:63,w:23},{x:117,y:92,h:37,w:8},{x:55,y:96,h:77,w:41},{x:0,y:96,h:71,w:55},{x:118,y:129,h:21,w:7},{x:109,y:150,h:99,w:27},{x:136,y:150,h:78,w:10},{x:0,y:167,h:87,w:46},{x:146,y:172,h:56,w:10},{x:156,y:172,h:63,w:65},{x:46,y:173,h:65,w:57},{x:221,y:187,h:48,w:65},{x:286,y:187,h:70,w:14},{x:136,y:228,h:7,w:20},{x:136,y:235,h:55,w:17},{x:153,y:235,h:62,w:93},{x:246,y:235,h:32,w:34},{x:46,y:238,h:59,w:59},{x:105,y:249,h:43,w:17},{x:0,y:254,h:7,w:32},{x:283,y:257,h:9,w:17},{x:0,y:297,h:2,w:72},{x:228,y:297,h:1,w:72},],
+----------------------- Bin-2 -----------------------
+canvasWidth:300,
+canvasHeight:300,
+data:[{x:0,y:0,h:57,w:98},{x:205,y:0,h:56,w:95},{x:98,y:0,h:68,w:78},{x:176,y:0,h:72,w:28},{x:222,y:56,h:60,w:78},{x:0,y:57,h:48,w:98},{x:111,y:68,h:4,w:65},{x:139,y:72,h:53,w:83},{x:98,y:72,h:64,w:41},{x:34,y:105,h:31,w:64},{x:226,y:116,h:51,w:74},{x:152,y:125,h:49,w:74},{x:0,y:136,h:58,w:60},{x:60,y:136,h:49,w:69},{x:232,y:167,h:46,w:68},{x:187,y:174,h:64,w:45},{x:129,y:174,h:10,w:58},{x:152,y:184,h:66,w:35},{x:71,y:185,h:30,w:81},{x:0,y:194,h:50,w:41},{x:232,y:213,h:25,w:57},{x:76,y:215,h:30,w:76},{x:251,y:238,h:34,w:49},{x:0,y:244,h:5,w:76},{x:0,y:249,h:5,w:91},],
+BpcSolution{className='Class_06', isOpt=true, id=24, inS=154920, outS=180000, LB_BM_3=1, LB_CCM_1=2, LB_CCM_2=2, LB0=2, LB_NoSr=2, LB=2, UB0=2, UB=2, rootColCnt=0, totalColCnt=0, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=0, generatedNodeCnt=0, rmpCnt=0, roundingCnt=0, pricingCnt=0, heuPricingCnt=0, masterCnt=0, slaveCnt=0, findBendersCutCnt=0, rate=0.8606666666666667, gap=0.0, totalTime=0.224, preprocessingTime=0.016, lb0Time=0.194, ub0Time=0.006, rmpTime=0.0, roundingTime=0.0, pricingTime=0.0, heuPricingTime=0.0, masterTime=0.0, slaveTime=0.0, findBendersCutTime=0.0, totalLbLabelCnt=0, maxLbLabelCnt=0, minLbLabelCnt=9223372036854775807, totalHeuLabelCnt=0, maxHeuLabelCnt=0, minHeuLabelCnt=9223372036854775807}

@@ -1,0 +1,16 @@
+====================================== 2024-03-22 09:28:05 Class_04-20 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 10766
+Before preprocessing: W = 100 , H = 100 , S = 10000 , totalItemS = 10766 , time cost: 0.011 s
+LB0: 2 , time cost: 0.055 s
+UB0: 2 , time cost: 0.005 s
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:25,w:27},{x:27,y:0,h:25,w:20},{x:47,y:0,h:25,w:19},{x:66,y:0,h:1,w:34},{x:69,y:1,h:19,w:31},{x:66,y:1,h:2,w:2},{x:66,y:20,h:5,w:24},{x:90,y:20,h:15,w:10},{x:0,y:25,h:35,w:16},{x:16,y:25,h:29,w:19},{x:35,y:25,h:29,w:13},{x:48,y:25,h:27,w:18},{x:66,y:25,h:27,w:14},{x:80,y:25,h:9,w:10},{x:81,y:34,h:1,w:9},{x:86,y:35,h:28,w:14},{x:82,y:35,h:11,w:4},{x:59,y:52,h:17,w:27},{x:48,y:52,h:16,w:11},{x:23,y:54,h:14,w:25},{x:16,y:54,h:13,w:7},{x:0,y:60,h:19,w:16},{x:86,y:63,h:6,w:11},{x:45,y:68,h:1,w:14},{x:16,y:68,h:20,w:22},{x:88,y:69,h:31,w:12},{x:53,y:69,h:12,w:35},{x:38,y:69,h:22,w:13},{x:0,y:79,h:3,w:11},{x:61,y:81,h:15,w:27},{x:52,y:81,h:3,w:9},{x:13,y:88,h:3,w:25},{x:37,y:91,h:5,w:24},{x:0,y:91,h:8,w:28},],
+----------------------- Bin-2 -----------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,h:18,w:21},{x:87,y:0,h:22,w:13},{x:68,y:0,h:14,w:19},{x:21,y:0,h:13,w:18},{x:47,y:0,h:6,w:21},{x:21,y:13,h:6,w:30},],
+BpcSolution{className='Class_04', isOpt=true, id=20, inS=10766, outS=20000, LB_BM_3=1, LB_CCM_1=2, LB_CCM_2=2, LB0=2, LB_NoSr=2, LB=2, UB0=2, UB=2, rootColCnt=0, totalColCnt=0, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=0, generatedNodeCnt=0, rmpCnt=0, roundingCnt=0, pricingCnt=0, heuPricingCnt=0, masterCnt=0, slaveCnt=0, findBendersCutCnt=0, rate=0.5383, gap=0.0, totalTime=0.081, preprocessingTime=0.011, lb0Time=0.055, ub0Time=0.005, rmpTime=0.0, roundingTime=0.0, pricingTime=0.0, heuPricingTime=0.0, masterTime=0.0, slaveTime=0.0, findBendersCutTime=0.0, totalLbLabelCnt=0, maxLbLabelCnt=0, minLbLabelCnt=9223372036854775807, totalHeuLabelCnt=0, maxHeuLabelCnt=0, minHeuLabelCnt=9223372036854775807}

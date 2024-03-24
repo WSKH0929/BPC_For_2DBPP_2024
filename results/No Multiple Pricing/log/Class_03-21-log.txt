@@ -1,0 +1,72 @@
+====================================== 2024-03-22 05:02:35 Class_03-21 =====================================
+----------------------- Start the branch-and_price-and-cut algorithm -----------------------
+Before preprocessing: W = 40 , H = 40 , S = 1600 , totalItemS = 21567
+Before preprocessing: W = 40 , H = 40 , S = 1600 , totalItemS = 21567 , time cost: 0.01 s
+LB0: 16 , time cost: 0.07 s
+UB0: 16 , time cost: 0.023 s
+----------------------- End the branch-and_price-and-cut algorithm -----------------------
+----------------------- Bin-1 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:34,w:34},{x:34,y:0,h:35,w:6},{x:0,y:34,h:6,w:4},{x:11,y:34,h:1,w:23},{x:4,y:34,h:3,w:7},{x:11,y:35,h:2,w:11},{x:26,y:35,h:4,w:14},{x:4,y:37,h:1,w:16},{x:14,y:38,h:1,w:12},],
+----------------------- Bin-2 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:31,w:33},{x:36,y:0,h:16,w:4},{x:33,y:0,h:10,w:3},{x:33,y:10,h:19,w:1},{x:34,y:16,h:23,w:6},{x:0,y:31,h:9,w:34},],
+----------------------- Bin-3 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:29,w:33},{x:34,y:0,h:33,w:6},{x:0,y:29,h:11,w:32},],
+----------------------- Bin-4 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:33,w:27},{x:27,y:0,h:33,w:12},{x:0,y:33,h:7,w:28},],
+----------------------- Bin-5 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:32,w:27},{x:27,y:0,h:23,w:13},{x:29,y:23,h:14,w:11},{x:0,y:32,h:8,w:6},{x:6,y:32,h:7,w:16},],
+----------------------- Bin-6 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:27,w:31},{x:32,y:0,h:29,w:8},{x:0,y:27,h:13,w:28},{x:28,y:29,h:11,w:8},],
+----------------------- Bin-7 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:32,w:26},{x:26,y:0,h:31,w:14},],
+----------------------- Bin-8 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:28,w:29},{x:30,y:0,h:30,w:10},{x:0,y:28,h:12,w:12},{x:12,y:28,h:11,w:14},],
+----------------------- Bin-9 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:28,w:29},{x:35,y:0,h:22,w:5},{x:29,y:0,h:20,w:4},{x:29,y:20,h:14,w:5},{x:0,y:28,h:10,w:21},],
+----------------------- Bin-10 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:22,w:29},{x:0,y:22,h:14,w:20},{x:22,y:22,h:17,w:18},],
+----------------------- Bin-11 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:26,w:23},{x:23,y:0,h:33,w:17},{x:0,y:26,h:13,w:18},],
+----------------------- Bin-12 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:28,w:21},{x:21,y:0,h:28,w:15},{x:0,y:28,h:10,w:33},],
+----------------------- Bin-13 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:26,w:30},{x:0,y:26,h:13,w:27},],
+----------------------- Bin-14 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:20,w:22},{x:25,y:0,h:29,w:15},{x:0,y:20,h:13,w:24},],
+----------------------- Bin-15 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:13,w:26},{x:0,y:13,h:26,w:16},{x:24,y:13,h:25,w:16},],
+----------------------- Bin-16 -----------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,h:35,w:20},{x:23,y:0,h:22,w:17},],
+BpcSolution{className='Class_03', isOpt=true, id=21, inS=21567, outS=25600, LB_BM_3=16, LB_CCM_1=16, LB_CCM_2=16, LB0=16, LB_NoSr=16, LB=16, UB0=16, UB=16, rootColCnt=0, totalColCnt=0, rootSrCnt=0, totalSrCnt=0, exploredPrimalNodeCnt=0, exploredNodeCnt=0, generatedNodeCnt=0, rmpCnt=0, roundingCnt=0, pricingCnt=0, heuPricingCnt=0, masterCnt=0, slaveCnt=0, findBendersCutCnt=0, rate=0.8424609375, gap=0.0, totalTime=0.112, preprocessingTime=0.01, lb0Time=0.07, ub0Time=0.023, rmpTime=0.0, roundingTime=0.0, pricingTime=0.0, heuPricingTime=0.0, masterTime=0.0, slaveTime=0.0, findBendersCutTime=0.0, totalLbLabelCnt=0, maxLbLabelCnt=0, minLbLabelCnt=9223372036854775807, totalHeuLabelCnt=0, maxHeuLabelCnt=0, minHeuLabelCnt=9223372036854775807}
